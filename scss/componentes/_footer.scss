@@ -1,0 +1,710 @@
+#FooterHome{
+    border-top: 1px solid chocolate;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    a{
+        text-decoration: none;
+    }
+    .Contac_form{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        .suscribe{
+            margin-right: 10px;
+            padding-top: 5px;
+            font-family: "Inter", sans-serif;
+            
+            p{
+                font-weight: 600;
+
+            }
+        }
+        .form_sub{
+            display: flex;
+            .Email_clib{
+                height: 30px;
+            }
+            #Email_cliente{
+
+            }
+            .form_suscrib{
+                .button.Email_clib{
+                    background: #ffa040;
+                    border: 0px;
+                }
+                .botton1{
+                    color: white;
+                    background:#ffa040;
+                    border: 0px;
+                }
+
+            }
+        }
+    }
+    .sectionFooter{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Inter', sans-serif;
+        .information_entrepise{
+            padding-top: 7px;
+            padding-bottom: 10px;
+            .logo_footer{
+                padding-bottom: 10px;
+            }
+            .Information_entrepise{
+                .Inf_enter{
+                    padding-top: 10px;
+                    font-family: 'Mulish', sans-serif;
+                    margin-bottom: 0px;
+                    color: #7d7d7d;
+                }
+            }
+        }
+        .Social_mediaContac{
+            display: flex;
+            flex-direction: column;
+            .Social_mediaContacS{
+                display: flex;
+                justify-items: center;
+                .Social_subicon{
+                    height: 30px;
+                    width: 30px;
+                }
+                .Information_bus{
+                    padding-top: 8px;
+                    padding-left: 4px;
+                }
+            }
+        }
+        .categorias{
+            padding-top: 30px;
+            .Tittle_footerC{
+                color: #7c667c;
+            }
+            .sub-listfooter{
+                list-style: none;
+                padding: 5px;
+                
+                .SubFooter{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    a{
+                        color: #7d7d7d;
+                    }
+                }
+                .SubFooter:hover{
+                    background-color:nth($list: $colores, $n:1 );
+                    color: #7c667c;
+                    font-weight: 600;
+                }
+            }
+            .text_footer{
+                
+            }
+
+        }
+        .accountCustomer{
+            padding-top: 30px;
+            .Tittle_footerC{
+                color: #7c667c;
+            }
+            .sub-listfooter{
+                list-style: none;
+                padding: 5px;
+                .SubFooter{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    a{
+                        color: #7d7d7d;
+                    }
+                }
+                .SubFooter:hover{
+                    background-color:nth($list: $colores, $n:1 );
+                    color: #7c667c;
+                    font-weight: 600;
+                }
+            }
+            .text_footer{
+
+            }
+        }
+        .informationEmpresa{
+            padding-top: 30px;
+            .Tittle_footerC{
+                color: #7c667c;
+            }
+            .sub-listfooter{
+                list-style: none;
+                padding: 5px;
+                .SubFooter{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    a{
+                        color: #7d7d7d;
+                    }
+                }
+                .SubFooter:hover{
+                    background-color:nth($list: $colores, $n:1 );
+                    color: #7c667c;
+                    font-weight: 600;
+                }
+            }
+            .text_footer{
+
+            }
+        }
+    }
+    .social_media{
+        padding-top: 10px;
+        div{
+            padding-top: 15px;
+            margin-left: 10px;
+            text-align: center;
+            font-family: 'Mulish', sans-serif;
+            p{
+                margin-bottom: 5px;
+            }
+        } 
+        .Social_mediaA{
+            padding-bottom: 10px;
+            text-align: center;
+            padding-top: 0px;
+            .Social_icon{
+                height: 30px;
+            }
+        }
+    }
+    .Footer_copyrigth{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid grey;
+        .copy_footer{
+            padding-top: 10px;
+
+        }
+        .Footer_imagepaymet{
+            padding-top: 10px;
+
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #FooterHome{
+        padding: 0px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        .Contac_form{
+            display:flex;
+            padding-top: 20px;
+            justify-items: center;
+            .suscribe{
+                text-align: center;
+            }
+            .form_sub{
+                width: 100%;
+                padding-top: 10px;
+                input{
+                    width: 230px;
+                    .Email_cliente{
+                        width: 150px;
+    
+                    }
+                    .Email_clib{
+    
+                    }
+                }
+            }
+            .form_suscrib{
+                .Email_clib{
+
+                }
+            }
+        }
+        .sectionFooter{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            justify-items: center;
+            height: 260px;
+            .information_entrepise{
+                display: none;
+                .logo_footer{
+
+                }
+                .Information_entrepise{
+                    .Inf_enter{
+
+                    }
+                }
+                .Social_mediaContac{
+                    .Social_mediaContacS{
+                        .Social_subicon{
+    
+                        }
+                        .Information_bus{
+    
+                        }
+                        .Information_bus{
+                            
+                        }
+                    }
+                }
+            }
+            .categorias{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .accountCustomer{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .informationEmpresa{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }  
+        }
+        .social_media{
+            display: flex;
+            padding-top: 0px;
+            justify-content: center;
+            div{
+                margin-left: 10px;
+                padding-bottom: 7px;
+                padding-top: 0px;
+                font-family: 'Mulish', sans-serif;
+            }
+            .Social_mediaA{
+                .Social_icon{
+
+                }
+            }
+        }
+        .Footer_copyrigth{
+            display: grid;
+            width: 100%;
+            justify-content:center;
+            width: 100%;
+            .copy_footer{
+                margin: 0 auto;
+            }
+            .Footer_imagepaymet{
+
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 620px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #FooterHome{
+        padding: 0px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        .Contac_form{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            text-align: center;
+            .suscribe{
+                padding-top: 13px;
+            }
+            .form_sub{
+                width: 100%;
+                padding-top: 10px;
+                input{
+                    width: 230px;
+                    .Email_cliente{
+                        width: 150px;
+    
+                    }
+                    .Email_clib{
+    
+                    }
+                }
+            }
+            .form_suscrib{
+                .Email_clib{
+
+                }
+            }
+        }
+        .sectionFooter{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            justify-items: center;
+            height: 260px;
+            .information_entrepise{
+                display: none;
+                .logo_footer{
+
+                }
+                .Information_entrepise{
+                    .Inf_enter{
+
+                    }
+                }
+                .Social_mediaContac{
+                    .Social_mediaContacS{
+                        .Social_subicon{
+    
+                        }
+                        .Information_bus{
+    
+                        }
+                        .Information_bus{
+                            
+                        }
+                    }
+                }
+            }
+            .categorias{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .accountCustomer{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .informationEmpresa{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }  
+        }
+        .social_media{
+            display: flex;
+            justify-content: center;
+
+            div{
+                padding-top: 0px;
+                margin-left: 10px;
+                font-family: 'Mulish', sans-serif;
+            }
+            .Social_mediaA{
+                .Social_icon{
+
+                }
+            }
+        }
+        .Footer_copyrigth{
+            display: grid;
+            width: 100%;
+            justify-content:center;
+            width: 100%;
+            .copy_footer{
+                margin: 0 auto;
+            }
+            .Footer_imagepaymet{
+
+            }
+        }
+    }
+}
+@media only screen and (min-width: 621px) and (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #FooterHome{
+        padding: 0px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        .Contac_form{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            text-align: center;
+            .suscribe{
+                padding-top: 13px;
+            }
+            .form_sub{
+                width: 100%;
+                padding-top: 10px;
+                input{
+                    width: 230px;
+                    .Email_cliente{
+                        width: 150px;
+    
+                    }
+                    .Email_clib{
+    
+                    }
+                }
+            }
+            .form_suscrib{
+                .Email_clib{
+
+                }
+            }
+        }
+        .sectionFooter{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            justify-items: center;
+            height: 260px;
+            .information_entrepise{
+                display: none;
+                .logo_footer{
+
+                }
+                .Information_entrepise{
+                    .Inf_enter{
+
+                    }
+                }
+                .Social_mediaContac{
+                    .Social_mediaContacS{
+                        .Social_subicon{
+    
+                        }
+                        .Information_bus{
+    
+                        }
+                        .Information_bus{
+                            
+                        }
+                    }
+                }
+            }
+            .categorias{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .accountCustomer{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .informationEmpresa{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }  
+        }
+        .social_media{
+            display: flex;
+            justify-content: center;
+            div{
+                margin-left: 10px;
+                font-family: 'Mulish', sans-serif;
+            }
+            .Social_mediaA{
+                .Social_icon{
+
+                }
+            }
+        }
+        .Footer_copyrigth{
+            display: grid;
+            width: 100%;
+            justify-content:center;
+            width: 100%;
+            .copy_footer{
+                margin: 0 auto;
+            }
+            .Footer_imagepaymet{
+
+            }
+        }
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 837px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #FooterHome{
+        padding: 0px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        .Contac_form{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            text-align: center;
+            .suscribe{
+                padding-top: 13px;
+            }
+            .form_sub{
+                width: 100%;
+                padding-top: 10px;
+                input{
+                    width: 230px;
+                    .Email_cliente{
+                        width: 150px;
+    
+                    }
+                    .Email_clib{
+    
+                    }
+                }
+            }
+            .form_suscrib{
+                .Email_clib{
+
+                }
+            }
+        }
+        .sectionFooter{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            justify-items: center;
+            height: 260px;
+            .information_entrepise{
+                
+                .logo_footer{
+
+                }
+                .Information_entrepise{
+                    .Inf_enter{
+
+                    }
+                }
+                .Social_mediaContac{
+                    .Social_mediaContacS{
+                        .Social_subicon{
+    
+                        }
+                        .Information_bus{
+    
+                        }
+                        .Information_bus{
+                            
+                        }
+                    }
+                }
+            }
+            .categorias{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .accountCustomer{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }
+            .informationEmpresa{
+                .Tittle_footerC{
+
+                }
+                .sub-listfooter text_footer{
+                    .SubFooter{
+
+                    }
+                }
+            }  
+        }
+        .social_media{
+            display: flex;
+            padding-top: 0px;
+            justify-content: center;
+
+            div{
+                padding-top: 15px;
+                margin-left: 10px;
+                font-family: 'Mulish', sans-serif;
+            }
+            .Social_mediaA{
+                .Social_icon{
+
+                }
+            }
+        }
+        .Footer_copyrigth{
+          
+            .copy_footer{
+                margin: 0 auto;
+            }
+            .Footer_imagepaymet{
+
+            }
+        }
+    }
+}
+

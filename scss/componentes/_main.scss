@@ -4,6 +4,7 @@
     #principalSection{
         padding: 10px;
         background: #ebebeb;
+        width: 98.7vw;
         .homePrincipal{
             .titulo_tienda{
                 display: none;
@@ -11,12 +12,14 @@
             .SubHomeprincipal{
                 .carrouselPrincipal{
                     height: 300px;
+                    width: 1339px;
                     #carouselExampleCaptions{
                         .carousel-inner{
                             .carousel-item{
                                 height: 300px;
                                 .d-block{
                                     height: 300px;
+                                
                                 }
                                 .carousel-caption{
                                     h5{
@@ -567,7 +570,7 @@
 }
 
 /*Media query parte central*/
-@media only screen and (max-width: 480px){
+@media (max-width: 480px){
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
     .home_central{
         display: grid;
@@ -577,7 +580,7 @@
         "footer";
         #principalSection{
             padding: 5px;
-            width: 100%;
+            width: 100vw;
             .homePrincipal{
                 .titulo_tienda{
                     visibility: hidden;
@@ -585,12 +588,14 @@
                 .SubHomeprincipal{
                     .carrouselPrincipal{
                         height: 150px;
+                        width: 100vw;
                         #carouselExampleCaptions{
                             .carousel-inner{
                                 .carousel-item{
                                     height: 150px;
                                     .d-block{
                                         height: 150px;
+                                        width: 100vw;
                                     }
                                 }
                             }
@@ -746,6 +751,10 @@
     
                         }
                         .Ofertas_descrp{
+                            padding: 0px;
+                            padding-top: 50px;
+                            padding-left: 20px;
+                            
                             .Ofer_descpb{
     
                             }
@@ -958,25 +967,35 @@
                         }
                     }
                     .Ofertas_hogar{
+                        width: 100vw;
                       
                         .Tittle_secction{
-                            width: 100%;
+                            width: 100vw;
     
                         }
                         .oferd_image{
-                            width: 100%;
+                            width: 100vw;
                             display: flex;
                             flex-wrap: wrap;
                             margin: 0px;
                             .imagofer1{
+                                .image_oderd{
+                                    width: 90vw;
+                                }
     
                             }
                             .imagofer2{
                                 width: 100%;
+                                .image_oderd{
+                                    width: 90vw;
+                                }
     
                             }
                             .imagofer3{
                                 width: 100%;
+                                .image_oderd{
+                                    width: 90vw;
+                                }
     
                             }
                             .imagofer4{
@@ -1000,7 +1019,7 @@
         "footer";
         #principalSection{
             padding: 5px;
-            width: 100%;
+            width: 100vw;
             .homePrincipal{
                 .titulo_tienda{
                     visibility: hidden;
@@ -1008,12 +1027,14 @@
                 .SubHomeprincipal{
                     .carrouselPrincipal{
                         height: 150px;
+                        width: 100vw;
                         #carouselExampleCaptions{
                             .carousel-inner{
                                 .carousel-item{
                                     height: 150px;
                                     .d-block{
                                         height: 150px;
+                                        width: 100vw;
                                     }
                                 }
                             }
@@ -1420,18 +1441,21 @@
             padding: 5px;
             width: 100%;
             .homePrincipal{
+                width: 100vw;
                 .titulo_tienda{
                     visibility: hidden;
                 }
                 .SubHomeprincipal{
                     .carrouselPrincipal{
                         height: 250px;
+                        width: 100vw;
                         #carouselExampleCaptions{
                             .carousel-inner{
                                 .carousel-item{
                                     height: 100%;
                                     .d-block{
                                         height: 100%;
+                                        width: 100vw;
                                     }
                                 }
                             }
@@ -1809,7 +1833,7 @@
                             .imagofer1{
                                 picture{
                                     .image_oderd{
-                                        width: 30vw;
+                                        width: 25vw;
                                     }
                                 }
                             }
@@ -1817,7 +1841,7 @@
                                 width: 100%;
                                 picture{
                                     .image_oderd{
-                                        width: 30vw;
+                                        width: 25vw;
                                     }
                                 }
                             }
@@ -1825,7 +1849,7 @@
                                 width: 100%;
                                 picture{
                                     .image_oderd{
-                                        width: 30vw;
+                                        width: 25vw;
                                     }
                                 }
                             }
@@ -1862,6 +1886,7 @@
                                     height: 100%;
                                     .d-block{
                                         height: 100%;
+                                        width: 100vw;
                                     }
                                 }
                             }
@@ -2314,6 +2339,7 @@
                                     height: 100%;
                                     .d-block{
                                         height: 100%;
+                                        width: 100vw;
                                     }
                                 }
                             }
@@ -2477,6 +2503,9 @@
                         .Ofertas_descrp{
                             height: 70vh;
                             width: 80%;
+                            padding: 0px;
+                            padding-left: 20px;
+                            padding-top: 20px;
                             .Ofer_descpb{
                                 .ofer1{
                                     font-size: 1.8vw;
@@ -2749,7 +2778,7 @@
         "footer";
         #principalSection{
             padding: 5px;
-            width: 100vw;
+    
             .homePrincipal{
                 .titulo_tienda{
                     visibility: hidden;
@@ -2757,13 +2786,14 @@
                 .SubHomeprincipal{
                     .carrouselPrincipal{
                         height: 350px;
-                        width: 100vw;
+                        width: 100%;
                         #carouselExampleCaptions{
                             .carousel-inner{
                                 .carousel-item{
                                     height: 100%;
                                     .d-block{
                                         height: 100%;
+                                        width: 100vw;
                                     }
                                 }
                             }
@@ -2862,15 +2892,22 @@
                         .Ofertas_descrp{
                             height: 50vh;
                             width: 80%;
+                            padding: 0px;
+                            padding-left: 60px;
                             .Ofer_descpb{
+                                
                                 .ofer1{
                                     font-size: 1.8vw;
                                 }
                                 .ofer2{
                                     font-size: 3vw;
+                                    width:28vw;
+                                    display: inline-block;
                                 }
                                 .ofer3{
                                     font-size: 3vw;
+                                    width: 30vw;
+                                    display: inline-block;
                                 }
                                 
     

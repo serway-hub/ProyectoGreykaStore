@@ -1,4 +1,4 @@
-@import '../Base/variables';
+@import '../base/variables';
 
 @mixin headshippingcost {
     background: linear-gradient(to right,blue,white);
@@ -7,7 +7,10 @@
 }
 /* este es es header*/
 .home_central{
-    .homme_header{
+    width: 100%;
+    
+    .homme_header{    
+        width: 100vw;   
         .Shipping_cost{
             @include headshippingcost();
             .shippinB{
@@ -31,8 +34,6 @@
             justify-content: space-between;
             align-items: center;
             border-bottom: 3px solid nth($list:$colores , $n:1 );
-            padding-left: 20px;
-            padding-right: 20px;
             /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
             .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
                 position:absolute;
@@ -201,7 +202,7 @@
         }
     }   
 }
-@media only screen and (max-width: 480px){
+@media (min-width: 320px)and (max-width: 480px){
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
     .home_central{
         display: grid;
@@ -210,6 +211,7 @@
         "main"
         "footer";
         .homme_header{
+            width: 100%;
             .Shipping_cost{
                 width: 100%;
                 .shippinB{
@@ -233,8 +235,7 @@
                 display: grid;
                 grid-template-columns: 0fr 3fr 1fr;  
                 justify-content:center ;
-                padding-right: 20px; 
-                padding-left: 20px;         
+                width: 100%;      
                 /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
                 .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
                     position:absolute;
@@ -309,10 +310,10 @@
                     display: none;
                     
                     .nav-search{
-                        width: 100%; 
+                        width: 100vw;
                         display: none;                       
                         #searchPrincipal{
-                            width: 100%;
+                            width: 100vw;
                         }
                         .nav_searchA{
                             
@@ -343,7 +344,7 @@
                                     .Icons_Four{
                                          
                                     }
-                                    p{
+                                    span{
                                         display: none;
                                     }  
                                 }
@@ -405,7 +406,8 @@
             .search{ 
                 padding-left: 20px;  
                 padding-right: 20px;    
-                display: flex;         
+                display: flex;  
+                width: 100vw;       
                 .nav-search{
                     width: 100%;  
                     height: 44px;                      
@@ -443,7 +445,7 @@
         "main"
         "footer";
         .homme_header{
-            width: 100%;
+            width: 100vw;
             .Shipping_cost{
                 width: 100%;
                 .shippinB{
@@ -468,7 +470,8 @@
                 grid-template-columns: 0fr 0.5fr 3fr 1fr;  
                 justify-content:center ;
                 padding-right: 20px; 
-                padding-left: 20px;         
+                padding-left: 20px;     
+                width: 100vw;    
                 /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
                 .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
                     position:absolute;
@@ -580,7 +583,7 @@
                                     .Icons_Four{
                                          
                                     }
-                                    p{
+                                    span{
                                         display: none;
                                     }  
                                 }
@@ -689,6 +692,7 @@
         "main"
         "footer";
         .homme_header{
+            width: 100vw;
             .Shipping_cost{
                 width: 100%;
                 .shippinB{
@@ -713,7 +717,8 @@
                 grid-template-columns: 0fr 0fr 3fr 1fr;  
                 justify-content:center ;
                 padding-right: 20px; 
-                padding-left: 20px;         
+                padding-left: 20px;      
+                width: 100vw;   
                 /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
                 .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
                     position:absolute;
@@ -933,6 +938,7 @@
         "main"
         "footer";
         .homme_header{
+            width: 100%;
             .Shipping_cost{
                 width: 100%;
                 .shippinB{
@@ -957,7 +963,8 @@
                 grid-template-columns: 0fr 0fr 3fr 1fr;  
                 justify-content:center ;
                 padding-right: 20px; 
-                padding-left: 20px;         
+                padding-left: 20px;
+                width: 100%;      
                 /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
                 .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
                     position:absolute;
@@ -1176,6 +1183,7 @@
         "main"
         "footer";
         .homme_header{
+            width: 100%;
             .Shipping_cost{
                 width: 100%;
                 .shippinB{
@@ -1200,7 +1208,8 @@
                 grid-template-columns: 0fr 0fr 3fr 1fr;  
                 justify-content:center ;
                 padding-right: 20px; 
-                padding-left: 20px;         
+                padding-left: 20px;    
+                width: 100%;     
                 /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
                 .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
                     position:absolute;
@@ -1409,7 +1418,7 @@
         }
     }
 }
-@media only screen and (min-width: 1066px) and (max-width: 1100px){
+@media only screen and (min-width: 1025px) and (max-width: 1400px){
 
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
     .home_central{
@@ -1421,6 +1430,8 @@
         .homme_header{
             display: flex;
             flex-direction: column;
+            width: 98.7vw;
+            
             .Shipping_cost{
                 width: 100%;
                 .shippinB{
@@ -1442,6 +1453,7 @@
             }
             .menuHeader{
                 padding-left: 40px;
+                
                 
             
                 /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
@@ -1512,7 +1524,7 @@
                     }
                 }
                 .search{
-                    width: 750px;
+                    width: 46vw;
                     margin-left: 30px;
                     .nav-search{  
                         width: 750px;                    

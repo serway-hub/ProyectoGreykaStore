@@ -190,24 +190,20 @@
     margin: 0px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100vw;
   }
   #FooterHome .Contac_form {
     display: flex;
     padding-top: 20px;
     justify-items: center;
+    width: 100vw;
   }
   #FooterHome .Contac_form .suscribe {
     text-align: center;
   }
   #FooterHome .Contac_form .form_sub {
-    width: 100%;
+    width: 100vw;
     padding-top: 10px;
-  }
-  #FooterHome .Contac_form .form_sub input {
-    width: 230px;
-  }
-  #FooterHome .Contac_form .form_sub input .Email_cliente {
-    width: 150px;
   }
   #FooterHome .sectionFooter {
     display: grid;
@@ -405,6 +401,12 @@
   }
 }
 /* este es es header*/
+.home_central {
+  width: 100%;
+}
+.home_central .homme_header {
+  width: 100vw;
+}
 .home_central .homme_header .Shipping_cost {
   background: linear-gradient(to right, blue, white);
   text-align: center;
@@ -430,8 +432,6 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid #ebebeb;
-  padding-left: 20px;
-  padding-right: 20px;
   /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
   /*aqui finaliza el codigo del menu desplegable hamburguesa*/
 }
@@ -582,11 +582,14 @@
   display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .home_central {
     display: grid;
     grid-template-areas: "header" "main" "footer";
+  }
+  .home_central .homme_header {
+    width: 100%;
   }
   .home_central .homme_header .Shipping_cost {
     width: 100%;
@@ -611,8 +614,7 @@
     display: grid;
     grid-template-columns: 0fr 3fr 1fr;
     justify-content: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    width: 100%;
     /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
     /*aqui finaliza el codigo del menu desplegable hamburguesa*/
   }
@@ -665,11 +667,11 @@
     display: none;
   }
   .home_central .homme_header .menuHeader .search .nav-search {
-    width: 100%;
+    width: 100vw;
     display: none;
   }
   .home_central .homme_header .menuHeader .search .nav-search #searchPrincipal {
-    width: 100%;
+    width: 100vw;
   }
   .home_central .homme_header .menuHeader .search .nav_searchB .nav_searchAB {
     align-items: center;
@@ -686,7 +688,7 @@
     justify-content: end;
     margin: 0px;
   }
-  .home_central .homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .sub-menusectionB a p {
+  .home_central .homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .sub-menusectionB a span {
     display: none;
   }
   .home_central .homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .iconA a p {
@@ -714,6 +716,7 @@
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
+    width: 100vw;
   }
   .home_central .homme_header .search .nav-search {
     width: 100%;
@@ -745,7 +748,7 @@
     grid-template-areas: "header" "main" "footer";
   }
   .home_central .homme_header {
-    width: 100%;
+    width: 100vw;
   }
   .home_central .homme_header .Shipping_cost {
     width: 100%;
@@ -772,6 +775,7 @@
     justify-content: center;
     padding-right: 20px;
     padding-left: 20px;
+    width: 100vw;
     /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
     /*aqui finaliza el codigo del menu desplegable hamburguesa*/
   }
@@ -853,7 +857,7 @@
     justify-content: end;
     margin: 0px;
   }
-  .home_central .homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .sub-menusectionB a p {
+  .home_central .homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .sub-menusectionB a span {
     display: none;
   }
   .home_central .homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .iconA a .Icons_Four {
@@ -912,6 +916,9 @@
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
+  .home_central .homme_header {
+    width: 100vw;
+  }
   .home_central .homme_header .Shipping_cost {
     width: 100%;
   }
@@ -937,6 +944,7 @@
     justify-content: center;
     padding-right: 20px;
     padding-left: 20px;
+    width: 100vw;
     /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
     /*aqui finaliza el codigo del menu desplegable hamburguesa*/
   }
@@ -1070,6 +1078,9 @@
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
+  .home_central .homme_header {
+    width: 100%;
+  }
   .home_central .homme_header .Shipping_cost {
     width: 100%;
   }
@@ -1095,6 +1106,7 @@
     justify-content: center;
     padding-right: 20px;
     padding-left: 20px;
+    width: 100%;
     /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
     /*aqui finaliza el codigo del menu desplegable hamburguesa*/
   }
@@ -1227,6 +1239,9 @@
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
+  .home_central .homme_header {
+    width: 100%;
+  }
   .home_central .homme_header .Shipping_cost {
     width: 100%;
   }
@@ -1252,6 +1267,7 @@
     justify-content: center;
     padding-right: 20px;
     padding-left: 20px;
+    width: 100%;
     /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
     /*aqui finaliza el codigo del menu desplegable hamburguesa*/
   }
@@ -1372,7 +1388,7 @@
     height: 64px;
   }
 }
-@media only screen and (min-width: 1066px) and (max-width: 1100px) {
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .home_central {
     display: grid;
@@ -1381,6 +1397,7 @@
   .home_central .homme_header {
     display: flex;
     flex-direction: column;
+    width: 98.7vw;
   }
   .home_central .homme_header .Shipping_cost {
     width: 100%;
@@ -1452,7 +1469,7 @@
     width: 80px;
   }
   .home_central .homme_header .menuHeader .search {
-    width: 750px;
+    width: 46vw;
     margin-left: 30px;
   }
   .home_central .homme_header .menuHeader .search .nav-search {
@@ -1489,12 +1506,14 @@
 .home_central #principalSection {
   padding: 10px;
   background: #ebebeb;
+  width: 98.7vw;
 }
 .home_central #principalSection .homePrincipal .titulo_tienda {
   display: none;
 }
 .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal {
   height: 300px;
+  width: 1339px;
 }
 .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
   height: 300px;
@@ -1929,7 +1948,7 @@
 }
 
 /*Media query parte central*/
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .home_central {
     display: grid;
@@ -1937,19 +1956,21 @@
   }
   .home_central #principalSection {
     padding: 5px;
-    width: 100%;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .titulo_tienda {
     visibility: hidden;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal {
     height: 150px;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 150px;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 150px;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .icons_home {
     padding: 5px;
@@ -2067,6 +2088,11 @@
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_dia img {
     width: 100%;
+  }
+  .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_descrp {
+    padding: 0px;
+    padding-top: 50px;
+    padding-left: 20px;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer {
     padding: 3px;
@@ -2204,20 +2230,32 @@
   .home_central #principalSection .homePrincipal .SubHomeprincipal .ProductosParahogar .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .prod_six {
     display: none;
   }
+  .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar {
+    width: 100vw;
+  }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .Tittle_secction {
-    width: 100%;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
   }
+  .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer1 .image_oderd {
+    width: 90vw;
+  }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer2 {
     width: 100%;
   }
+  .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer2 .image_oderd {
+    width: 90vw;
+  }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer3 {
     width: 100%;
+  }
+  .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer3 .image_oderd {
+    width: 90vw;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 600px) {
@@ -2228,19 +2266,21 @@
   }
   .home_central #principalSection {
     padding: 5px;
-    width: 100%;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .titulo_tienda {
     visibility: hidden;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal {
     height: 150px;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 150px;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 150px;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .icons_home {
     padding: 5px;
@@ -2521,17 +2561,22 @@
     padding: 5px;
     width: 100%;
   }
+  .home_central #principalSection .homePrincipal {
+    width: 100vw;
+  }
   .home_central #principalSection .homePrincipal .titulo_tienda {
     visibility: hidden;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal {
     height: 250px;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 100%;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 100%;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .icons_home {
     padding: 5px;
@@ -2807,19 +2852,19 @@
     margin: 0px;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer1 picture .image_oderd {
-    width: 30vw;
+    width: 25vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer2 {
     width: 100%;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer2 picture .image_oderd {
-    width: 30vw;
+    width: 25vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer3 {
     width: 100%;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertas_hogar .oferd_image .imagofer3 picture .image_oderd {
-    width: 30vw;
+    width: 25vw;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -2844,6 +2889,7 @@
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 100%;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .icons_home {
     margin: 20px 30px 10px 30px;
@@ -3182,6 +3228,7 @@
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 100%;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .icons_home {
     margin: 20px 30px 10px 30px;
@@ -3311,6 +3358,9 @@
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_descrp {
     height: 70vh;
     width: 80%;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_descrp .Ofer_descpb .ofer1 {
     font-size: 1.8vw;
@@ -3500,20 +3550,20 @@
   }
   .home_central #principalSection {
     padding: 5px;
-    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .titulo_tienda {
     visibility: hidden;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal {
     height: 350px;
-    width: 100vw;
+    width: 100%;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 100%;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 100%;
+    width: 100vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .icons_home {
     margin: 20px 30px 10px 30px;
@@ -3594,15 +3644,21 @@
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_descrp {
     height: 50vh;
     width: 80%;
+    padding: 0px;
+    padding-left: 60px;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_descrp .Ofer_descpb .ofer1 {
     font-size: 1.8vw;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_descrp .Ofer_descpb .ofer2 {
     font-size: 3vw;
+    width: 28vw;
+    display: inline-block;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .Ofertasdia .Ofertas_descrp .Ofer_descpb .ofer3 {
     font-size: 3vw;
+    width: 30vw;
+    display: inline-block;
   }
   .home_central #principalSection .homePrincipal .SubHomeprincipal .barnner_backfriday {
     margin-bottom: 15px;

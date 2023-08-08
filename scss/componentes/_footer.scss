@@ -204,20 +204,25 @@
         margin: 0px;
         padding-left: 10px;
         padding-right: 10px;
+        width: 100vw;
         .Contac_form{
             display:flex;
             padding-top: 20px;
             justify-items: center;
+            width: 100vw;
             .suscribe{
                 text-align: center;
             }
             .form_sub{
-                width: 100%;
+                width: 100vw;
                 padding-top: 10px;
+                form{
+                    
+                }
                 input{
-                    width: 230px;
+                    
                     .Email_cliente{
-                        width: 150px;
+                        
     
                     }
                     .Email_clib{

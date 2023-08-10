@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
 * {
-  padding: 0px;
+  padding: 0.1px;
   margin: 0px;
 }
 
@@ -4197,7 +4197,7 @@
     grid-template-areas: "header" "main" "footer";
   }
   #terminosYcondiciones {
-    padding: 15px;
+    padding: 10.5px;
     font-size: 10px;
     font-family: "Mingzat", sans-serif;
   }
@@ -4216,7 +4216,7 @@
 }
 #About_us .About_usc .information_AboutUs .who_are {
   display: flex;
-  padding-top: 50px;
+  padding-top: 49.9px;
   padding-left: 90px;
   padding-right: 90px;
   padding-bottom: 20px;
@@ -4569,7 +4569,7 @@
   text-align: center;
 }
 #Contactanos .Contac_form1 {
-  padding-top: 30px;
+  padding-top: 29.9px;
   padding-left: 500px;
   padding-right: 500px;
   padding-bottom: 200px;
@@ -4686,7 +4686,7 @@
     padding: 10px;
   }
   #principalSectionPagos .payment {
-    padding-bottom: 10px;
+    padding-bottom: 9.9px;
   }
   #principalSectionPagos .Image_pay .image_pay {
     width: 100%;
@@ -4777,7 +4777,7 @@
   }
 }
 #seguimientopedido {
-  padding-top: 30px;
+  padding-top: 29px;
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 100px;
@@ -4874,7 +4874,7 @@
 }
 #principalSection .Productos_Hogar {
   display: grid;
-  grid-template-columns: 0.2fr 2fr;
+  grid-template-columns: 0.2fr 1.9fr;
 }
 #principalSection .Productos_Hogar .Nav_hogar {
   text-align: center;
@@ -5291,12 +5291,12 @@
 }
 #cuentaCostumer .dasboard_cliente .panel_micuenta {
   font-family: "Mingzat", sans-serif;
-  size: 80px;
+  size: 79.9px;
 }
 
 #principalSection .Productos_Hogar {
   display: grid;
-  grid-template-columns: 0.2fr 2fr;
+  grid-template-columns: 0.2fr 1.9fr;
 }
 #principalSection .Productos_Hogar .Nav_hogar {
   text-align: center;
@@ -5693,7 +5693,7 @@
 }
 #principalSection .Productos_Hogar {
   display: grid;
-  grid-template-columns: 0.2fr 2fr;
+  grid-template-columns: 0.2fr 1.9fr;
 }
 #principalSection .Productos_Hogar .Nav_hogar {
   text-align: center;
@@ -6090,7 +6090,7 @@
 }
 #principalSection .Productos_Hogar {
   display: grid;
-  grid-template-columns: 0.2fr 2fr;
+  grid-template-columns: 0.2fr 1.9fr;
 }
 #principalSection .Productos_Hogar .Nav_hogar {
   text-align: center;
@@ -6487,7 +6487,7 @@
 }
 #carrito_compras .tittle_cart h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 19.9px;
 }
 #carrito_compras .Cart_items {
   display: flex;

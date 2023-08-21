@@ -6,1573 +6,2044 @@
     font-family: 'Mulish', sans-serif;    
 }
 /* este es es header*/
-.home_central{
-    width: 100%;
-    
-    .homme_header{    
-        width: 100vw;   
-        .Shipping_cost{
-            @include headshippingcost();
-            .shippinB{
-                color:nth($list: $color, $n:1 );
-                background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
-                background-clip: text;
-                animation: color 3s linear infinite;
-                background-size: 500%;
-            }
-            @keyframes color {
-                from{
-                    background-position: 0% 50%;
-                }
-                to{
-                    background-position: 100% 50%;
-                }
-              }
-        }
-        .menuHeader{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 3px solid nth($list:$colores , $n:1 );
-            /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
-            .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
-                position:absolute;
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-                right: 0;
-                top: 0;
-                width: 48px;
-                height: 48px;
-            }
-            .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
-                font-size: 48px;
-                pointer-events: none;
-            }
-            .hamburger_menu input[type="checkbox"] {
-                opacity: 0;
-            }
-            .hamburger_menu input:checked ~ nav {
-                display: block;
-            }
-            .hamburger_menu input:checked ~ .bootom_headerA {
-                display:none;
-            }
-            .hamburger_menu input:not(:checked) ~ .bootom_headerB {
-                display: none;
-              }
-            input#Open_Colse{
-                cursor: pointer;
-            }
-            /*aqui finaliza el codigo del menu desplegable hamburguesa*/
-            .hamburger_menu {
-                height: 48px;
-                width: 48px;
-                color: gray;
-                position: relative;
-                min-height: 48px;
-                .bootom_headerA{
-                    height: 50px;
-                    width: 50px;  
-                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);                    
-                }
-                .bootom_headerB{
-                    height: 30px;
-                    width: 30px;
-                }
-                .Nav_Hamburguer{
-                    display:none;
-                    padding-top: 50px;
-                    background: white;
-                    .sub-listfooter{
-                        width: 160px;
-                        background: white;
-                        padding-top: 10px;                   
-                        .SubFooter{
-                            list-style: none;  
-                            display: flex;                          
-                            .icon1{
-                                padding-top: 10px;
-                            }
-                            .First_Menu{
-                                color: inherit;
-                                text-decoration: none;
-                                display: block;
-                                padding: 10px 20px;
-                                border-bottom: 1px solid #456789;
-                                max-width: 200px;
-                                font-variant: small-caps;
-                                font-family: 'Inter', sans-serif;
-                                list-style: none;
-                                z-index: 1;
-                            }
-                        }
-                    }
-                }
-            }
-            .logo{
-                width: 80px;
-            }
-            .search{
-                display: flex;
-                
-                .nav-search{
-                    padding-left: 5px;
-                    padding-right: 10px;
-                 
-                    #searchPrincipal{
-                        width: 650px;
-                        border-radius: 5px;
-                        border: 2px solid nth($list: $bordercolor, $n:1 );
-                    }
-                    .nav_searchA{
-                        height: 44px;
-                    } 
-                }
-                .nav_searchB{
-                    .nav_searchAB{
-                        width: 44px;
-                        height: 44px;
-                        border-radius: 5px;
-                        background-color: #273fb4;
-                        border: 0px;
-                        img{
-                            filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
-                            font-size: 899px;
-                        }
-                    }
-                }
-            }
-            .menu_section{
-                font-family:$fuenteheader;
-                padding: 10px 10px 0px 10px;
-                
-                .menu_sectionB{
-                    .sub-menusection{
-                        display: flex;
-                        text-align: center;
-                        font-size: 12px;
-                        justify-content: space-between;
-                        list-style: none;
-                        width: 350px;
-                        padding: 5px;
-                        margin: 0px;
-                        .sub-menusectionB:hover{
-                            background: #F3F3F3;
-                        }
-                        .sub-menusectionB{
-                            .Icons_Four{
-                                height: 50px;
-                                width: 50px;
-                                display: flex;
-                                font-weight: 100;
-                                margin: 0 auto;
-                                padding-bottom: 5px;
-                                filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
-                            }
-                            p{
-                                margin: 0px;
-                                font-family: 'Inter', sans-serif;
-                                color: nth($list: $colorfonts, $n: 1);
-                            }
-                            .Icons_Four:hover{
-                                filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
-                            }
-                        }
-                        .iconA{
-                            text-decoration: none;
-    
-                        }
-                        .iconB{
-                            text-decoration: none;
-    
-                        }
-                        .iconC{
-    
-                        }
-                        .iconD{
-    
-                        }
-                    }
-                }
-            }
-        }
-        .search{ 
-            display: none;
-        }
-    }   
-}
-@media (min-width: 320px)and (max-width: 480px){
+@media (max-width: 480px){
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        .homme_header{
+    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
             width: 100%;
-            .Shipping_cost{
-                width: 100%;
-                .shippinB{
-                    color:nth($list: $color, $n:1 );
-                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
                     background-clip: text;
                     animation: color 3s linear infinite;
                     background-size: 500%;
-                    width: 100%;
+                    font-size: 5vw;
                 }
                 @keyframes color {
-                    from{
+                    from {
                         background-position: 0% 50%;
                     }
-                    to{
+                    to {
                         background-position: 100% 50%;
                     }
                 }
             }
-            .menuHeader{
-                display: grid;
-                grid-template-columns: 0fr 3fr 1fr;  
-                justify-content:center ;
-                width: 100%;      
-                /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
-                .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
-                    position:absolute;
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                    right: 0;
-                    top: 0;
-                    width: 48px;
-                    height: 48px;
-                }
-                .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
-                    font-size: 48px;
-                    pointer-events: none;
-                }
-                .hamburger_menu input[type="checkbox"] {
-                    opacity: 0;
-                }
-                .hamburger_menu input:checked ~ nav {
-                    display: block;
-                }
-                .hamburger_menu input:checked ~ .bootom_headerA {
-                    display:none;
-                }
-                
-                .hamburger_menu input:not(:checked) ~ .bootom_headerB {
-                    display: none;
-                  }
-                input#Open_Colse{
-                    cursor: pointer;
-                }
-                /*aqui finaliza el codigo del menu desplegable hamburguesa*/
-                .hamburger_menu {
-                    
-                    
-                    .bootom_headerA{
-                          
-                    }
-                    .bootom_headerB{
-                        
-                    }
-                    .Nav_Hamburguer{
-                        
-                        .sub-listfooter{
-                            width: 160px;
-                            background: white;
-                            padding-top: 10px;
-                            
-                            .SubFooter{
-                                .icon1{
-                                    
-                                }
-                                .First_Menu{
-                                    z-index: 1;
-                                    
-                                }
-                            }
-                        }
-                    }
-        
-                }
-                .logo{
-                    justify-self: center;
-                    margin-left: 80px;
-                    
-                    .Image_Logo{
-                        height: 60px;
-                        width: 60px;
-                    }
-                }
-                .search{
-                    display: none;
-                    
-                    .nav-search{
-                        width: 100vw;
-                        display: none;                       
-                        #searchPrincipal{
-                            width: 100vw;
-                        }
-                        .nav_searchA{
-                            
-                        }
-                    }
-                    .nav_searchB{
-                        
-                        .nav_searchAB{
-                            align-items: center;
-                            
-                        }
-                    }
-                }
-                .menu_section{
-                    padding: 3px;
-                    width: 100%;
-                    .menu_sectionB{
-                        justify-items: center;
-                        .sub-menusection{
-                            width: 100%;
-                            justify-content: end;
-                            margin: 0px;
-                            .sub-menusectionB:hover{
-                                
-                            }
-                            .sub-menusectionB{
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    span{
-                                        display: none;
-                                    }  
-                                }
-                                
-                            }
-                            .iconA{
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
-                                }
-        
-                            }
-                            .iconB{
-                                display: none;
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
-                                }
-        
-                            }
-                            .iconC{
-                                display: none;
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
-                                }
-        
-                            }
-                            .iconD{
-                                padding-left: 10px;
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                }
-                                .item_frase{
-                                    p{
-                                        display: none;
-                                    }
-                                }
-        
-                            }
-                        }
-                    }
-                }
-            }
-            .search{ 
-                padding-left: 20px;  
-                padding-right: 20px;    
-                display: flex;  
-                width: 100vw;       
-                .nav-search{
-                    width: 100%;  
-                    height: 44px;                      
-                    #searchPrincipal{
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
                         width: 100%;
                     }
-                    .nav_searchA{
-                        height: 44px;                        
+             
+                    
+                    button{
+                        span{
+                            
+                        }
+              
+                    }
+                    .navToogle{
+                        background-color:white;
+                        position:absolute;
+                        top: 53px;
+                        width: 80vw;
+                        height: 80vw;
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
                     }
                 }
-                .nav_searchB{
-                    .nav_searchAB{
+    
+                
+    
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: none;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        display: none;
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
+                            }
+                        }
+                    }
+                }
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
+                    
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
+                            margin: 0px;
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
+                            }
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                                }
+                                .itemFrase{
+                                    display: none;
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
+                            }
+    
+                            .iconA {
+                                text-decoration: none;
+                            }
+    
+                            .iconB {
+                                text-decoration: none;
+                                display: none;
+                        
+                            }
+    
+                            .iconC {
+                                display: none;
+            
+                            }
+    
+                            .iconD {
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .searchB {
+                display: flex;
+                .navSearch {
+                    padding-left: 5px;
+                    padding-right: 10px;
+                    width: 100%;
+
+                    #searchPrincipal {
+                        width: 100%;
+                        border-radius: 5px;
+                        border: 2px solid nth($list: $bordercolor, $n: 1);
+                        
+                    }
+
+                    .navSearchA {
+                        height: 44px;
+                    }
+                }
+
+                .navSearchB {
+                    .navSearchAB {
                         width: 44px;
                         height: 44px;
                         border-radius: 5px;
                         background-color: #273fb4;
-                        align-items: center;
                         border: 0px;
-                        img{
+
+                        img {
                             filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
                             font-size: 899px;
                         }
-                    }                 
-                }
-            }
-        }
-    }
-} 
-@media only screen and (min-width: 481px) and (max-width: 600px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        .homme_header{
-            width: 100vw;
-            .Shipping_cost{
-                width: 100%;
-                .shippinB{
-                    color:nth($list: $color, $n:1 );
-                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
-                    background-clip: text;
-                    animation: color 3s linear infinite;
-                    background-size: 500%;
-                    width: 100%;
-                }
-                @keyframes color {
-                    from{
-                        background-position: 0% 50%;
-                    }
-                    to{
-                        background-position: 100% 50%;
                     }
                 }
-            }
-            .menuHeader{
-                display: grid;
-                grid-template-columns: 0fr 0.5fr 3fr 1fr;  
-                justify-content:center ;
-                padding-right: 20px; 
-                padding-left: 20px;     
-                width: 100vw;    
-                /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
-                .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
-                    position:absolute;
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                    right: 0;
-                    top: 0;
-                    width: 48px;
-                    height: 48px;
-                }
-                .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
-                    font-size: 48px;
-                    pointer-events: none;
-                }
-                .hamburger_menu input[type="checkbox"] {
-                    opacity: 0;
-                }
-                .hamburger_menu input:checked ~ nav {
-                    display: block;
-                }
-                .hamburger_menu input:checked ~ .bootom_headerA {
-                    display:none;
-                }
-                
-                .hamburger_menu input:not(:checked) ~ .bootom_headerB {
+                .navFull{
                     display: none;
-                  }
-                input#Open_Colse{
-                    cursor: pointer;
-                }
-                /*aqui finaliza el codigo del menu desplegable hamburguesa*/
-                .hamburger_menu {
-                    width:48px;
-                    .bootom_headerA{
-                          
-                    }
-                    .bootom_headerB{
-                        
-                    }
-                    .Nav_Hamburguer{
-                        
-                        .sub-listfooter{
-                            width: 160px;
-                            background: white;
-                            padding-top: 10px;
-                            
-                            .SubFooter{
-                                .icon1{
-                                    
-                                }
-                                .First_Menu{
-                                    z-index: 1;
-                                    
-                                }
-                            }
-                        }
-                    }
-        
-                }
-                .logo{
-                    justify-self: center;
-                    
-                    .Image_Logo{
-                        height: 70px;
-                        width: 70px;
-                    }
-                }
-                .search{
-                    .nav-search{
-                        height: 64px;
-                        width: 100%; 
-                                            
-                        #searchPrincipal{
-                            height: 100%;
-                            width: 100%;
-                        }
-                        .nav_searchA{
-                            width: 100%;
-                            
-                        }
-                    }
-                    .nav_searchB{
-                        width: 64px;
-                        
-                        .nav_searchAB{
-                            height: 100%;
-                            width: 100%;
-                            align-items: center;
-
-                            
-                        }
-                    }
-                }
-                .menu_section{
-                    padding: 3px;
-                    width: 100%;
-                    .menu_sectionB{
-                        justify-items: center;
-                        .sub-menusection{
-                            width: 100%;
-                            justify-content: end;
-                            margin: 0px;
-                            .sub-menusectionB:hover{
-                                
-                            }
-                            .sub-menusectionB{
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    span{
-                                        display: none;
-                                    }  
-                                }
-                                
-                            }
-                            .iconA{
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 100%;
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
-                                }
-        
-                            }
-                            .iconB{
-                                display: none;
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 100%;
-                                        width: 100%;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
-                            }
-                            .iconC{
-                                display: none;
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 100%;
-                                        width: 100%;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
-                            }
-                            .iconD{
-                                padding-left: 10px;
-                                a{
-                                    .Icons_Four{
-                                        height: 100%;
-                                        width: 100%;
-                                         
-                                    }
-                                }
-                                .item_frase{
-                                    p{
-                                        display: none;
-                                    }
-                                }
-        
-                            }
-                        }
-                    }
-                }
-            }
-            .search{ 
-                padding-left: 20px;  
-                padding-right: 20px;    
-                display: flex; 
-                display: none;        
-                .nav-search{
-                    width: 100%;  
-                    height: 44px;                      
-                    #searchPrincipal{
-                        
-                    }
-                    .nav_searchA{
-                        height: 44px;                        
-                    }
-                }
-                .nav_searchB{
-                    
-                    
-                    .nav_searchAB{
-                        align-items: center;
-                        width: 64px;
-                        height: 64px;
-                        
-                    }
                 }
             }
         }
     }
-
 }
-@media only screen and (min-width: 601px) and (max-width: 768px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        .homme_header{
-            width: 100vw;
-            .Shipping_cost{
-                width: 100%;
-                .shippinB{
-                    color:nth($list: $color, $n:1 );
-                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
-                    background-clip: text;
-                    animation: color 3s linear infinite;
-                    background-size: 500%;
-                    width: 100%;
-                }
-                @keyframes color {
-                    from{
-                        background-position: 0% 50%;
-                    }
-                    to{
-                        background-position: 100% 50%;
-                    }
-                }
-            }
-            .menuHeader{
-                display: grid;
-                grid-template-columns: 0fr 0fr 3fr 1fr;  
-                justify-content:center ;
-                padding-right: 20px; 
-                padding-left: 20px;      
-                width: 100vw;   
-                /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
-                .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
-                    position:absolute;
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                    right: 0;
-                    top: 0;
-                    width: 48px;
-                    height: 48px;
-                }
-                .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
-                    font-size: 48px;
-                    pointer-events: none;
-                }
-                .hamburger_menu input[type="checkbox"] {
-                    opacity: 0;
-                }
-                .hamburger_menu input:checked ~ nav {
-                    display: block;
-                }
-                .hamburger_menu input:checked ~ .bootom_headerA {
-                    display:none;
-                }
-                
-                .hamburger_menu input:not(:checked) ~ .bootom_headerB {
-                    display: none;
-                  }
-                input#Open_Colse{
-                    cursor: pointer;
-                }
-                /*aqui finaliza el codigo del menu desplegable hamburguesa*/
-                .hamburger_menu {
-                    
-                    
-                    .bootom_headerA{
-                          
-                    }
-                    .bootom_headerB{
-                        
-                    }
-                    .Nav_Hamburguer{
-                        
-                        .sub-listfooter{
-                            width: 160px;
-                            background: white;
-                            padding-top: 10px;
-                            
-                            .SubFooter{
-                                .icon1{
-                                    
-                                }
-                                .First_Menu{
-                                    z-index: 1;
-                                    
-                                }
-                            }
-                        }
-                    }
-        
-                }
-                .logo{
-                    justify-self: center;
-                    margin-left: 40px;
-                    
-                    .Image_Logo{
-                        height: 100px;
-                        width: 100px;
-                    }
-                }
-                .search{
-                    .nav-search{
-                        height: 64px;
-                        width: 100%; 
-                                            
-                        #searchPrincipal{
-                            height: 64px;
-                            width: 100%;
-                        }
-                        .nav_searchA{
-                            
-                        }
-                    }
-                    .nav_searchB{
-                        
-                        .nav_searchAB{
-                            height: 64px;
-                            width: 64px;
-                            align-items: center; 
-                        }
-                    }
-                }
-                .menu_section{
-                    padding: 3px;
-                    width: 100%;
-                    .menu_sectionB{
-                        justify-items: center;
-                        .sub-menusection{
-                            width: 100%;
-                            justify-content: end;
-                            margin: 0px;
-                            .sub-menusectionB:hover{
-                                
-                            }
-                            .sub-menusectionB{
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
-                                }
-                                
-                            }
-                            .iconA{
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
-                                }
-        
-                            }
-                            .iconB{
-                                display: none;
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                        display: none;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
-                            }
-                            .iconC{
-                                display: none;
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
-                            }
-                            .iconD{
-                                padding-left: 10px;
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                }
-                                .item_frase{
-                                    p{
-                                        display: none;
-                                    }
-                                }
-        
-                            }
-                        }
-                    }
-                }
-            }
-            .search{ 
-                padding-left: 20px;  
-                padding-right: 20px;    
-                display: flex; 
-                display: none;        
-                .nav-search{
-                    width: 100%;  
-                    height: 44px;                      
-                    #searchPrincipal{
-                        
-                    }
-                    .nav_searchA{
-                        height: 44px;                        
-                    }
-                }
-                .nav_searchB{
-                    
-                    
-                    .nav_searchAB{
-                        align-items: center;
-                        width: 64px;
-                        height: 64px;
-                        
-                    }
-                }
-            }
-        }
-    }
 
-}
-@media only screen and (min-width: 769px) and (max-width: 992px){
+@media (min-width: 481px) and (max-width: 768px){
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        .homme_header{
+    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
             width: 100%;
-            .Shipping_cost{
-                width: 100%;
-                .shippinB{
-                    color:nth($list: $color, $n:1 );
-                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
                     background-clip: text;
                     animation: color 3s linear infinite;
                     background-size: 500%;
-                    width: 100%;
+                    font-size: 5vw;
                 }
                 @keyframes color {
-                    from{
+                    from {
                         background-position: 0% 50%;
                     }
-                    to{
+                    to {
                         background-position: 100% 50%;
                     }
                 }
             }
-            .menuHeader{
-                display: grid;
-                grid-template-columns: 0fr 0fr 3fr 1fr;  
-                justify-content:center ;
-                padding-right: 20px; 
-                padding-left: 20px;
-                width: 100%;      
-                /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
-                .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
-                    position:absolute;
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                    right: 0;
-                    top: 0;
-                    width: 48px;
-                    height: 48px;
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
+                        width: 100%;
+                    }
+             
+                    
+                    button{
+                        span{
+                            
+                        }
+              
+                    }
+                    .navToogle{
+                        background-color:white;
+                        position:absolute;
+                        top: 53px;
+                        width: 80vw;
+                        height: 80vw;
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
+                    }
                 }
-                .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
-                    font-size: 48px;
-                    pointer-events: none;
-                }
-                .hamburger_menu input[type="checkbox"] {
-                    opacity: 0;
-                }
-                .hamburger_menu input:checked ~ nav {
-                    display: block;
-                }
-                .hamburger_menu input:checked ~ .bootom_headerA {
-                    display:none;
-                }
+    
                 
-                .hamburger_menu input:not(:checked) ~ .bootom_headerB {
+    
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
                     display: none;
-                  }
-                input#Open_Colse{
-                    cursor: pointer;
-                }
-                /*aqui finaliza el codigo del menu desplegable hamburguesa*/
-                .hamburger_menu {
-                    
-                    
-                    .bootom_headerA{
-                          
-                    }
-                    .bootom_headerB{
-                        
-                    }
-                    .Nav_Hamburguer{
-                        
-                        .sub-listfooter{
-                            width: 160px;
-                            background: white;
-                            padding-top: 10px;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        display: none;
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
                             
-                            .SubFooter{
-                                .icon1{
-                                    
-                                }
-                                .First_Menu{
-                                    z-index: 1;
-                                    
-                                }
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
                             }
                         }
                     }
-        
                 }
-                .logo{
-                    justify-self: center;
-                    margin-left: 40px;
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
                     
-                    .Image_Logo{
-                        height: 100px;
-                        width: 100px;
-                    }
-                }
-                .search{
-                    .nav-search{
-                        height: 64px;
-                        width: 100%; 
-                                            
-                        #searchPrincipal{
-                            height: 64px;
-                            width: 100%;
-                        }
-                        .nav_searchA{
-                            
-                        }
-                    }
-                    .nav_searchB{
-                        
-                        .nav_searchAB{
-                            height: 64px;
-                            width: 64px;
-                            align-items: center;
-
-                            
-                        }
-                    }
-                }
-                .menu_section{
-                    padding: 3px;
-                    width: 100%;
-                    .menu_sectionB{
-                        justify-items: center;
-                        .sub-menusection{
-                            width: 100%;
-                            justify-content: end;
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
                             margin: 0px;
-                            .sub-menusectionB:hover{
-                                
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
                             }
-                            .sub-menusectionB{
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
                                 }
-                                
-                            }
-                            .iconA{
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
+                                .itemFrase{
+                                    display: none;
                                 }
-        
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
                             }
-                            .iconB{
+    
+                            .iconA {
+                                text-decoration: none;
+                            }
+    
+                            .iconB {
+                                text-decoration: none;
                                 display: none;
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
+                        
                             }
-                            .iconC{
+    
+                            .iconC {
                                 display: none;
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
+            
                             }
-                            .iconD{
-                                padding-left: 10px;
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                }
-                                .item_frase{
-                                    p{
-                                        display: none;
-                                    }
-                                }
-        
+    
+                            .iconD {
                             }
                         }
                     }
                 }
             }
-            .search{ 
-                padding-left: 20px;  
-                padding-right: 20px;    
-                display: flex; 
-                display: none;        
-                .nav-search{
-                    width: 100%;  
-                    height: 44px;                      
-                    #searchPrincipal{
+    
+            .searchB {
+                display: flex;
+                .navSearch {
+                    padding-left: 5px;
+                    padding-right: 10px;
+                    width: 100%;
+
+                    #searchPrincipal {
+                        width: 100%;
+                        border-radius: 5px;
+                        border: 2px solid nth($list: $bordercolor, $n: 1);
                         
                     }
-                    .nav_searchA{
-                        height: 44px;                        
+
+                    .navSearchA {
+                        height: 44px;
                     }
                 }
-                .nav_searchB{
-                    
-                    
-                    .nav_searchAB{
-                        align-items: center;
-                        width: 64px;
-                        height: 64px;
-                        
+
+                .navSearchB {
+                    .navSearchAB {
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 5px;
+                        background-color: #273fb4;
+                        border: 0px;
+
+                        img {
+                            filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                            font-size: 899px;
+                        }
                     }
+                }
+                .navFull{
+                    display: none;
                 }
             }
         }
-    }  
+    }
+
 }
-@media only screen and (min-width: 993px) and (max-width: 1024px){
+
+@media (min-width: 769px) and (max-width: 991px){
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        .homme_header{
+    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
             width: 100%;
-            .Shipping_cost{
-                width: 100%;
-                .shippinB{
-                    color:nth($list: $color, $n:1 );
-                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
                     background-clip: text;
                     animation: color 3s linear infinite;
                     background-size: 500%;
-                    width: 100%;
+                    font-size: 5vw;
                 }
                 @keyframes color {
-                    from{
+                    from {
                         background-position: 0% 50%;
                     }
-                    to{
+                    to {
                         background-position: 100% 50%;
                     }
                 }
             }
-            .menuHeader{
-                display: grid;
-                grid-template-columns: 0fr 0fr 3fr 1fr;  
-                justify-content:center ;
-                padding-right: 20px; 
-                padding-left: 20px;    
-                width: 100%;     
-                /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
-                .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
-                    position:absolute;
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                    right: 0;
-                    top: 0;
-                    width: 48px;
-                    height: 48px;
-                }
-                .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
-                    font-size: 48px;
-                    pointer-events: none;
-                }
-                .hamburger_menu input[type="checkbox"] {
-                    opacity: 0;
-                }
-                .hamburger_menu input:checked ~ nav {
-                    display: block;
-                }
-                .hamburger_menu input:checked ~ .bootom_headerA {
-                    display:none;
-                }
-                
-                .hamburger_menu input:not(:checked) ~ .bootom_headerB {
-                    display: none;
-                  }
-                input#Open_Colse{
-                    cursor: pointer;
-                }
-                /*aqui finaliza el codigo del menu desplegable hamburguesa*/
-                .hamburger_menu {
-                    
-                    
-                    .bootom_headerA{
-                          
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
+                        width: 100%;
                     }
-                    .bootom_headerB{
-                        
-                    }
-                    .Nav_Hamburguer{
-                        
-                        .sub-listfooter{
-                            width: 160px;
-                            background: white;
-                            padding-top: 10px;
+             
+                    
+                    button{
+                        span{
                             
-                            .SubFooter{
-                                .icon1{
-                                    
-                                }
-                                .First_Menu{
-                                    z-index: 1;
-                                    
-                                }
+                        }
+              
+                    }
+                    .navToogle{
+                        background-color:white;
+                        position:absolute;
+                        top: 53px;
+                        width: 80vw;
+                        height: 80vw;
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
+                            width: 100%;
+                            margin: 20px;
+                            
+                        }
+                    }
+                }
+    
+                
+    
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: flex;
+                    width: 100%;
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        width: 100%;
+                        
+    
+                        #searchPrincipal {
+                            width: 100%;
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
                             }
                         }
                     }
-        
                 }
-                .logo{
-                    justify-self: center;
-                    margin-left: 40px;
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
                     
-                    .Image_Logo{
-                        height: 100px;
-                        width: 100px;
-                    }
-                }
-                .search{
-                    .nav-search{
-                        height: 64px;
-                        width: 100%; 
-                                            
-                        #searchPrincipal{
-                            height: 64px;
-                            width: 100%;
-                        }
-                        .nav_searchA{
-                            
-                        }
-                    }
-                    .nav_searchB{
-                        
-                        .nav_searchAB{
-                            height: 64px;
-                            width: 64px;
-                            align-items: center;
-
-                            
-                        }
-                    }
-                }
-                .menu_section{
-                    padding: 3px;
-                    width: 100%;
-                    .menu_sectionB{
-                        justify-items: center;
-                        .sub-menusection{
-                            width: 100%;
-                            justify-content: end;
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
                             margin: 0px;
-                            .sub-menusectionB:hover{
-                                
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
                             }
-                            .sub-menusectionB{
-                                a{
-                                    .Icons_Four{
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
                                 }
-                                
+                                .itemFrase{
+                                    display: none;
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                                }
                             }
-                            .iconA{
-                                
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        display: none;
-                                    }  
-                                }
-        
+    
+                            .iconA {
+                                text-decoration: none;
                             }
-                            .iconB{
+    
+                            .iconB {
+                                text-decoration: none;
+                                display: none;
                                 
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
+                        
                             }
-                            .iconC{
+    
+                            .iconC {
+                                display: none;
                                 
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                    p{
-                                        
-                                    }  
-                                }
-        
+            
                             }
-                            .iconD{
-                                padding-left: 10px;
-                                a{
-                                    .Icons_Four{
-                                        height: 64px;
-                                        width: 64px;
-                                         
-                                    }
-                                }
-                                .item_frase{
-                                    p{
-                                        display: none;
-                                    }
-                                }
-        
+    
+                            .iconD {
                             }
                         }
                     }
                 }
             }
-            .search{ 
-                padding-left: 20px;  
-                padding-right: 20px;    
-                display: flex; 
-                display: none;        
-                .nav-search{
-                    width: 100%;  
-                    height: 44px;                      
-                    #searchPrincipal{
-                        
-                    }
-                    .nav_searchA{
-                        height: 44px;                        
-                    }
-                }
-                .nav_searchB{
-                    
-                    
-                    .nav_searchAB{
-                        align-items: center;
-                        width: 64px;
-                        height: 64px;
-                        
-                    }
-                }
+    
+            .searchB {
+                display: none;
+                
+            }
+            .navFull{
+                display: none;
+
             }
         }
     }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1400px){
 
+}
+@media (min-width: 992px) and (max-width: 1024px){
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        .homme_header{
-            display: flex;
-            flex-direction: column;
-            width: 98.7vw;
-            
-            .Shipping_cost{
-                width: 100%;
-                .shippinB{
-                    color:nth($list: $color, $n:1 );
-                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    
+    .homeCentral {
+        width: 100%;
+    
+        .hommeHeader {
+            width: 100%;
+    
+            .shippingCost {
+                @include headshippingcost();
+                .shippingB {
+                    color: nth($list: $color, $n: 1);
+                    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
                     background-clip: text;
                     animation: color 3s linear infinite;
                     background-size: 500%;
-                    width: 100%;
+                    font-size: 5vw;
                 }
                 @keyframes color {
-                    from{
+                    from {
                         background-position: 0% 50%;
                     }
-                    to{
+                    to {
                         background-position: 100% 50%;
                     }
                 }
             }
-            .menuHeader{
-                padding-left: 40px;
-                
-                
-            
-                /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
-                .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
-                    position:absolute;
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                    right: 0;
-                    top: 0;
-                    width: 48px;
-                    height: 48px;
-                }
-                .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
-                    font-size: 48px;
-                    pointer-events: none;
-                }
-                .hamburger_menu input[type="checkbox"] {
-                    opacity: 0;
-                }
-                .hamburger_menu input:checked ~ nav {
-                    display: block;
-                }
-                .hamburger_menu input:checked ~ .bootom_headerA {
-                    display:none;
-                }
-                
-                .hamburger_menu input:not(:checked) ~ .bootom_headerB {
-                    display: none;
-                  }
-                input#Open_Colse{
-                    cursor: pointer;
-                }
-                /*aqui finaliza el codigo del menu desplegable hamburguesa*/
-                .hamburger_menu {
+    
+            .menuHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 3px solid nth($list: $colores, $n: 1);
+                gap: 20px;
+                .hamburgerMenu{
+                    .navSuperior{
+                        width: 100%;
+                    }
+             
                     
-                    .bootom_headerA{
-                          
+                    button{
+                        span{
+                            
+                        }
+              
                     }
-                    .bootom_headerB{
+                    .navToogle{
+                        background-color:white;
                         
-                    }
-                    .Nav_Hamburguer{
-                        
-                        .sub-listfooter{
-                            width: 160px;
-                            background: white;
-                            padding-top: 30px;
-                            
-                            .SubFooter{
-                                .icon1{
-                                    
-                                }
-                                .First_Menu{
-                                    z-index: 1;
-                                    
-                                }
-                            }
-                        }
-                    }
-                }
-                .logo{
-                    justify-self: center;
-                    margin-left: 20px;
-                    .Image_Logo{
-                        height: 80px;
-                        width: 80px;
-                    }
-                }
-                .search{
-                    width: 46vw;
-                    margin-left: 30px;
-                    .nav-search{  
-                        width: 750px;                    
-                        #searchPrincipal{
+                        z-index: 40;
+                        border-radius: 10px;
+                        border: 1px solid gray;
+                        .navList{
                             width: 100%;
-                        }
-                        .nav_searchA{
-                            width: 100%;
-                            
-                        }
-                    }
-                    .nav_searchB{
-                        .nav_searchAB{
+                            margin: 20px;
                             
                         }
                     }
                 }
-                .menu_section{
-                    padding: 3px;
+    
+                
+    
+                .logo {
+                    
+                    
+                    a{
+                        .imageLogo{
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+    
+                .search {
+                    display: flex;
                     width: 100%;
-                    .menu_sectionB{
-                        justify-items: center;
-                        .sub-menusection{
+    
+                    .navSearch {
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        width: 100%;
+                        
+    
+                        #searchPrincipal {
                             width: 100%;
-                            justify-content: end;
-                            .sub-menusectionB:hover{     
+                            border-radius: 5px;
+                            border: 2px solid nth($list: $bordercolor, $n: 1);
+                            
+                        }
+    
+                        .navSearchA {
+                            height: 44px;
+                        }
+                    }
+    
+                    .navSearchB {
+                        .navSearchAB {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 5px;
+                            background-color: #273fb4;
+                            border: 0px;
+    
+                            img {
+                                filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+                                font-size: 899px;
                             }
-                            .sub-menusectionB{
-                                .Icons_Four{        
+                        }
+                    }
+                }
+    
+                .menuSection {
+                    font-family: $fuenteheader;
+                    padding: 10px 10px 0px 10px;
+                    
+    
+                    .menuSectionB {
+                        width: 100%;
+                        .subMenuSection {
+                            display: flex;
+                            text-align: center;
+                            font-size: 12px;
+                            list-style: none;
+                            padding: 5px;
+                            margin: 0px;
+    
+                            .subMenuSectionB:hover {
+                                background: #F3F3F3;
+                            }
+    
+                            .subMenuSectionB {
+                                .iconsFour {
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    font-weight: 100;
+                                    margin: 0 auto;
+                                    padding-bottom: 5px;
+                                    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                                }
+                                .itemFrase{
+                                    display: none;
+                                }
+    
+                                p {
+                                    margin: 0px;
+                                    font-family: 'Inter', sans-serif;
+                                    color: nth($list: $colorfonts, $n: 1);
+                                }
+    
+                                .iconsFour:hover {
+                                    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
                                 }
                             }
-                            .iconA{
-                                padding-right: 10px;
+    
+                            .iconA {
+                                text-decoration: none;
+                            }
+    
+                            .iconB {
+                                text-decoration: none;
+                                display: none;
                                 
+                        
                             }
-                            .iconB{
-                                padding-right: 10px;
+    
+                            .iconC {
+                                display: none;
+                                
+            
                             }
-                            .iconC{
-                               
-                            }
-                            .iconD{
-                                padding-left: 10px;
+    
+                            .iconD {
                             }
                         }
                     }
                 }
             }
+    
+            .searchB {
+                display: none;
+                
+            }
         }
     }
+
 }
+// @media only screen and (min-width: 481px) and (max-width: 600px){
+//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+//     .homeCentral {
+//         display: grid;
+//         grid-template-areas:
+//             "header"
+//             "main"
+//             "footer";
+    
+//         .hommeHeader {
+//             width: 100vw;
+    
+//             .shippingCost {
+//                 width: 100%;
+    
+//                 .shippinB {
+//                     color: nth($list: $color, $n: 1);
+//                     background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+//                     background-clip: text;
+//                     animation: color 3s linear infinite;
+//                     background-size: 500%;
+//                     width: 100%;
+//                 }
+    
+//                 @keyframes color {
+//                     from {
+//                         background-position: 0% 50%;
+//                     }
+//                     to {
+//                         background-position: 100% 50%;
+//                     }
+//                 }
+//             }
+    
+//             .menuHeader {
+//                 display: grid;
+//                 grid-template-columns: 0fr 0.5fr 3fr 1fr;
+//                 justify-content: center;
+//                 padding-right: 20px;
+//                 padding-left: 20px;
+//                 width: 100vw;
+    
+//                 .hamburgerMenu {
+//                     input[type="checkbox"],
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         position: absolute;
+//                         box-sizing: border-box;
+//                         margin: 0;
+//                         padding: 0;
+//                         right: 0;
+//                         top: 0;
+//                         width: 48px;
+//                         height: 48px;
+//                     }
+    
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         font-size: 48px;
+//                         pointer-events: none;
+//                     }
+    
+//                     input[type="checkbox"] {
+//                         opacity: 0;
+//                     }
+    
+//                     input:checked ~ nav {
+//                         display: block;
+//                     }
+    
+//                     input:checked ~ .bottomHeaderA {
+//                         display: none;
+//                     }
+    
+//                     input:not(:checked) ~ .bottomHeaderB {
+//                         display: none;
+//                     }
+    
+//                     input#Open_Colse {
+//                         cursor: pointer;
+//                     }
+    
+//                     .hamburgerMenu {
+//                         width: 48px;
+    
+//                         .bottomHeaderA {
+//                         }
+    
+//                         .bottomHeaderB {
+//                         }
+    
+//                         .navHamburguer {
+//                             .subListFooter {
+//                                 width: 160px;
+//                                 background: white;
+//                                 padding-top: 10px;
+    
+//                                 .subFooter {
+//                                     .icon1 {
+//                                     }
+    
+//                                     .firstMenu {
+//                                         z-index: 1;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+    
+//                     .logo {
+//                         justify-self: center;
+    
+//                         .imageLogo {
+//                             height: 70px;
+//                             width: 70px;
+//                         }
+//                     }
+    
+//                     .search {
+//                         .navSearch {
+//                             height: 64px;
+//                             width: 100%;
+    
+//                             #searchPrincipal {
+//                             }
+    
+//                             .navSearchA {
+//                                 height: 44px;
+//                             }
+//                         }
+    
+//                         .navSearchB {
+//                             .navSearchAB {
+//                                 align-items: center;
+//                                 width: 64px;
+//                                 height: 64px;
+//                             }
+//                         }
+//                     }
+    
+//                     .menuSection {
+//                         padding: 3px;
+//                         width: 100%;
+    
+//                         .menuSectionB {
+//                             justify-items: center;
+    
+//                             .subMenuSection {
+//                                 width: 100%;
+//                                 justify-content: end;
+//                                 margin: 0px;
+    
+//                                 .subMenuSectionB:hover {
+//                                 }
+    
+//                                 .subMenuSectionB {
+//                                     a {
+//                                         .iconsFour {
+//                                         }
+    
+//                                         span {
+//                                             display: none;
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconA {
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 64px;
+//                                             width: 100%;
+//                                         }
+    
+//                                         p {
+//                                             display: none;
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconB {
+//                                     display: none;
+    
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 100%;
+//                                             width: 100%;
+//                                         }
+    
+//                                         p {
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconC {
+//                                     display: none;
+    
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 100%;
+//                                             width: 100%;
+//                                         }
+    
+//                                         p {
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconD {
+//                                     padding-left: 10px;
+    
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 100%;
+//                                             width: 100%;
+//                                         }
+//                                     }
+    
+//                                     .itemFrase {
+//                                         p {
+//                                             display: none;
+//                                         }
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+    
+//                 .search {
+//                     padding-left: 20px;
+//                     padding-right: 20px;
+//                     display: flex;
+//                     display: none;
+    
+//                     .navSearch {
+//                         width: 100%;
+//                         height: 44px;
+    
+//                         #searchPrincipal {
+//                         }
+    
+//                         .navSearchA {
+//                             height: 44px;
+//                         }
+//                     }
+    
+//                     .navSearchB {
+//                         .navSearchAB {
+//                             align-items: center;
+//                             width: 64px;
+//                             height: 64px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }    
+// @media only screen and (min-width: 601px) and (max-width: 768px){
+//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+//     .homeCentral {
+//         display: grid;
+//         grid-template-areas:
+//             "header"
+//             "main"
+//             "footer";
+    
+//         .hommeHeader {
+//             width: 100vw;
+    
+//             .shippingCost {
+//                 width: 100%;
+    
+//                 .shippinB {
+//                     color: nth($list: $color, $n: 1);
+//                     background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+//                     background-clip: text;
+//                     animation: color 3s linear infinite;
+//                     background-size: 500%;
+//                     width: 100%;
+//                 }
+    
+//                 @keyframes color {
+//                     from {
+//                         background-position: 0% 50%;
+//                     }
+//                     to {
+//                         background-position: 100% 50%;
+//                     }
+//                 }
+//             }
+    
+//             .menuHeader {
+//                 display: grid;
+//                 grid-template-columns: 0fr 0fr 3fr 1fr;
+//                 justify-content: center;
+//                 padding-right: 20px;
+//                 padding-left: 20px;
+//                 width: 100vw;
+    
+//                 .hamburgerMenu {
+//                     input[type="checkbox"],
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         position: absolute;
+//                         box-sizing: border-box;
+//                         margin: 0;
+//                         padding: 0;
+//                         right: 0;
+//                         top: 0;
+//                         width: 48px;
+//                         height: 48px;
+//                     }
+    
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         font-size: 48px;
+//                         pointer-events: none;
+//                     }
+    
+//                     input[type="checkbox"] {
+//                         opacity: 0;
+//                     }
+    
+//                     input:checked ~ nav {
+//                         display: block;
+//                     }
+    
+//                     input:checked ~ .bottomHeaderA {
+//                         display: none;
+//                     }
+    
+//                     input:not(:checked) ~ .bottomHeaderB {
+//                         display: none;
+//                     }
+    
+//                     input#Open_Colse {
+//                         cursor: pointer;
+//                     }
+    
+//                     .hamburgerMenu {
+//                         width: 48px;
+    
+//                         .bottomHeaderA {
+//                         }
+    
+//                         .bottomHeaderB {
+//                         }
+    
+//                         .navHamburguer {
+//                             .subListFooter {
+//                                 width: 160px;
+//                                 background: white;
+//                                 padding-top: 10px;
+    
+//                                 .subFooter {
+//                                     .icon1 {
+//                                     }
+    
+//                                     .firstMenu {
+//                                         z-index: 1;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+    
+//                     .logo {
+//                         justify-self: center;
+//                         margin-left: 40px;
+    
+//                         .imageLogo {
+//                             height: 100px;
+//                             width: 100px;
+//                         }
+//                     }
+    
+//                     .search {
+//                         .navSearch {
+//                             height: 64px;
+//                             width: 100%;
+    
+//                             #searchPrincipal {
+//                                 height: 64px;
+//                                 width: 100%;
+//                             }
+    
+//                             .navSearchA {
+//                             }
+//                         }
+    
+//                         .navSearchB {
+//                             .navSearchAB {
+//                                 align-items: center;
+//                                 width: 64px;
+//                                 height: 64px;
+//                             }
+//                         }
+//                     }
+    
+//                     .menuSection {
+//                         padding: 3px;
+//                         width: 100%;
+    
+//                         .menuSectionB {
+//                             justify-items: center;
+    
+//                             .subMenuSection {
+//                                 width: 100%;
+//                                 justify-content: end;
+//                                 margin: 0px;
+    
+//                                 .subMenuSectionB:hover {
+//                                 }
+    
+//                                 .subMenuSectionB {
+//                                     a {
+//                                         .iconsFour {
+//                                         }
+    
+//                                         p {
+//                                             display: none;
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconA {
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 64px;
+//                                             width: 64px;
+//                                         }
+    
+//                                         p {
+//                                             display: none;
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconB {
+//                                     display: none;
+    
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 64px;
+//                                             width: 64px;
+//                                             display: none;
+//                                         }
+    
+//                                         p {
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconC {
+//                                     display: none;
+    
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 64px;
+//                                             width: 64px;
+//                                         }
+    
+//                                         p {
+//                                         }
+//                                     }
+//                                 }
+    
+//                                 .iconD {
+//                                     padding-left: 10px;
+    
+//                                     a {
+//                                         .iconsFour {
+//                                             height: 64px;
+//                                             width: 64px;
+//                                         }
+//                                     }
+    
+//                                     .itemFrase {
+//                                         p {
+//                                             display: none;
+//                                         }
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+    
+//                 .search {
+//                     padding-left: 20px;
+//                     padding-right: 20px;
+//                     display: flex;
+//                     display: none;
+    
+//                     .navSearch {
+//                         width: 100%;
+//                         height: 44px;
+    
+//                         #searchPrincipal {
+//                         }
+    
+//                         .navSearchA {
+//                             height: 44px;
+//                         }
+//                     }
+    
+//                     .navSearchB {
+//                         .navSearchAB {
+//                             align-items: center;
+//                             width: 64px;
+//                             height: 64px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+    
+
+// }
+// @media only screen and (min-width: 769px) and (max-width: 992px){
+//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+//     .homeCentral {
+//         display: grid;
+//         grid-template-areas:
+//             "header"
+//             "main"
+//             "footer";
+    
+//         .hommeHeader {
+//             width: 100%;
+    
+//             .shippingCost {
+//                 width: 100%;
+    
+//                 .shippinB {
+//                     color: nth($list: $color, $n: 1);
+//                     background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+//                     background-clip: text;
+//                     animation: color 3s linear infinite;
+//                     background-size: 500%;
+//                     width: 100%;
+//                 }
+    
+//                 @keyframes color {
+//                     from {
+//                         background-position: 0% 50%;
+//                     }
+//                     to {
+//                         background-position: 100% 50%;
+//                     }
+//                 }
+//             }
+    
+//             .menuHeader {
+//                 display: grid;
+//                 grid-template-columns: 0fr 0fr 3fr 1fr;
+//                 justify-content: center;
+//                 padding-right: 20px;
+//                 padding-left: 20px;
+//                 width: 100%;
+    
+//                 .hamburgerMenu {
+//                     input[type="checkbox"],
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         position: absolute;
+//                         box-sizing: border-box;
+//                         margin: 0;
+//                         padding: 0;
+//                         right: 0;
+//                         top: 0;
+//                         width: 48px;
+//                         height: 48px;
+//                     }
+    
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         font-size: 48px;
+//                         pointer-events: none;
+//                     }
+    
+//                     input[type="checkbox"] {
+//                         opacity: 0;
+//                     }
+    
+//                     input:checked ~ nav {
+//                         display: block;
+//                     }
+    
+//                     input:checked ~ .bottomHeaderA {
+//                         display: none;
+//                     }
+    
+//                     input:not(:checked) ~ .bottomHeaderB {
+//                         display: none;
+//                     }
+    
+//                     input#Open_Colse {
+//                         cursor: pointer;
+//                     }
+    
+//                     .hamburgerMenu {
+//                     }
+    
+//                     .bottomHeaderA {
+//                     }
+    
+//                     .bottomHeaderB {
+//                     }
+    
+//                     .navHamburguer {
+//                         .subListFooter {
+//                             width: 160px;
+//                             background: white;
+//                             padding-top: 10px;
+    
+//                             .subFooter {
+//                                 .icon1 {
+//                                 }
+    
+//                                 .firstMenu {
+//                                     z-index: 1;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+    
+//                 .logo {
+//                     justify-self: center;
+//                     margin-left: 40px;
+    
+//                     .imageLogo {
+//                         height: 100px;
+//                         width: 100px;
+//                     }
+//                 }
+    
+//                 .search {
+//                     .navSearch {
+//                         height: 64px;
+//                         width: 100%;
+    
+//                         #searchPrincipal {
+//                             height: 64px;
+//                             width: 100%;
+//                         }
+    
+//                         .navSearchA {
+//                         }
+//                     }
+    
+//                     .navSearchB {
+//                         .navSearchAB {
+//                             align-items: center;
+//                             width: 64px;
+//                             height: 64px;
+//                         }
+//                     }
+//                 }
+    
+//                 .menuSection {
+//                     padding: 3px;
+//                     width: 100%;
+    
+//                     .menuSectionB {
+//                         justify-items: center;
+    
+//                         .subMenuSection {
+//                             width: 100%;
+//                             justify-content: end;
+//                             margin: 0px;
+    
+//                             .subMenuSectionB:hover {
+//                             }
+    
+//                             .subMenuSectionB {
+//                                 a {
+//                                     .iconsFour {
+//                                     }
+    
+//                                     p {
+//                                         display: none;
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconA {
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+    
+//                                     p {
+//                                         display: none;
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconB {
+//                                 display: none;
+    
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+    
+//                                     p {
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconC {
+//                                 display: none;
+    
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+    
+//                                     p {
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconD {
+//                                 padding-left: 10px;
+    
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+//                                 }
+    
+//                                 .itemFrase {
+//                                     p {
+//                                         display: none;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+    
+//             .search {
+//                 padding-left: 20px;
+//                 padding-right: 20px;
+//                 display: flex;
+//                 display: none;
+    
+//                 .navSearch {
+//                     width: 100%;
+//                     height: 44px;
+    
+//                     #searchPrincipal {
+//                     }
+    
+//                     .navSearchA {
+//                         height: 44px;
+//                     }
+//                 }
+    
+//                 .navSearchB {
+//                     .navSearchAB {
+//                         align-items: center;
+//                         width: 64px;
+//                         height: 64px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+      
+// }
+// @media only screen and (min-width: 993px) and (max-width: 1024px){
+//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+//     .homeCentral {
+//         display: grid;
+//         grid-template-areas:
+//             "header"
+//             "main"
+//             "footer";
+    
+//         .hommeHeader {
+//             width: 100%;
+    
+//             .shippingCost {
+//                 width: 100%;
+    
+//                 .shippingB {
+//                     color: nth($list: $color, $n: 1);
+//                     background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+//                     background-clip: text;
+//                     animation: color 3s linear infinite;
+//                     background-size: 500%;
+//                     width: 100%;
+//                 }
+    
+//                 @keyframes color {
+//                     from {
+//                         background-position: 0% 50%;
+//                     }
+//                     to {
+//                         background-position: 100% 50%;
+//                     }
+//                 }
+//             }
+    
+//             .menuHeader {
+//                 display: grid;
+//                 grid-template-columns: 0fr 0fr 3fr 1fr;
+//                 justify-content: center;
+//                 padding-right: 20px;
+//                 padding-left: 20px;
+//                 width: 100%;
+    
+//                 .hamburgerMenu {
+//                     input[type="checkbox"],
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         position: absolute;
+//                         box-sizing: border-box;
+//                         margin: 0;
+//                         padding: 0;
+//                         right: 0;
+//                         top: 0;
+//                         width: 48px;
+//                         height: 48px;
+//                     }
+    
+//                     .bottomHeaderA,
+//                     .bottomHeaderB {
+//                         font-size: 48px;
+//                         pointer-events: none;
+//                     }
+    
+//                     input[type="checkbox"] {
+//                         opacity: 0;
+//                     }
+    
+//                     input:checked ~ nav {
+//                         display: block;
+//                     }
+    
+//                     input:checked ~ .bottomHeaderA {
+//                         display: none;
+//                     }
+    
+//                     input:not(:checked) ~ .bottomHeaderB {
+//                         display: none;
+//                     }
+    
+//                     input#Open_Colse {
+//                         cursor: pointer;
+//                     }
+    
+//                     .hamburgerMenu {
+//                     }
+    
+//                     .bottomHeaderA {
+//                     }
+    
+//                     .bottomHeaderB {
+//                     }
+    
+//                     .navHamburguer {
+//                         .subListFooter {
+//                             width: 160px;
+//                             background: white;
+//                             padding-top: 10px;
+    
+//                             .subFooter {
+//                                 .icon1 {
+//                                 }
+    
+//                                 .firstMenu {
+//                                     z-index: 1;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+    
+//                 .logo {
+//                     justify-self: center;
+//                     margin-left: 40px;
+    
+//                     .imageLogo {
+//                         height: 100px;
+//                         width: 100px;
+//                     }
+//                 }
+    
+//                 .search {
+//                     .navSearch {
+//                         height: 64px;
+//                         width: 100%;
+    
+//                         #searchPrincipal {
+//                             height: 64px;
+//                             width: 100%;
+//                         }
+    
+//                         .navSearchA {
+//                         }
+//                     }
+    
+//                     .navSearchB {
+//                         .navSearchAB {
+//                             align-items: center;
+//                             width: 64px;
+//                             height: 64px;
+//                         }
+//                     }
+//                 }
+    
+//                 .menuSection {
+//                     padding: 3px;
+//                     width: 100%;
+    
+//                     .menuSectionB {
+//                         justify-items: center;
+    
+//                         .subMenuSection {
+//                             width: 100%;
+//                             justify-content: end;
+//                             margin: 0px;
+    
+//                             .subMenuSectionB:hover {
+//                             }
+    
+//                             .subMenuSectionB {
+//                                 a {
+//                                     .iconsFour {
+//                                     }
+    
+//                                     p {
+//                                         display: none;
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconA {
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+    
+//                                     p {
+//                                         display: none;
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconB {
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+    
+//                                     p {
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconC {
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+    
+//                                     p {
+//                                     }
+//                                 }
+//                             }
+    
+//                             .iconD {
+//                                 padding-left: 10px;
+    
+//                                 a {
+//                                     .iconsFour {
+//                                         height: 64px;
+//                                         width: 64px;
+//                                     }
+//                                 }
+    
+//                                 .itemFrase {
+//                                     p {
+//                                         display: none;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+    
+//             .search {
+//                 padding-left: 20px;
+//                 padding-right: 20px;
+//                 display: flex;
+//                 display: none;
+    
+//                 .navSearch {
+//                     width: 100%;
+//                     height: 44px;
+    
+//                     #searchPrincipal {
+//                     }
+    
+//                     .navSearchA {
+//                         height: 44px;
+//                     }
+//                 }
+    
+//                 .navSearchB {
+//                     .navSearchAB {
+//                         align-items: center;
+//                         width: 64px;
+//                         height: 64px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+    
+// }
+// @media only screen and (min-width: 1025px) and (max-width: 1400px){
+
+//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+//     .homeCentral {
+//         display: grid;
+//         grid-template-areas:
+//             "header"
+//             "main"
+//             "footer";
+    
+//         .hommeHeader {
+//             display: flex;
+//             flex-direction: column;
+//             width: 98.7vw;
+    
+//             .shippingCost {
+//                 width: 100%;
+    
+//                 .shippingB {
+//                     color: nth($list: $color, $n: 1);
+//                     background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+//                     background-clip: text;
+//                     animation: color 3s linear infinite;
+//                     background-size: 500%;
+//                     width: 100%;
+//                 }
+    
+//                 @keyframes color {
+//                     from {
+//                         background-position: 0% 50%;
+//                     }
+//                     to {
+//                         background-position: 100% 50%;
+//                     }
+//                 }
+//             }
+    
+//             .menuHeader {
+//                 padding-left: 40px;
+    
+//                 /* Esta sección está dentro del menú pero es el código para el menú desplegable del encabezado */
+//                 .hamburgerMenu input[type="checkbox"],
+//                 .hamburgerMenu .bottomHeaderA,
+//                 .hamburgerMenu .bottomHeaderB {
+//                     position: absolute;
+//                     box-sizing: border-box;
+//                     margin: 0;
+//                     padding: 0;
+//                     right: 0;
+//                     top: 0;
+//                     width: 48px;
+//                     height: 48px;
+//                 }
+    
+//                 .hamburgerMenu .bottomHeaderA,
+//                 .hamburgerMenu .bottomHeaderB {
+//                     font-size: 48px;
+//                     pointer-events: none;
+//                 }
+    
+//                 .hamburgerMenu input[type="checkbox"] {
+//                     opacity: 0;
+//                 }
+    
+//                 .hamburgerMenu input:checked ~ nav {
+//                     display: block;
+//                 }
+    
+//                 .hamburgerMenu input:checked ~ .bottomHeaderA {
+//                     display: none;
+//                 }
+    
+//                 .hamburgerMenu input:not(:checked) ~ .bottomHeaderB {
+//                     display: none;
+//                 }
+    
+//                 input#Open_Colse {
+//                     cursor: pointer;
+//                 }
+    
+//                 /* Aquí finaliza el código del menú desplegable hamburguesa */
+//                 .hamburgerMenu {
+//                     .bottomHeaderA {
+//                     }
+    
+//                     .bottomHeaderB {
+//                     }
+    
+//                     .navHamburguer {
+//                         .subListFooter {
+//                             width: 160px;
+//                             background: white;
+//                             padding-top: 30px;
+    
+//                             .subFooter {
+//                                 .icon1 {
+//                                 }
+    
+//                                 .firstMenu {
+//                                     z-index: 1;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+    
+//                 .logo {
+//                     justify-self: center;
+//                     margin-left: 20px;
+    
+//                     .imageLogo {
+//                         height: 80px;
+//                         width: 80px;
+//                     }
+//                 }
+    
+//                 .search {
+//                     width: 66vw;
+//                     margin-left: 30px;
+    
+//                     .navSearch {
+//                         width: 750px;
+    
+//                         #searchPrincipal {
+//                             width: 100%;
+//                         }
+    
+//                         .navSearchA {
+//                             width: 100%;
+//                         }
+//                     }
+    
+//                     .navSearchB {
+//                         .navSearchAB {
+//                         }
+//                     }
+//                 }
+    
+//                 .menuSection {
+//                     padding: 3px;
+//                     width: 100%;
+    
+//                     .menuSectionB {
+//                         justify-items: center;
+    
+//                         .subMenuSection {
+//                             width: 100%;
+//                             justify-content: end;
+    
+//                             .subMenuSectionB:hover {
+//                             }
+    
+//                             .subMenuSectionB {
+//                                 .iconsFour {
+//                                 }
+//                             }
+    
+//                             .iconA {
+//                                 padding-right: 10px;
+//                             }
+    
+//                             .iconB {
+//                                 padding-right: 10px;
+//                             }
+    
+//                             .iconC {
+//                             }
+    
+//                             .iconD {
+//                                 padding-left: 10px;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+    
+// }
+// }

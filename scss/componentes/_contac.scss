@@ -1,56 +1,5 @@
-
-#Contactanos{
-    h1{
-        text-align: center;
-    }
-    h2{
-        text-align: center;
-
-    }
-    .Contac_form1{
-        padding-top: 29.9px;
-        padding-left: 500px;
-        padding-right: 500px;
-        padding-bottom: 200px;
-        font-family: 'Mingzat', sans-serif;
-    }
-}
 @media only screen and (max-width: 480px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-    }
-    #Contactanos{
-        .encanez{
-            h1{
-                text-align: center;
-            }
-            h2{
-                text-align: center;
-        
-            }
-
-        }
-        
-        .Contac_form1{
-            padding: 0px;       
-            font-family: 'Mingzat', sans-serif;
-            p{
-                text-align: center;
-            }
-            form{
-                text-align: center;
-            }
-        }
-    }
-}
-@media only screen and (min-width: 481px) and (max-width: 600px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
@@ -58,6 +7,7 @@
         "footer";
         #Contactanos{
             .encanez{
+                padding-top: 10px;
                 h1{
                     text-align: center;
                 }
@@ -68,22 +18,52 @@
     
             }
             
-            .Contac_form1{
+            .ContacForm1{
                 padding: 0px;       
                 font-family: 'Mingzat', sans-serif;
+                
                 p{
                     text-align: center;
                 }
                 form{
+                    display: flex;
+                    flex-direction: column;
                     text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
+                        margin-left: 5rem;
+                        margin-right: 5rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
                 }
             }
         }
     }
-}
-@media only screen and (min-width: 601px) and (max-width: 768px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+}   
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
@@ -91,6 +71,7 @@
         "footer";
         #Contactanos{
             .encanez{
+                padding-top: 10px;
                 h1{
                     text-align: center;
                 }
@@ -101,22 +82,53 @@
     
             }
             
-            .Contac_form1{
-                padding: 0px;      
+            .ContacForm1{
+                padding: 0px;       
                 font-family: 'Mingzat', sans-serif;
+                
                 p{
                     text-align: center;
                 }
                 form{
+                    display: flex;
+                    flex-direction: column;
                     text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
+                        margin-left: 5rem;
+                        margin-right: 5rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
                 }
             }
         }
     }
-}
-@media only screen and (min-width: 769px) and (max-width: 992px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+    
+}    
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
@@ -124,6 +136,7 @@
         "footer";
         #Contactanos{
             .encanez{
+                padding-top: 10px;
                 h1{
                     text-align: center;
                 }
@@ -134,14 +147,109 @@
     
             }
             
-            .Contac_form1{
-                padding: 0px;      
+            .ContacForm1{
+                padding: 0px;       
                 font-family: 'Mingzat', sans-serif;
+                
                 p{
                     text-align: center;
                 }
                 form{
+                    display: flex;
+                    flex-direction: column;
                     text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
+                        margin-left: 15rem;
+                        margin-right: 15rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #Contactanos{
+            .encanez{
+                padding-top: 10px;
+                h1{
+                    text-align: center;
+                }
+                h2{
+                    text-align: center;
+            
+                }
+    
+            }
+            
+            .ContacForm1{
+                padding: 0px;       
+                font-family: 'Mingzat', sans-serif;
+                
+                p{
+                    text-align: center;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 1rem;
+                    .partOne{
+                        gap: 10px;
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partTwo{
+                        label{
+                            width: 20vw;
+                        }
+
+                    }
+                    .partThree{
+                        justify-content: center;
+                        label{
+                            width: 20vw;
+                        }
+                    }
+                    .bottonReclamo{
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                        margin-left: 35rem;
+                        margin-right: 35rem;
+                        background-color: #273fb4;
+                        color: white;
+                    }
                 }
             }
         }

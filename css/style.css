@@ -10,7 +10,6 @@
   src: url("tipografia/Muli-Semi-BoldItalic.ttf");
 }
 @media (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
@@ -226,7 +225,6 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
@@ -431,7 +429,6 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid grey;
-    flex-direction: column;
   }
   .homeCentral #footerHome .footerCopyrigth .copyFooter {
     padding-top: 10px;
@@ -441,12 +438,475 @@
     padding-top: 10px;
   }
   .homeCentral #footerHome .footerCopyrigth .footerImagePayment img {
+    width: 30vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #footerHome {
+    border-top: 1px solid chocolate;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95vw;
+  }
+  .homeCentral #footerHome a {
+    text-decoration: none;
+  }
+  .homeCentral #footerHome .contactForm {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
     width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .homeCentral #footerHome .contactForm .suscribe {
+    margin-right: 10px;
+    padding-top: 5px;
+    font-family: "Inter", sans-serif;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .homeCentral #footerHome .contactForm .suscribe p {
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .contactForm .formSub {
+    width: 100%;
+  }
+  .homeCentral #footerHome .contactForm .formSub form {
+    display: flex;
+    gap: 5px;
+  }
+  .homeCentral #footerHome .contactForm .formSub form .emailClib {
+    height: 30px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .contactForm .formSub form #emailCliente {
+    width: 100%;
+  }
+  .homeCentral #footerHome .contactForm .formSub form .button.emailClib {
+    background: #ffa040;
+    border: 0px;
+  }
+  .homeCentral #footerHome .contactForm .formSub form .botton1 {
+    color: white;
+    background: #ffa040;
+    border: 0px;
+  }
+  .homeCentral #footerHome .sectionFooter {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .logoFooter {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .logoFooter img {
+    width: 13vw;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .informationEnterpise {
+    text-align: center;
+    font-size: 2.2vw;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .informationEnterpise .infEnter {
+    padding-top: 10px;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 0px;
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .socialMediaContact {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .homeCentral #footerHome .sectionFooter .socialMediaContact .socialMediaContactS {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .homeCentral #footerHome .sectionFooter .socialMediaContact .socialMediaContactS .socialSubicon {
+    width: 60px;
+    height: 60px;
+  }
+  .homeCentral #footerHome .sectionFooter .socialMediaContact .socialMediaContactS .informationBus {
+    padding-top: 8px;
+    padding-left: 4px;
+    width: 100%;
+    font-size: 2vw;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 30px;
+    font-size: 2vw;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .tittleFooterC {
+    color: #7c667c;
+    font-weight: 700;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter {
+    list-style: none;
+    padding: 5px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter .subFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter .subFooter a {
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter .subFooter:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .tittleFooterC {
+    color: #7c667c;
+    font-weight: 700;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter {
+    list-style: none;
+    padding: 5px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter .subFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter .subFooter a {
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter .subFooter:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .tittleFooterC {
+    color: #7c667c;
+    font-weight: 700;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter {
+    list-style: none;
+    padding: 5px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter .subFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter .subFooter a {
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter .subFooter:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory div:nth-child(-n+2) {
+    flex: 1;
+  }
+  .homeCentral #footerHome .socialMedia {
+    padding-top: 10px;
+  }
+  .homeCentral #footerHome .socialMedia div {
+    padding-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #footerHome .socialMedia div p {
+    margin-bottom: 5px;
+  }
+  .homeCentral #footerHome .socialMedia .socialMediaA {
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .homeCentral #footerHome .socialMedia .socialMediaA .socialIcon {
+    height: 30px;
+  }
+  .homeCentral #footerHome .footerCopyrigth {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+  }
+  .homeCentral #footerHome .footerCopyrigth .copyFooter {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .footerCopyrigth .footerImagePayment {
+    padding-top: 10px;
+  }
+  .homeCentral #footerHome .footerCopyrigth .footerImagePayment img {
+    width: 20vw;
+  }
+}
+@media (min-width: 1025px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #footerHome {
+    border-top: 1px solid chocolate;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95vw;
+  }
+  .homeCentral #footerHome a {
+    text-decoration: none;
+  }
+  .homeCentral #footerHome .contactForm {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .homeCentral #footerHome .contactForm .suscribe {
+    margin-right: 10px;
+    padding-top: 5px;
+    font-family: "Inter", sans-serif;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 2vw;
+  }
+  .homeCentral #footerHome .contactForm .suscribe p {
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .contactForm .formSub {
+    width: 100%;
+  }
+  .homeCentral #footerHome .contactForm .formSub form {
+    display: flex;
+    gap: 5px;
+  }
+  .homeCentral #footerHome .contactForm .formSub form .emailClib {
+    height: 30px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .contactForm .formSub form #emailCliente {
+    width: 100%;
+  }
+  .homeCentral #footerHome .contactForm .formSub form .button.emailClib {
+    background: #ffa040;
+    border: 0px;
+  }
+  .homeCentral #footerHome .contactForm .formSub form .botton1 {
+    color: white;
+    background: #ffa040;
+    border: 0px;
+  }
+  .homeCentral #footerHome .sectionFooter {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .logoFooter {
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .logoFooter img {
+    width: 8vw;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .informationEnterpise {
+    text-align: center;
+    font-size: 1.4vw;
+    margin-right: 50px;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .informationEnterpise .infEnter {
+    padding-top: 10px;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 0px;
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .socialMediaContact {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .socialMediaContact .socialMediaContactS {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .socialMediaContact .socialMediaContactS .socialSubicon {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+  }
+  .homeCentral #footerHome .sectionFooter .informationEntrepise .socialMediaContact .socialMediaContactS .informationBus {
+    padding-top: 8px;
+    padding-left: 4px;
+    width: 100%;
+    font-size: 1.4vw;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 30px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.4vw;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .tittleFooterC {
+    color: #7c667c;
+    font-weight: 700;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter {
+    list-style: none;
+    padding: 5px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter .subFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter .subFooter a {
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .categories .subListFooter .subFooter:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.4vw;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .tittleFooterC {
+    color: #7c667c;
+    font-weight: 700;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter {
+    list-style: none;
+    padding: 5px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter .subFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter .subFooter a {
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .accountCustomer .subListFooter .subFooter:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.4vw;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .tittleFooterC {
+    color: #7c667c;
+    font-weight: 700;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter {
+    list-style: none;
+    padding: 5px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter .subFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter .subFooter a {
+    color: #7d7d7d;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory .informationCompany .subListFooter .subFooter:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
+  .homeCentral #footerHome .sectionFooter .itemsCaregory div:nth-child(-n+2) {
+    flex: 1;
+  }
+  .homeCentral #footerHome .socialMedia {
+    padding-top: 10px;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    justify-content: center;
+  }
+  .homeCentral #footerHome .socialMedia div {
+    padding-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #footerHome .socialMedia div p {
+    margin-bottom: 5px;
+  }
+  .homeCentral #footerHome .socialMedia .socialMediaA {
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .homeCentral #footerHome .socialMedia .socialMediaA .socialIcon {
+    height: 30px;
+  }
+  .homeCentral #footerHome .footerCopyrigth {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+  }
+  .homeCentral #footerHome .footerCopyrigth .copyFooter {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .homeCentral #footerHome .footerCopyrigth .footerImagePayment {
+    padding-top: 10px;
+  }
+  .homeCentral #footerHome .footerCopyrigth .footerImagePayment img {
+    width: 20vw;
   }
 }
 /* este es es header*/
 @media (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     width: 100%;
   }
@@ -609,7 +1069,6 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     width: 100%;
   }
@@ -772,7 +1231,6 @@
   }
 }
 @media (min-width: 769px) and (max-width: 991px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     width: 100%;
   }
@@ -912,7 +1370,6 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     width: 100%;
   }
@@ -1040,12 +1497,181 @@
   .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .iconC {
     display: none;
   }
+  .homeCentral .hommeHeader .navFull {
+    background-color: white;
+  }
+  .homeCentral .hommeHeader .navFull #navbarNav {
+    justify-content: center;
+  }
+  .homeCentral .hommeHeader .navFull #navbarNav .navList .nav-item .nav-link {
+    color: #7d7d7d;
+  }
+  .homeCentral .hommeHeader .navFull #navbarNav .navList .nav-item .nav-link:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
+  .homeCentral .hommeHeader .searchB {
+    display: none;
+  }
+}
+@media (min-width: 1025px) {
+  .homeCentral {
+    width: 100%;
+  }
+  .homeCentral .hommeHeader {
+    width: 100%;
+  }
+  .homeCentral .hommeHeader .shippingCost {
+    background: linear-gradient(to right, blue, white);
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral .hommeHeader .shippingCost .shippingB {
+    color: red;
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;
+    font-size: 2vw;
+  }
+  @keyframes color {
+    from {
+      background-position: 0% 50%;
+    }
+    to {
+      background-position: 100% 50%;
+    }
+  }
+  .homeCentral .hommeHeader .menuHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #ebebeb;
+    gap: 20px;
+  }
+  .homeCentral .hommeHeader .menuHeader .hamburgerMenu {
+    display: none;
+  }
+  .homeCentral .hommeHeader .menuHeader .hamburgerMenu .navSuperior {
+    width: 100%;
+  }
+  .homeCentral .hommeHeader .menuHeader .hamburgerMenu .navToogle {
+    background-color: white;
+    z-index: 40;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+  .homeCentral .hommeHeader .menuHeader .hamburgerMenu .navToogle .navList {
+    width: 100%;
+    margin: 20px;
+  }
+  .homeCentral .hommeHeader .menuHeader .logo a .imageLogo {
+    width: 100%;
+    object-fit: cover;
+  }
+  .homeCentral .hommeHeader .menuHeader .search {
+    display: flex;
+    width: 50vw;
+  }
+  .homeCentral .hommeHeader .menuHeader .search .navSearch {
+    padding-left: 5px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  .homeCentral .hommeHeader .menuHeader .search .navSearch #searchPrincipal {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #ebeced;
+  }
+  .homeCentral .hommeHeader .menuHeader .search .navSearch .navSearchA {
+    height: 44px;
+  }
+  .homeCentral .hommeHeader .menuHeader .search .navSearchB .navSearchAB {
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #273fb4;
+    border: 0px;
+  }
+  .homeCentral .hommeHeader .menuHeader .search .navSearchB .navSearchAB img {
+    filter: invert(99%) sepia(49%) saturate(0%) hue-rotate(2deg) brightness(108%) contrast(101%);
+    font-size: 899px;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection {
+    font-family: "Nuosu SIL", serif;
+    padding: 10px 10px 0px 10px;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection {
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+    gap: 20px;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .subMenuSectionB:hover {
+    background: #F3F3F3;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .subMenuSectionB .iconsFour {
+    height: 50px;
+    width: 4vw;
+    display: flex;
+    font-weight: 100;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .subMenuSectionB .itemFrase {
+    font-family: "mulish", sans-serif;
+    text-decoration: none;
+    font-size: 1vw;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .subMenuSectionB p {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    color: #7d7d7d;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .subMenuSectionB .iconsFour:hover {
+    filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .iconA a {
+    gap: 10px;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .iconB a {
+    gap: 10px;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .iconC a {
+    gap: 10px;
+  }
+  .homeCentral .hommeHeader .menuHeader .menuSection .menuSectionB .subMenuSection .iconD a {
+    gap: 10px;
+  }
+  .homeCentral .hommeHeader .navFull {
+    background-color: white;
+  }
+  .homeCentral .hommeHeader .navFull #navbarNav {
+    justify-content: center;
+  }
+  .homeCentral .hommeHeader .navFull #navbarNav .navList .nav-item .nav-link {
+    color: #7d7d7d;
+  }
+  .homeCentral .hommeHeader .navFull #navbarNav .navList .nav-item .nav-link:hover {
+    background-color: #ebebeb;
+    color: #7c667c;
+    font-weight: 600;
+  }
   .homeCentral .hommeHeader .searchB {
     display: none;
   }
 }
 @media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
@@ -1440,7 +2066,6 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
@@ -1855,7 +2480,6 @@
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
   .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
@@ -1910,6 +2534,10 @@
   .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
     padding: 0px;
     border: 0px;
+    font-size: 1rem;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsBC {
+    font-size: 1rem;
   }
   .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered {
     width: 100%;
@@ -2268,1090 +2896,1336 @@
     width: 100%;
   }
 }
-#terminosYcondiciones {
-  padding-top: 30px;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-bottom: 20px;
-  font-family: "Mingzat", sans-serif;
-}
-
-@media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 1025px) {
+  .homeCentral {
     display: grid;
-    grid-template-areas: "header" "main" "footer";
+    grid-template-areas: "header", "main", "footer";
   }
-  #terminosYcondiciones {
-    padding: 10.5px;
+  .homeCentral #principalSection {
+    padding: 5px;
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal {
+    background-color: #ebebeb;
+  }
+  .homeCentral #principalSection .homePrincipal .tituloTienda {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal {
+    height: 350px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
+    height: 350px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
+    height: 350px;
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+    color: #808080;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome {
+    padding: 5px;
+    margin-top: 10px;
     font-size: 10px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    background-color: #f9f9fa;
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
+    justify-content: center;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
+    padding: 0px;
+    size: 10px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
+    width: 5vw;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
+    padding: 0px;
+    border: 0px;
+    font-size: 1rem;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsBC {
+    font-size: 1rem;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered {
+    padding: 0px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: normal;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .ImageBanner {
+    width: 100%;
+    height: 270px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .parrBannerOffer {
+    position: relative;
+    bottom: 170px;
     font-family: "Mingzat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    background-color: #e5e4e1;
+    font-size: 1.3vw;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend {
+    padding-bottom: 20px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend .ofertasSem .ofertaImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .tittleSecction {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre {
+    width: 100%;
+    font-family: "Nova Mono", monospace;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    justify-items: center;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+    width: 100%;
+    background-color: #f9f9fa;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+    padding: 10px;
+    height: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 10px;
+    height: 15vh;
+    font-size: 1.7vw;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+    font-weight: 500;
+    font-size: 2vw;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia {
+    display: grid;
+    margin-bottom: 15px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA {
+    height: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA img {
+    width: 100%;
+    height: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDescrp {
+    padding: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 3vw;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .tittleSecction {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre {
+    width: 100%;
+    font-family: "Nova Mono", monospace;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    justify-items: center;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+    width: 100%;
+    background-color: #f9f9fa;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+    padding: 10px;
+    height: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 10px;
+    height: 15vh;
+    font-size: 1.7vw;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+    font-weight: 500;
+    font-size: 2vw;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday {
+    margin-bottom: 15px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday .barnnerA picture img {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .tittleSecction {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .imageHomeSection {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre {
+    width: 100%;
+    font-family: "Nova Mono", monospace;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    justify-items: center;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+    width: 100%;
+    background-color: #f9f9fa;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+    padding: 10px;
+    height: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 10px;
+    height: 15vh;
+    font-size: 1.7vw;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+    font-weight: 500;
+    font-size: 2vw;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .tittleSecction {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .imageHomeSection {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre {
+    width: 100%;
+    font-family: "Nova Mono", monospace;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    justify-items: center;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+    width: 100%;
+    background-color: #f9f9fa;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+    padding: 10px;
+    height: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 10px;
+    height: 15vh;
+    font-size: 1.7vw;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+    font-weight: 500;
+    font-size: 2vw;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+    display: none;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .tittleSecction {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin: 0px;
+    text-align: center;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 {
+    width: 100%;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
+    width: 100%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 620px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (max-width: 480px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #terminosYcondiciones {
-    padding: 15px;
-    font-size: 15px;
+  .homeCentral #terminosCondiciones {
+    padding: 1rem;
+    font-size: 3.5vw;
     font-family: "Mingzat", sans-serif;
+    text-align: justify;
   }
 }
-#About_us .aboutUsc .information_AboutUs .whoAre {
-  display: flex;
-  padding-top: 49.9px;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-bottom: 20px;
-  font-family: "Mingzat", sans-serif;
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #terminosCondiciones {
+    padding: 1rem;
+    font-size: 3.5vw;
+    font-family: "Mingzat", sans-serif;
+    text-align: justify;
+  }
 }
-#About_us .aboutUsc .information_AboutUs .whoAre .whoAreA {
-  max-width: 255px;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #terminosCondiciones {
+    padding: 1rem;
+    font-size: 3.5vw;
+    font-family: "Mingzat", sans-serif;
+    text-align: justify;
+  }
 }
-#About_us .aboutUsc .information_AboutUs .whoAre .whoAreB {
-  -webkit-box-flex: 2;
-  flex: 2;
-  columns: 2;
-  column-fill: balance;
-  padding-left: 50px;
+@media (min-width: 1025px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #terminosCondiciones {
+    padding: 2rem;
+    font-size: 1.5vw;
+    font-family: "Mingzat", sans-serif;
+    text-align: justify;
+  }
 }
-#About_us .aboutUsc .whereAre .ubicationAre {
-  display: flex;
-  padding-top: 50px;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-bottom: 20px;
-  justify-content: space-evenly;
-  font-family: "Mingzat", sans-serif;
+@media (max-width: 480px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #aboutUs {
+    width: 100%;
+    font-size: 5vw;
+  }
+  .homeCentral #aboutUs .aboutUsc {
+    margin: 20px;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre {
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre .whoAreB {
+    -webkit-box-flex: 2;
+    text-align: justify;
+    column-fill: balance;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre {
+    justify-content: space-evenly;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
+    font-size: 2.813rem;
+    color: #343434;
+    line-height: 3rem;
+    font-weight: 300px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationNac {
+    background: #9546b1;
+    max-width: 450px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationInt {
+    background: #2dbcb6;
+    max-width: 450px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
 }
-#About_us .aboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
-  font-size: 2.813rem;
-  color: #343434;
-  line-height: 3rem;
-  font-weight: 300px;
-  font-family: "Mingzat", sans-serif;
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #aboutUs {
+    width: 100%;
+    font-size: 5vw;
+  }
+  .homeCentral #aboutUs .aboutUsc {
+    margin: 20px;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre {
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre .whoAreB {
+    -webkit-box-flex: 2;
+    text-align: justify;
+    column-fill: balance;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre {
+    justify-content: space-evenly;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
+    font-size: 2.813rem;
+    color: #343434;
+    line-height: 3rem;
+    font-weight: 300px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationNac {
+    background: #9546b1;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationInt {
+    background: #2dbcb6;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
 }
-#About_us .aboutUsc .whereAre .ubicationAre .OurUbicationNac {
-  background: #9546b1;
-  max-width: 450px;
-  width: 100%;
-  font-weight: 300;
-  font-size: 1rem;
-  padding-top: 64px;
-  padding: 48px;
-  margin-left: 2px;
-  color: white;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #aboutUs {
+    width: 100%;
+    font-size: 2vw;
+  }
+  .homeCentral #aboutUs .aboutUsc {
+    margin: 20px;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre {
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre .whoAreB {
+    -webkit-box-flex: 2;
+    text-align: justify;
+    column-fill: balance;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre {
+    justify-content: space-evenly;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
+    font-size: 2.813rem;
+    color: #343434;
+    line-height: 3rem;
+    font-weight: 300px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationNac {
+    background: #9546b1;
+    width: 100%;
+    font-weight: 300;
+    font-size: 2.3rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationInt {
+    background: #2dbcb6;
+    width: 100%;
+    font-weight: 300;
+    font-size: 2.3rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
 }
-#About_us .aboutUsc .whereAre .ubicationAre .OurUbicationInt {
-  background: #2dbcb6;
-  max-width: 450px;
-  width: 100%;
-  font-weight: 300;
-  font-size: 1rem;
-  padding-top: 64px;
-  padding: 48px;
-  margin-left: 2px;
-  color: white;
+@media (min-width: 1025px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #aboutUs {
+    width: 100%;
+    font-size: 2vw;
+  }
+  .homeCentral #aboutUs .aboutUsc {
+    margin: 20px;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre {
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .informationAboutUs .whoAre .whoAreB {
+    -webkit-box-flex: 2;
+    text-align: justify;
+    column-fill: balance;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre {
+    justify-content: space-evenly;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
+    font-size: 2.813rem;
+    color: #343434;
+    line-height: 3rem;
+    font-weight: 300px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationNac {
+    background: #9546b1;
+    width: 100%;
+    font-weight: 300;
+    font-size: 2.3rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
+  .homeCentral #aboutUs .aboutUsc .whereAre .ubicationAre .OurUbicationInt {
+    background: #2dbcb6;
+    width: 100%;
+    font-weight: 300;
+    font-size: 2.3rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;
+  }
 }
 @media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    font-family: "Mingzat", sans-serif;
-    width: 100%;
-  }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreA {
-    padding-bottom: 10px;
+  .homeCentral #Contactanos .encanez {
     padding-top: 10px;
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreB {
-    padding: 10px;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
-    font-size: 2.813rem;
-    color: #343434;
-    line-height: 3rem;
-    font-weight: 300px;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationNac {
-    background: #9546b1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt {
-    background: #2dbcb6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt .UbicationE p {
-    margin: 10px;
+  .homeCentral #Contactanos .encanez h1 {
     text-align: center;
   }
+  .homeCentral #Contactanos .encanez h2 {
+    text-align: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 {
+    padding: 0px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #Contactanos .ContacForm1 p {
+    text-align: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne {
+    gap: 10px;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partTwo label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree {
+    justify-content: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .bottonReclamo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #273fb4;
+    color: white;
+  }
 }
-@media only screen and (min-width: 481px) and (max-width: 620px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    font-family: "Mingzat", sans-serif;
-    width: 100%;
-  }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreA {
-    padding-bottom: 10px;
+  .homeCentral #Contactanos .encanez {
     padding-top: 10px;
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreB {
-    padding: 10px;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
-    font-size: 2.813rem;
-    color: #343434;
-    line-height: 3rem;
-    font-weight: 300px;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationNac {
-    background: #9546b1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt {
-    background: #2dbcb6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt .UbicationE p {
-    margin: 10px;
+  .homeCentral #Contactanos .encanez h1 {
     text-align: center;
   }
+  .homeCentral #Contactanos .encanez h2 {
+    text-align: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 {
+    padding: 0px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #Contactanos .ContacForm1 p {
+    text-align: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne {
+    gap: 10px;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partTwo label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree {
+    justify-content: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .bottonReclamo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #273fb4;
+    color: white;
+  }
 }
-@media only screen and (min-width: 621px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    font-family: "Mingzat", sans-serif;
-    width: 100%;
-  }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreA {
-    padding-bottom: 10px;
+  .homeCentral #Contactanos .encanez {
     padding-top: 10px;
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreB {
-    padding: 10px;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
-    font-size: 2.813rem;
-    color: #343434;
-    line-height: 3rem;
-    font-weight: 300px;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationNac {
-    background: #9546b1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt {
-    background: #2dbcb6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt .UbicationE p {
-    margin: 10px;
+  .homeCentral #Contactanos .encanez h1 {
     text-align: center;
   }
+  .homeCentral #Contactanos .encanez h2 {
+    text-align: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 {
+    padding: 0px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #Contactanos .ContacForm1 p {
+    text-align: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne {
+    gap: 10px;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partTwo label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree {
+    justify-content: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .bottonReclamo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    background-color: #273fb4;
+    color: white;
+  }
 }
-@media only screen and (min-width: 769px) and (max-width: 837px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 1025px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    font-family: "Mingzat", sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreA {
-    padding-bottom: 10px;
+  .homeCentral #Contactanos .encanez {
     padding-top: 10px;
   }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreB {
-    padding: 10px;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
-    font-size: 2.813rem;
-    color: #343434;
-    line-height: 3rem;
-    font-weight: 300px;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationNac {
-    background: #9546b1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt {
-    background: #2dbcb6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt .UbicationE p {
-    margin: 10px;
+  .homeCentral #Contactanos .encanez h1 {
     text-align: center;
   }
-}
-@media only screen and (min-width: 838px) and (max-width: 1065px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  #About_us .AboutUsc .informationAboutUs .whoAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    font-family: "Mingzat", sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreA {
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
-  #About_us .AboutUsc .informationAboutUs .whoAre .whoAreB {
-    padding: 10px;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre {
-    padding: 0px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbication .UbicationA {
-    font-size: 2.813rem;
-    color: #343434;
-    line-height: 3rem;
-    font-weight: 300px;
-    font-family: "Mingzat", sans-serif;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationNac {
-    background: #9546b1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt {
-    background: #2dbcb6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin-bottom: 10px;
-    color: white;
-  }
-  #About_us .AboutUsc .whereAre .ubicationAre .OurUbicationInt .UbicationE p {
-    margin: 10px;
+  .homeCentral #Contactanos .encanez h2 {
     text-align: center;
   }
+  .homeCentral #Contactanos .ContacForm1 {
+    padding: 0px;
+    font-family: "Mingzat", sans-serif;
+  }
+  .homeCentral #Contactanos .ContacForm1 p {
+    text-align: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne {
+    gap: 10px;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partOne label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partTwo label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree {
+    justify-content: center;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .partThree label {
+    width: 20vw;
+  }
+  .homeCentral #Contactanos .ContacForm1 form .bottonReclamo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    background-color: #273fb4;
+    color: white;
+  }
 }
-#Contactanos h1 {
-  text-align: center;
-}
-#Contactanos h2 {
-  text-align: center;
-}
-#Contactanos .Contac_form1 {
-  padding-top: 29.9px;
-  padding-left: 500px;
-  padding-right: 500px;
-  padding-bottom: 200px;
-  font-family: "Mingzat", sans-serif;
-}
-
 @media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #Contactanos .encanez h1 {
-    text-align: center;
-  }
-  #Contactanos .encanez h2 {
-    text-align: center;
-  }
-  #Contactanos .Contac_form1 {
-    padding: 0px;
-    font-family: "Mingzat", sans-serif;
-  }
-  #Contactanos .Contac_form1 p {
-    text-align: center;
-  }
-  #Contactanos .Contac_form1 form {
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #Contactanos .encanez h1 {
-    text-align: center;
-  }
-  .home_central #Contactanos .encanez h2 {
-    text-align: center;
-  }
-  .home_central #Contactanos .Contac_form1 {
-    padding: 0px;
-    font-family: "Mingzat", sans-serif;
-  }
-  .home_central #Contactanos .Contac_form1 p {
-    text-align: center;
-  }
-  .home_central #Contactanos .Contac_form1 form {
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #Contactanos .encanez h1 {
-    text-align: center;
-  }
-  .home_central #Contactanos .encanez h2 {
-    text-align: center;
-  }
-  .home_central #Contactanos .Contac_form1 {
-    padding: 0px;
-    font-family: "Mingzat", sans-serif;
-  }
-  .home_central #Contactanos .Contac_form1 p {
-    text-align: center;
-  }
-  .home_central #Contactanos .Contac_form1 form {
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #Contactanos .encanez h1 {
-    text-align: center;
-  }
-  .home_central #Contactanos .encanez h2 {
-    text-align: center;
-  }
-  .home_central #Contactanos .Contac_form1 {
-    padding: 0px;
-    font-family: "Mingzat", sans-serif;
-  }
-  .home_central #Contactanos .Contac_form1 p {
-    text-align: center;
-  }
-  .home_central #Contactanos .Contac_form1 form {
-    text-align: center;
-  }
-}
-#principalSectionPagos {
-  padding-top: 30px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 100px;
-  font-family: "Mingzat", sans-serif;
-}
-
-@media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  #principalSectionPagos {
+  .homeCentral #principalSectionPagos {
     padding: 10px;
   }
-  #principalSectionPagos .payment {
+  .homeCentral #principalSectionPagos .payment {
     padding-bottom: 9.9px;
   }
-  #principalSectionPagos .Image_pay .image_pay {
+  .homeCentral #principalSectionPagos .imagePay .imagePayP {
     width: 100%;
     padding-bottom: 10px;
   }
-  #principalSectionPagos .Descrition_aboutPayment {
+  .homeCentral #principalSectionPagos .descritionAboutPayment {
     padding-bottom: 10px;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 620px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #principalSectionPagos {
+  .homeCentral #principalSectionPagos {
     padding: 10px;
   }
-  #principalSectionPagos .payment {
+  .homeCentral #principalSectionPagos .payment {
+    padding-bottom: 9.9px;
+  }
+  .homeCentral #principalSectionPagos .imagePay {
+    text-align: center;
+  }
+  .homeCentral #principalSectionPagos .imagePay .imagePayP {
+    width: 50vw;
     padding-bottom: 10px;
   }
-  #principalSectionPagos .Image_pay .image_pay {
-    width: 100%;
-    padding-bottom: 10px;
-  }
-  #principalSectionPagos .Descrition_aboutPayment {
+  .homeCentral #principalSectionPagos .descritionAboutPayment {
     padding-bottom: 10px;
   }
 }
-@media only screen and (min-width: 621px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #principalSectionPagos {
+  .homeCentral #principalSectionPagos {
     padding: 10px;
   }
-  #principalSectionPagos .payment {
+  .homeCentral #principalSectionPagos .payment {
+    padding-bottom: 9.9px;
+  }
+  .homeCentral #principalSectionPagos .imagePay {
+    text-align: center;
+  }
+  .homeCentral #principalSectionPagos .imagePay .imagePayP {
+    width: 50vw;
     padding-bottom: 10px;
   }
-  #principalSectionPagos .Image_pay .image_pay {
-    width: 100%;
-    padding-bottom: 10px;
-  }
-  #principalSectionPagos .Descrition_aboutPayment {
+  .homeCentral #principalSectionPagos .descritionAboutPayment {
     padding-bottom: 10px;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 837px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 1025px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #principalSectionPagos {
+  .homeCentral #principalSectionPagos {
     padding: 10px;
   }
-  #principalSectionPagos .payment {
+  .homeCentral #principalSectionPagos .payment {
+    padding-bottom: 9.9px;
+  }
+  .homeCentral #principalSectionPagos .imagePay {
+    text-align: center;
+  }
+  .homeCentral #principalSectionPagos .imagePay .imagePayP {
+    width: 50vw;
+    align-items: center;
     padding-bottom: 10px;
   }
-  #principalSectionPagos .Image_pay .image_pay {
-    width: 100%;
-    padding-bottom: 10px;
-  }
-  #principalSectionPagos .Descrition_aboutPayment {
-    padding-bottom: 10px;
-  }
-}
-@media only screen and (min-width: 838px) and (max-width: 1065px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  #principalSectionPagos {
-    padding: 10px;
-  }
-  #principalSectionPagos .payment {
-    padding-bottom: 10px;
-  }
-  #principalSectionPagos .Image_pay .image_pay {
-    width: 100%;
-    padding-bottom: 10px;
-  }
-  #principalSectionPagos .Descrition_aboutPayment {
+  .homeCentral #principalSectionPagos .descritionAboutPayment {
     padding-bottom: 10px;
   }
 }
-#seguimientopedido {
-  padding-top: 29px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 100px;
-  font-family: "Mingzat", sans-serif;
-}
-#seguimientopedido .seguimientoB .Segui_track {
-  display: flex;
-}
-
 @media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #seguimientopedido {
+  .homeCentral #seguimientopedido {
     padding: 20px;
     font-family: "Mingzat", sans-serif;
   }
-  #seguimientopedido .seguimientoB .Segui_track {
+  .homeCentral #seguimientopedido .seguimientoB {
     display: flex;
+    flex-direction: column;
   }
-  #seguimientopedido .seguimientoB .track_form .seguimiento_ped {
-    padding-top: 15px;
+  .homeCentral #seguimientopedido .seguimientoB .SeguiTrack {
+    display: flex;
+    text-align: center;
+  }
+  .homeCentral #seguimientopedido .seguimientoB .trackForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .homeCentral #seguimientopedido .seguimientoB .trackForm .seguimientoPed1 .seguimientoPedT {
+    color: white;
+    background-color: #273fb4;
+    width: 100%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 620px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #seguimientopedido {
+  .homeCentral #seguimientopedido {
     padding: 20px;
     font-family: "Mingzat", sans-serif;
   }
-  #seguimientopedido .seguimientoB .Segui_track {
+  .homeCentral #seguimientopedido .seguimientoB {
     display: flex;
+    flex-direction: column;
   }
-  #seguimientopedido .seguimientoB .track_form .seguimiento_ped {
-    padding-top: 15px;
+  .homeCentral #seguimientopedido .seguimientoB .SeguiTrack {
+    display: flex;
+    text-align: center;
+  }
+  .homeCentral #seguimientopedido .seguimientoB .trackForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .homeCentral #seguimientopedido .seguimientoB .trackForm .seguimientoPed1 .seguimientoPedT {
+    color: white;
+    background-color: #273fb4;
+    width: 50%;
   }
 }
-@media only screen and (min-width: 621px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #seguimientopedido {
+  .homeCentral #seguimientopedido {
     padding: 20px;
     font-family: "Mingzat", sans-serif;
   }
-  #seguimientopedido .seguimientoB .Segui_track {
+  .homeCentral #seguimientopedido .seguimientoB {
     display: flex;
+    flex-direction: column;
   }
-  #seguimientopedido .seguimientoB .track_form .seguimiento_ped {
-    padding-top: 15px;
+  .homeCentral #seguimientopedido .seguimientoB .SeguiTrack {
+    display: flex;
+    text-align: center;
+  }
+  .homeCentral #seguimientopedido .seguimientoB .trackForm {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+  }
+  .homeCentral #seguimientopedido .seguimientoB .trackForm .seguimientoPed1 .seguimientoPedT {
+    color: white;
+    background-color: #273fb4;
+    width: 50%;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 837px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 1025px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  #seguimientopedido {
+  .homeCentral #seguimientopedido {
     padding: 20px;
     font-family: "Mingzat", sans-serif;
   }
-  #seguimientopedido .seguimientoB .Segui_track {
+  .homeCentral #seguimientopedido .seguimientoB {
     display: flex;
+    flex-direction: column;
   }
-  #seguimientopedido .seguimientoB .track_form .seguimiento_ped {
-    padding-top: 15px;
-  }
-}
-@media only screen and (min-width: 838px) and (max-width: 1065px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  #seguimientopedido {
-    padding: 20px;
-    font-family: "Mingzat", sans-serif;
-  }
-  #seguimientopedido .seguimientoB .Segui_track {
+  .homeCentral #seguimientopedido .seguimientoB .SeguiTrack {
     display: flex;
+    text-align: center;
   }
-  #seguimientopedido .seguimientoB .track_form .seguimiento_ped {
-    padding-top: 15px;
+  .homeCentral #seguimientopedido .seguimientoB .trackForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .homeCentral #seguimientopedido .seguimientoB .trackForm .seguimientoPed1 .seguimientoPedT {
+    color: white;
+    background-color: #273fb4;
+    width: 30%;
   }
 }
-#principalSection .Productos_Hogar {
-  display: grid;
-  grid-template-columns: 0.2fr 1.9fr;
-}
-#principalSection .Productos_Hogar .Nav_hogar {
-  text-align: center;
-}
-#principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products {
-  display: inline-flex;
-  flex-direction: row;
-  list-style: none;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-  color: #7c667c;
-  font-family: "Mingzat", sans-serif;
-}
-
 @media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    height: 20vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 5vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    height: 10vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 4vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 3vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
 }
-@media only screen and (min-width: 993px) and (max-width: 1024px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 1025px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 2vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
 }
@@ -3380,1308 +4254,935 @@
   size: 79.9px;
 }
 
-#principalSection .Productos_Hogar {
-  display: grid;
-  grid-template-columns: 0.2fr 1.9fr;
-}
-#principalSection .Productos_Hogar .Nav_hogar {
-  text-align: center;
-}
-#principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products {
-  display: inline-flex;
-  flex-direction: row;
-  list-style: none;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-  color: #7c667c;
-  font-family: "Mingzat", sans-serif;
-}
-
 @media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    height: 20vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 5vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    height: 10vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 4vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 3vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
 }
-@media only screen and (min-width: 993px) and (max-width: 1024px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 1025px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #principalSection .Productos_Hogar {
+  .homeCentral #principalSection .productosHogar {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products {
+  .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
     padding: 0px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
     margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
     width: 100%;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
     margin-bottom: 20px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
     color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 2vw;
+    margin: 10px;
   }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
     transform: scale(1.02);
   }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-#principalSection .Productos_Hogar {
-  display: grid;
-  grid-template-columns: 0.2fr 1.9fr;
-}
-#principalSection .Productos_Hogar .Nav_hogar {
-  text-align: center;
-}
-#principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products {
-  display: inline-flex;
-  flex-direction: row;
-  list-style: none;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-  color: #7c667c;
-  font-family: "Mingzat", sans-serif;
-}
-
-@media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 993px) and (max-width: 1024px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-#principalSection .Productos_Hogar {
-  display: grid;
-  grid-template-columns: 0.2fr 1.9fr;
-}
-#principalSection .Productos_Hogar .Nav_hogar {
-  text-align: center;
-}
-#principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products {
-  display: inline-flex;
-  flex-direction: row;
-  list-style: none;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-  color: #7c667c;
-  font-family: "Mulish", sans-serif;
-}
-#principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-  color: #7c667c;
-  font-family: "Mingzat", sans-serif;
-}
-
-@media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 993px) and (max-width: 1024px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .home_central #principalSection .Productos_Hogar {
-    display: grid;
-    grid-template-columns: 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .Nav_hogar .Section_asideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li {
-    width: 95%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage {
-    height: 290px;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .carrouselImage .Imag_home {
-    height: 100%;
-    width: 100%;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem {
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .TitleProduct {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-    font-size: larger;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li div .ConteItem .ItemsPrice .SubItemPrice {
-    color: #7c667c;
-    font-family: "Mingzat", sans-serif;
-    font-size: larger;
-    margin-bottom: 20px;
-  }
-  .home_central #principalSection .Productos_Hogar .grid_products .section_products li:hover {
-    transform: scale(1.02);
-  }
-}
-#carrito_compras .tittle_cart h1 {
-  text-align: center;
-  margin-bottom: 19.9px;
-}
-#carrito_compras .Cart_items {
-  display: flex;
-  justify-content: space-between;
-}
-#carrito_compras .Cart_items .table_items thead tr .table_itemb {
-  padding: 10px;
-  text-align: center;
-}
-#carrito_compras .Cart_items .table_items tbody tr .table_itemb {
-  text-align: center;
-  padding: 10px;
-}
-#carrito_compras .Cart_items .table_items tbody tr .table_itemb .fotos_cart {
-  width: 100px;
-  height: 100px;
 }
 @media only screen and (max-width: 480px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #carrito_compras .tittle_cart h1 {
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
     text-align: center;
     margin-bottom: 20px;
   }
-  .home_central #carrito_compras .Cart_items {
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    height: 20vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 5vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    height: 10vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 4vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 3vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media (min-width: 1025px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 2vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    height: 20vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 5vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    height: 10vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 4vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 3vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media (min-width: 1025px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #principalSection .productosHogar {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+    color: #7c667c;
+    font-family: "Mulish", sans-serif;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
+    width: 100%;
+    margin: 7px;
+    border-radius: 4px;
+    background: white;
+    border: rgb(224, 223, 220) 2px solid;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
+    width: 100%;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
+    margin-bottom: 20px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+    color: #7c667c;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    height: 7vw;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+    color: #7c667c;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 2vw;
+    margin: 10px;
+  }
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+    transform: scale(1.02);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #carritoCompras .tittleCart h1 {
+    text-align: center;
+    margin-bottom: 19.9px;
+  }
+  .homeCentral #carritoCompras .cartItems {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems {
+    display: flex;
     justify-content: center;
   }
-  .home_central #carrito_compras .Cart_items .table_items thead tr .table_itemb {
+  .homeCentral #carritoCompras .cartItems .tableItems thead {
+    display: none;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems thead tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems thead tr .tableItemb {
     padding: 10px;
     text-align: center;
   }
-  .home_central #carrito_compras .Cart_items .table_items tbody tr .table_itemb {
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb {
     text-align: center;
     padding: 10px;
   }
-  .home_central #carrito_compras .Cart_items .table_items tbody tr .table_itemb .fotos_cart {
-    width: 100px;
-    height: 100px;
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb .fotosCart {
+    width: 50vw;
+  }
+  .homeCentral #carritoCompras .cartItems .detalleOrden {
+    margin: 16px;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 481px) and (max-width: 768px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #carrito_compras .tittle_cart h1 {
+  .homeCentral #carritoCompras .tittleCart h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 19.9px;
   }
-  .home_central #carrito_compras .Cart_items {
+  .homeCentral #carritoCompras .cartItems {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
   }
-  .home_central #carrito_compras .Cart_items .table_items thead tr .table_itemb {
+  .homeCentral #carritoCompras .cartItems .tableItems thead tr .tableItemb {
     padding: 10px;
     text-align: center;
   }
-  .home_central #carrito_compras .Cart_items .table_items tbody tr .table_itemb {
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb {
     text-align: center;
     padding: 10px;
   }
-  .home_central #carrito_compras .Cart_items .table_items tbody tr .table_itemb .fotos_cart {
-    width: 100px;
-    height: 100px;
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb .fotosCart {
+    width: 20vw;
   }
-  .home_central #carrito_compras .Cart_items .Detalle_orden {
-    align-items: center;
+  .homeCentral #carritoCompras .cartItems .detalleOrden {
+    margin: 16px;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
-  .home_central {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
-  .home_central #carrito_compras .tittle_cart h1 {
+  .homeCentral #carritoCompras .tittleCart h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 19.9px;
   }
-  .home_central #carrito_compras .Cart_items {
+  .homeCentral #carritoCompras .cartItems {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems thead tr .tableItemb {
+    padding: 10px;
+    text-align: center;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb {
+    text-align: center;
+    padding: 10px;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb .fotosCart {
+    width: 20vw;
+  }
+  .homeCentral #carritoCompras .cartItems .detalleOrden {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+  }
+  .homeCentral #carritoCompras .cartItems .detalleOrden .detalleOrdenb {
+    margin: auto;
+  }
+}
+@media (min-width: 1025px) {
+  .homeCentral {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+  }
+  .homeCentral #carritoCompras .tittleCart h1 {
+    text-align: center;
+    margin-bottom: 19.9px;
+  }
+  .homeCentral #carritoCompras .cartItems {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems thead tr .tableItemb {
+    padding: 10px;
+    text-align: center;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb {
+    text-align: center;
+    padding: 10px;
+  }
+  .homeCentral #carritoCompras .cartItems .tableItems tbody tr .tableItemb .fotosCart {
+    width: 10vw;
+  }
+  .homeCentral #carritoCompras .cartItems .detalleOrden {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 16px;
   }
-  .home_central #carrito_compras .Cart_items .table_items thead tr .table_itemb {
-    padding: 10px;
-    text-align: center;
-  }
-  .home_central #carrito_compras .Cart_items .table_items tbody tr .table_itemb {
-    text-align: center;
-    padding: 10px;
-  }
-  .home_central #carrito_compras .Cart_items .table_items tbody tr .table_itemb .fotos_cart {
-    width: 100px;
-    height: 100px;
-  }
-  .home_central #carrito_compras .Cart_items .Detalle_orden {
-    align-items: center;
+  .homeCentral #carritoCompras .cartItems .detalleOrden .detalleOrdenb {
+    margin: auto;
   }
 }
 

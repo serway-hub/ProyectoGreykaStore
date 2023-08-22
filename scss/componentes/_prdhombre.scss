@@ -1,111 +1,74 @@
-#principalSection{
-    .Productos_Hogar{
-        display: grid;
-        grid-template-columns: 0.2fr 1.9fr;
-        .Nav_hogar{
-            text-align: center;
-            .Section_asideNav{
-                h1{
-                    color: #7c667c;
-                    font-family: 'Mulish', sans-serif;
-                }
-            }
-        }
-        .grid_products{  
-            .section_order{
-            }
-            .section_products{
-                display: inline-flex;
-                flex-direction: row;
-                list-style: none;
-                li{
-                    div{
-                        .carrouselImage{
-                        }
-                        .ConteItem{
-                            .TitleProduct{
-                                color: #7c667c;
-                                font-family: 'Mulish', sans-serif;
-                            }
-                            .ItemsPrice{
-                                .SubItemPrice{
-                                    color: #7c667c;
-                                    font-family: 'Mingzat', sans-serif;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
 @media only screen and (max-width: 480px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
         "main"
         "footer";
         #principalSection{
-            .Productos_Hogar{
+            .productosHogar{
                 display: grid;
-                grid-template-columns: 2fr;
-                .Nav_hogar{
+                grid-template-rows: 2fr;
+                .navHogar{
                     text-align: center;
                     margin-bottom: 20px;
-                    .Section_asideNav{
+                    .sectionAsideNav{
                         h1{
                             color: #7c667c;
                             font-family: 'Mulish', sans-serif;
                         }
                     }
                 }
-                .grid_products{
+                .gridProducts{
                     display: grid;
                     grid-template-columns: 2fr 2fr;
-                    .section_order{
+                    .sectionOrder{
         
                     }
-                    .section_products{
+                    .sectionProducts{
                         display: inline-flex;
                         flex-direction: row;
                         list-style: none;
                         padding: 0px;
                         li{
-                            width: 95%; 
+                            width: 100%; 
                             margin: 7px;  
                             border-radius: 4px;
                             background: white;
                             border: rgb(224 223 220) 2px solid;
                             div{
+                                width: 100%;
                                 
                                 .carrouselImage{
                                     
-                                    height: 290px;
+                                    
                                     width: 100%;
-                                    .Imag_home{
-                                        height: 100%;
+                                    .imagHome{
                                         width: 100%;
                                     }
+                                   
                                 }
-                                .ConteItem{
-                                    margin-left: 20px;
+                                .conteItem{
+                                   
                                     margin-bottom: 20px;
-                                    .TitleProduct{
+                                    .titleProduct{
                                         color: #7c667c;
-                                        font-family: 'Mulish', sans-serif;
-                                        font-size: larger;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 5vw;
+                                        height: 20vw;
+                                        p{
+                                            margin: 10px;
+
+                                        }
     
         
                                     }
-                                    .ItemsPrice{
-                                        .SubItemPrice{
+                                    .itemsPrice{
+                                        .subItemPrice{
                                             color: #7c667c;
-                                            font-family: 'Mingzat', sans-serif;
-                                            font-size: larger;
-                                            margin-bottom: 20px;
+                                            font-family: 'Nova Mono', sans-serif;
+                                            font-size: 5vw;
+                                            margin: 10px;
                                         }
                                     }
                                 }
@@ -120,155 +83,163 @@
         }
     } 
 }
-@media only screen and (min-width: 481px) and (max-width: 600px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
         "main"
         "footer";
         #principalSection{
-            .Productos_Hogar{
+            .productosHogar{
                 display: grid;
-                grid-template-columns: 2fr;
-                .Nav_hogar{
+                grid-template-rows: 2fr;
+                .navHogar{
                     text-align: center;
                     margin-bottom: 20px;
-                    .Section_asideNav{
+                    .sectionAsideNav{
                         h1{
                             color: #7c667c;
                             font-family: 'Mulish', sans-serif;
-        
                         }
                     }
                 }
-                .grid_products{
+                .gridProducts{
                     display: grid;
-                    grid-template-columns: 2fr 2fr;
-                    .section_order{
+                    grid-template-columns: 2fr 2fr 2fr;
+                    .sectionOrder{
         
                     }
-                    .section_products{
+                    .sectionProducts{
                         display: inline-flex;
                         flex-direction: row;
                         list-style: none;
                         padding: 0px;
                         li{
-                            width: 95%; 
+                            width: 100%; 
                             margin: 7px;  
                             border-radius: 4px;
                             background: white;
                             border: rgb(224 223 220) 2px solid;
                             div{
+                                width: 100%;
                                 
                                 .carrouselImage{
                                     
-                                    height: 290px;
+                                    
                                     width: 100%;
-                                    .Imag_home{
-                                        height: 100%;
+                                    .imagHome{
                                         width: 100%;
                                     }
+                                   
                                 }
-                                .ConteItem{
-                                    margin-left: 20px;
+                                .conteItem{
+                                   
                                     margin-bottom: 20px;
-                                    .TitleProduct{
+                                    .titleProduct{
                                         color: #7c667c;
-                                        font-family: 'Mulish', sans-serif;
-                                        font-size: larger;
-    
-        
-                                    }
-                                    .ItemsPrice{
-                                        .SubItemPrice{
-                                            color: #7c667c;
-                                            font-family: 'Mingzat', sans-serif;
-                                            font-size: larger;
-                                            margin-bottom: 20px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        li:hover{
-                            transform: scale(1.02);
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        height: 10vw;
+                                        p{
+                                            margin: 10px;
 
-@media only screen and (min-width: 601px) and (max-width: 768px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+                                        }
+    
+        
+                                    }
+                                    .itemsPrice{
+                                        .subItemPrice{
+                                            color: #7c667c;
+                                            font-family: 'Nova Mono', sans-serif;
+                                            font-size: 4vw;
+                                            margin: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        li:hover{
+                            transform: scale(1.02);
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
         "main"
         "footer";
         #principalSection{
-            .Productos_Hogar{
+            .productosHogar{
                 display: grid;
-                grid-template-columns: 2fr;
-                .Nav_hogar{
+                grid-template-rows: 2fr;
+                .navHogar{
                     text-align: center;
                     margin-bottom: 20px;
-                    .Section_asideNav{
+                    .sectionAsideNav{
                         h1{
                             color: #7c667c;
                             font-family: 'Mulish', sans-serif;
-        
                         }
                     }
                 }
-                .grid_products{
+                .gridProducts{
                     display: grid;
                     grid-template-columns: 2fr 2fr 2fr;
-                    .section_order{
+                    gap: 50px;
+                    .sectionOrder{
         
                     }
-                    .section_products{
+                    .sectionProducts{
                         display: inline-flex;
                         flex-direction: row;
                         list-style: none;
                         padding: 0px;
                         li{
-                            width: 95%; 
+                            width: 100%; 
                             margin: 7px;  
                             border-radius: 4px;
                             background: white;
                             border: rgb(224 223 220) 2px solid;
                             div{
+                                width: 100%;
                                 
                                 .carrouselImage{
                                     
-                                    height: 290px;
+                                    
                                     width: 100%;
-                                    .Imag_home{
-                                        height: 100%;
+                                    .imagHome{
                                         width: 100%;
                                     }
+                                   
                                 }
-                                .ConteItem{
-                                    margin-left: 20px;
+                                .conteItem{
+                                   
                                     margin-bottom: 20px;
-                                    .TitleProduct{
+                                    .titleProduct{
                                         color: #7c667c;
-                                        font-family: 'Mulish', sans-serif;
-                                        font-size: larger;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 2vw;
+                                        height: 7vw;
+                                        p{
+                                            margin: 10px;
+
+                                        }
     
         
                                     }
-                                    .ItemsPrice{
-                                        .SubItemPrice{
+                                    .itemsPrice{
+                                        .subItemPrice{
                                             color: #7c667c;
-                                            font-family: 'Mingzat', sans-serif;
-                                            font-size: larger;
-                                            margin-bottom: 20px;
+                                            font-family: 'Nova Mono', sans-serif;
+                                            font-size: 3vw;
+                                            margin: 10px;
                                         }
                                     }
                                 }
@@ -281,156 +252,81 @@
                 }
             }
         }
-    }
+    } 
 }
-@media only screen and (min-width: 769px) and (max-width: 992px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+@media (min-width: 1025px){
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
         "main"
         "footer";
         #principalSection{
-            .Productos_Hogar{
+            .productosHogar{
                 display: grid;
-                grid-template-columns: 2fr;
-                .Nav_hogar{
+                grid-template-rows: 2fr;
+                .navHogar{
                     text-align: center;
                     margin-bottom: 20px;
-                    .Section_asideNav{
+                    .sectionAsideNav{
                         h1{
                             color: #7c667c;
                             font-family: 'Mulish', sans-serif;
-        
                         }
                     }
                 }
-                .grid_products{
+                .gridProducts{
                     display: grid;
                     grid-template-columns: 2fr 2fr 2fr;
-                    .section_order{
+                    gap: 50px;
+                    .sectionOrder{
         
                     }
-                    .section_products{
+                    .sectionProducts{
                         display: inline-flex;
                         flex-direction: row;
                         list-style: none;
                         padding: 0px;
+                    
                         li{
-                            width: 95%; 
+                            width: 100%; 
                             margin: 7px;  
                             border-radius: 4px;
                             background: white;
                             border: rgb(224 223 220) 2px solid;
                             div{
+                                width: 100%;
                                 
                                 .carrouselImage{
                                     
-                                    height: 290px;
-                                    width: 100%;
-                                    .Imag_home{
-                                        height: 100%;
-                                        width: 100%;
-                                    }
-                                }
-                                .ConteItem{
-                                    margin-left: 20px;
-                                    margin-bottom: 20px;
-                                    .TitleProduct{
-                                        color: #7c667c;
-                                        font-family: 'Mulish', sans-serif;
-                                        font-size: larger;
-    
-        
-                                    }
-                                    .ItemsPrice{
-                                        .SubItemPrice{
-                                            color: #7c667c;
-                                            font-family: 'Mingzat', sans-serif;
-                                            font-size: larger;
-                                            margin-bottom: 20px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        li:hover{
-                            transform: scale(1.02);
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-@media only screen and (min-width: 993px) and (max-width: 1024px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        #principalSection{
-            .Productos_Hogar{
-                display: grid;
-                grid-template-columns: 2fr;
-                .Nav_hogar{
-                    text-align: center;
-                    margin-bottom: 20px;
-                    .Section_asideNav{
-                        h1{
-                            color: #7c667c;
-                            font-family: 'Mulish', sans-serif;
-        
-                        }
-                    }
-                }
-                .grid_products{
-                    display: grid;
-                    grid-template-columns: 2fr 2fr 2fr;
-                    .section_order{
-        
-                    }
-                    .section_products{
-                        display: inline-flex;
-                        flex-direction: row;
-                        list-style: none;
-                        padding: 0px;
-                        li{
-                            width: 95%; 
-                            margin: 7px;  
-                            border-radius: 4px;
-                            background: white;
-                            border: rgb(224 223 220) 2px solid;
-                            div{
-                                
-                                .carrouselImage{
                                     
-                                    height: 290px;
                                     width: 100%;
-                                    .Imag_home{
-                                        height: 100%;
+                                    .imagHome{
                                         width: 100%;
                                     }
+                                   
                                 }
-                                .ConteItem{
-                                    margin-left: 20px;
+                                .conteItem{
+                                   
                                     margin-bottom: 20px;
-                                    .TitleProduct{
+                                    .titleProduct{
                                         color: #7c667c;
-                                        font-family: 'Mulish', sans-serif;
-                                        font-size: larger;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 2vw;
+                                        height: 7vw;
+                                        p{
+                                            margin: 10px;
+
+                                        }
     
         
                                     }
-                                    .ItemsPrice{
-                                        .SubItemPrice{
+                                    .itemsPrice{
+                                        .subItemPrice{
                                             color: #7c667c;
-                                            font-family: 'Mingzat', sans-serif;
-                                            font-size: larger;
-                                            margin-bottom: 20px;
+                                            font-family: 'Nova Mono', sans-serif;
+                                            font-size: 2vw;
+                                            margin: 10px;
                                         }
                                     }
                                 }
@@ -443,85 +339,5 @@
                 }
             }
         }
-    }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        #principalSection{
-            .Productos_Hogar{
-                display: grid;
-                grid-template-columns: 2fr;
-                .Nav_hogar{
-                    text-align: center;
-                    margin-bottom: 20px;
-                    .Section_asideNav{
-                        h1{
-                            color: #7c667c;
-                            font-family: 'Mulish', sans-serif;
-        
-                        }
-                    }
-                }
-                .grid_products{
-                    display: grid;
-                    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-                    .section_order{
-        
-                    }
-                    .section_products{
-                        display: inline-flex;
-                        flex-direction: row;
-                        list-style: none;
-                        padding: 0px;
-                        li{
-                            width: 95%; 
-                            margin: 7px;  
-                            border-radius: 4px;
-                            background: white;
-                            border: rgb(224 223 220) 2px solid;
-                            div{
-                                
-                                .carrouselImage{
-                                    height: 290px;
-                                    width: 100%;
-                                    .Imag_home{
-                                        height: 100%;
-                                        width: 100%;
-                                    }
-                                }
-                                .ConteItem{
-                                    margin-left: 20px;
-                                    margin-bottom: 20px;
-                                    .TitleProduct{
-                                        color: #7c667c;
-                                        font-family: 'Mulish', sans-serif;
-                                        font-size: larger;
-    
-        
-                                    }
-                                    .ItemsPrice{
-                                        .SubItemPrice{
-                                            color: #7c667c;
-                                            font-family: 'Mingzat', sans-serif;
-                                            font-size: larger;
-                                            margin-bottom: 20px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        li:hover{
-                            transform: scale(1.02);
-                        }
-                    }
-                }
-            }
-        }
-    }
+    } 
 }

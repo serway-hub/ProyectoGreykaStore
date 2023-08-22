@@ -1,5 +1,4 @@
 @media (max-width: 480px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
     .homeCentral {
         display: grid;
         grid-template-areas:
@@ -281,7 +280,6 @@
     } 
 }
 @media (min-width: 481px) and (max-width: 768px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
     .homeCentral {
         display: grid;
         grid-template-areas:
@@ -544,7 +542,7 @@
                 display: flex;
                 justify-content: space-between;
                 border-top: 1px solid grey;
-                flex-direction: column;
+                
                 
                 .copyFooter {
                     padding-top: 10px;
@@ -554,503 +552,596 @@
                 .footerImagePayment {
                     padding-top: 10px;
                     img{
-                        width: 100%;
+                        width: 30vw;
                     }
                 }
             }
         }
     } 
 }
-
-
-// @media only screen and (min-width: 481px) and (max-width: 620px){
-//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-//     .homeCentral {
-//         display: grid;
-//         grid-template-areas:
-//         "header"
-//         "main"
-//         "footer";
-//     }
-    
-//     #footerHome {
-//         padding: 0px;
-//         margin: 0px;
-//         padding-left: 10px;
-//         padding-right: 10px;
-        
-//         .contactForm {
-//             display: grid;
-//             grid-template-columns: 2fr 2fr;
-//             text-align: center;
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #footerHome {
+            border-top: 1px solid chocolate;
+            margin: 5px;
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 95vw;
             
-//             .subscribe {
-//                 padding-top: 13px;
-//             }
             
-//             .formSub {
-//                 width: 100%;
-//                 padding-top: 10px;
+            a {
+                text-decoration: none;
+            }
+            
+            .contactForm {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                gap: 20px;
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                .suscribe {
+                    margin-right: 10px;
+                    padding-top: 5px;
+                    font-family: "Inter", sans-serif;
+                    margin-left: 20px;
+                    width: 100%;
+                    
+                    p {
+                        font-weight: 600;
+                    }
+                }
                 
-//                 input {
-//                     width: 230px;
-                    
-//                     .emailCliente {
-//                         width: 150px;
-//                     }
-                    
-//                     .emailClib {
+                .formSub {
+                    width: 100%;
+                    form{
+                        display: flex;
+                        gap: 5px;
+                        .emailClib {
+                            height: 30px;
+                            text-align: center;
+                        }
                         
-//                     }
-//                 }
-//             }
-            
-//             .formSuscribe {
-//                 .emailClib {
-    
-//                 }
-//             }
-//         }
-        
-//         .sectionFooter {
-//             display: grid;
-//             grid-template-columns: 3fr 3fr 3fr;
-//             justify-items: center;
-//             height: 260px;
-            
-//             .informationEnterprise {
-//                 display: none;
-                
-//                 .logoFooter {
-    
-//                 }
-                
-//                 .informationEnterprise {
-                    
-//                     .infEnter {
-    
-//                     }
-                    
-//                     .socialMediaContact {
+                        #emailCliente {
+                            width: 100%;
+                            
+                        }
                         
-//                         .socialMediaContactS {
-    
-//                             .socialSubicon {
-    
-//                             }
-                            
-//                             .informationBus {
-    
-//                             }
-                            
-//                             .Information_bus {
-    
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-            
-//             .categories {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
-                    
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-            
-//             .accountCustomer {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
-                    
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-            
-//             .informationEmpresa {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
-                    
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-//         }
-        
-//         .socialMedia {
-//             display: flex;
-//             justify-content: center;
-    
-//             div {
-//                 padding-top: 0px;
-//                 margin-left: 10px;
-//                 font-family: 'Mulish', sans-serif;
-//             }
-            
-//             .socialMediaA {
-                
-//                 .socialIcon {
-    
-//                 }
-//             }
-//         }
-        
-//         .footerCopyrigth {
-//             display: grid;
-//             width: 100%;
-//             justify-content: center;
-//             width: 100%;
-            
-//             .copyFooter {
-//                 margin: 0 auto;
-//             }
-            
-//             .footerImagePayment {
-    
-//             }
-//         }
-//     }
-// }
-// @media only screen and (min-width: 621px) and (max-width: 768px){
-//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-//     .homeCentral {
-//         display: grid;
-//         grid-template-areas:
-//         "header"
-//         "main"
-//         "footer";
-//     }
-    
-//     #footerHome {
-//         padding: 0px;
-//         margin: 0px;
-//         padding-left: 10px;
-//         padding-right: 10px;
-        
-//         .contactForm {
-//             display: grid;
-//             grid-template-columns: 2fr 2fr;
-//             text-align: center;
-            
-//             .subscribe {
-//                 padding-top: 13px;
-//             }
-            
-//             .formSub {
-//                 width: 100%;
-//                 padding-top: 10px;
-                
-//                 input {
-//                     width: 230px;
-                    
-//                     .emailCliente {
-//                         width: 150px;
-//                     }
-                    
-//                     .emailClib {
                         
-//                     }
-//                 }
-//             }
-            
-//             .formSuscribe {
-//                 .emailClib {
-    
-//                 }
-//             }
-//         }
-        
-//         .sectionFooter {
-//             display: grid;
-//             grid-template-columns: 3fr 3fr 3fr;
-//             justify-items: center;
-//             height: 260px;
-            
-//             .informationEnterprise {
-//                 display: none;
-                
-//                 .logoFooter {
-    
-//                 }
-                
-//                 .informationEnterprise {
-                    
-//                     .infEnter {
-    
-//                     }
-                    
-//                     .socialMediaContact {
+                        .button.emailClib {
+                            background: #ffa040;
+                            border: 0px;
+                        }
                         
-//                         .socialMediaContactS {
-    
-//                             .socialSubicon {
-    
-//                             }
+                        .botton1 {
+                            color: white;
+                            background: #ffa040;
+                            border: 0px;
+                        }
                             
-//                             .informationBus {
-    
-//                             }
-                            
-//                             .informationBus {
-    
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
+                    }
+                
+                }
+            }
             
-//             .categories {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
+            .sectionFooter {
+                display: flex;
+                justify-content: space-between;
+                font-family: 'Inter', sans-serif;
+                flex-direction: column;
+                padding-top: 30px;
+                .informationEntrepise {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 7px;
+                    padding-bottom: 10px;                    
+                    .logoFooter {
+                        padding-bottom: 10px;
+                        text-align: center;
+                        img{
+                            width: 13vw;
+                        }
                     
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-            
-//             .accountCustomer {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
+                    }
                     
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-            
-//             .informationEmpresa {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
+                    .informationEnterpise {
+                        text-align: center; 
+                        font-size: 2.2vw;                      
+                        .infEnter {
+                            padding-top: 10px;
+                            font-family: 'Mulish', sans-serif;
+                            margin-bottom: 0px;
+                            color: #7d7d7d;
+                        }
+                    }
+                }                
+                .socialMediaContact {
+                    display: flex;
+                    gap: 10px;
+                    text-align: center;
+                    align-items: center;
                     
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-//         }
-        
-//         .socialMedia {
-//             display: flex;
-//             justify-content: center;
-            
-//             div {
-//                 margin-left: 10px;
-//                 font-family: 'Mulish', sans-serif;
-//             }
-            
-//             .socialMediaA {
-                
-//                 .socialIcon {
-    
-//                 }
-//             }
-//         }
-        
-//         .footerCopyrigth {
-//             display: grid;
-//             width: 100%;
-//             justify-content: center;
-            
-//             .copyFooter {
-//                 margin: 0 auto;
-//             }
-            
-//             .footerImagePayment {
-    
-//             }
-//         }
-//     }
-// }    
-// @media only screen and (min-width: 769px) and (max-width: 837px){
-//     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-//     .homeCentral {
-//         display: grid;
-//         grid-template-areas:
-//         "header"
-//         "main"
-//         "footer";
-//     }
-    
-//     #footerHome {
-//         padding: 0px;
-//         margin: 0px;
-//         padding-left: 10px;
-//         padding-right: 10px;
-        
-//         .contactForm {
-//             display: grid;
-//             grid-template-columns: 2fr 2fr;
-//             text-align: center;
-            
-//             .subscribe {
-//                 padding-top: 13px;
-//             }
-            
-//             .formSub {
-//                 width: 100%;
-//                 padding-top: 10px;
-                
-//                 input {
-//                     width: 230px;
-                    
-//                     .emailCliente {
-//                         width: 150px;
-//                     }
-                    
-//                     .emailClib {
+                    .socialMediaContactS {
+                        display: flex;
+                        justify-items: center;
+                        flex-direction: column;
+                        width: 100%;
                         
-//                     }
-//                 }
-//             }
-            
-//             .formSuscribe {
-//                 .emailClib {
-    
-//                 }
-//             }
-//         }
-        
-//         .sectionFooter {
-//             display: grid;
-//             grid-template-columns: 3fr 3fr 3fr 3fr;
-//             justify-items: center;
-//             height: 260px;
-            
-//             .informationEnterprise {
-                
-//                 .logoFooter {
-    
-//                 }
-                
-//                 .informationEnterprise {
-                    
-//                     .infEnter {
-    
-//                     }
-                    
-//                     .socialMediaContact {
+                        .socialSubicon {
+                            width: 60px;
+                            height: 60px;
+                        }
                         
-//                         .socialMediaContactS {
-    
-//                             .socialSubicon {
-    
-//                             }
+                        .informationBus {
+                            padding-top: 8px;
+                            padding-left: 4px;
+                            width: 100%;
+                            font-size: 2vw;
+                        }
+                    }
+                }
+                .itemsCaregory{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    padding-top: 30px;
+                    font-size: 2vw;
+                    
+                    .categories {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
                             
-//                             .informationBus {
-    
-//                             }
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
                             
-//                             .informationBus {
-    
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-            
-//             .categories {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
                     
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-            
-//             .accountCustomer {
-                
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
+                    .accountCustomer {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
                     
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
+                    .informationCompany {
+                        padding-top: 10px;
+                        text-align: center;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    } 
+                }
+                .itemsCaregory div:nth-child(-n+2){
+                    flex: 1;
+                }
+                
+                    .textFooter {
+                        
+                    }
+                
+            }
             
-//             .informationEmpresa {
+            .socialMedia {
+                padding-top: 10px;
                 
-//                 .titleFooterC {
-    
-//                 }
-                
-//                 .subListFooter textFooter {
+                div {
+                    padding-top: 15px;
+                    margin-left: 10px;
+                    text-align: center;
+                    font-family: 'Mulish', sans-serif;
                     
-//                     .subFooter {
-    
-//                     }
-//                 }
-//             }
-//         }
+                    p {
+                        margin-bottom: 5px;
+                    }
+                } 
+                
+                .socialMediaA {
+                    padding-bottom: 10px;
+                    text-align: center;
+                    padding-top: 0px;
+                    
+                    .socialIcon {
+                        height: 30px;
+                    }
+                }
+            }
+            
+            .footerCopyrigth {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid grey;
+                
+                
+                .copyFooter {
+                    padding-top: 10px;
+                    text-align: center;
+                }
+                
+                .footerImagePayment {
+                    padding-top: 10px;
+                    img{
+                        width: 20vw;
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (min-width: 1025px){
+    .homeCentral {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #footerHome {
+            border-top: 1px solid chocolate;
+            margin: 5px;
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 95vw;
+            
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .contactForm {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                gap: 20px;
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                .suscribe {
+                    margin-right: 10px;
+                    padding-top: 5px;
+                    font-family: "Inter", sans-serif;
+                    margin-left: 20px;
+                    width: 100%;
+                    font-size: 2vw;
+                    
+                    p {
+                        font-weight: 600;
+                    }
+                }
+                
+                .formSub {
+                    width: 100%;
+                    form{
+                        display: flex;
+                        gap: 5px;
+                        .emailClib {
+                            height: 30px;
+                            text-align: center;
+                        }
+                        
+                        #emailCliente {
+                            width: 100%;
+                            
+                        }
+                        
+                        
+                        .button.emailClib {
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                        
+                        .botton1 {
+                            color: white;
+                            background: #ffa040;
+                            border: 0px;
+                        }
+                            
+                    }
+                
+                }
+            }
+            
+            .sectionFooter {
+                display: flex;
+                justify-content: space-around;
+                font-family: 'Inter', sans-serif;
         
-//         .socialMedia {
-//             display: flex;
-//             padding-top: 0px;
-//             justify-content: center;
-            
-//             div {
-//                 padding-top: 15px;
-//                 margin-left: 10px;
-//                 font-family: 'Mulish', sans-serif;
-//             }
-            
-//             .socialMediaA {
+                .informationEntrepise {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 7px;
+                    padding-bottom: 10px;   
+                    align-items: center;                 
+                    .logoFooter {
+                        padding-bottom: 10px;
+                        text-align: center;
+                        margin-right: 50px;
+                        img{
+                            width: 8vw;
+                        }
+                    
+                    }
+                    
+                    .informationEnterpise {
+                        text-align: center; 
+                        font-size: 1.4vw;  
+                        margin-right: 50px;                    
+                        .infEnter {
+                            padding-top: 10px;
+                            font-family: 'Mulish', sans-serif;
+                            margin-bottom: 0px;
+                            color: #7d7d7d;
+                        }
+                    }
+                    .socialMediaContact {
+                        display: flex;
+                        gap: 10px;
+                        text-align: center;
+                        align-items: center;
+                        flex-direction: column;
+                        
+                        .socialMediaContactS {
+                            display: flex;
+                            justify-items: center;
+                            flex-direction: column;
+                            width: 100%;
+                            
+                            .socialSubicon {
+                                height: 60px;
+                                width: 60px;
+                                align-items: center;
+                            }
+                            
+                            .informationBus {
+                                padding-top: 8px;
+                                padding-left: 4px;
+                                width: 100%;
+                                font-size: 1.4vw;
+                            }
+                        }
+                    }
+                }                
                 
-//                 .socialIcon {
-    
-//                 }
-//             }
-//         }
-        
-//         .footerCopyrigth {
-          
-//             .copyFooter {
-//                 margin: 0 auto;
-//             }
+                .itemsCaregory{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    padding-top: 30px;
+                    
+                    .categories {
+                        padding-top: 10px;
+                        text-align: center;
+                        font-size: 1.4vw;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .accountCustomer {
+                        padding-top: 10px;
+                        text-align: center;
+                        font-size: 1.4vw;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                        
+                        .textFooter {
+                            
+                        }
+                    }
+                    
+                    .informationCompany {
+                        padding-top: 10px;
+                        text-align: center;
+                        font-size: 1.4vw;
+                        
+                        .tittleFooterC {
+                            color: #7c667c;
+                            font-weight: 700;
+                        }
+                        
+                        .subListFooter {
+                            list-style: none;
+                            padding: 5px;
+                            
+                            .subFooter {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                
+                                a {
+                                    color: #7d7d7d;
+                                }
+                            }
+                            
+                            .subFooter:hover {
+                                background-color: nth($list: $colores, $n: 1);
+                                color: #7c667c;
+                                font-weight: 600;
+                            }
+                        }
+                    } 
+                }
+                .itemsCaregory div:nth-child(-n+2){
+                    flex: 1;
+                }
+                
+                    .textFooter {
+                        
+                    }   
+            }
+            .socialMedia {
+                padding-top: 10px;
+                display: flex;
+                align-items: baseline;
+                text-align: center;
+                justify-content: center;
+                
+                div {
+                    padding-top: 15px;
+                    margin-left: 10px;
+                    text-align: center;
+                    font-family: 'Mulish', sans-serif;
+                    
+                    p {
+                        margin-bottom: 5px;
+                    }
+                } 
+                
+                .socialMediaA {
+                    padding-bottom: 10px;
+                    text-align: center;
+                    padding-top: 0px;
+                    
+                    .socialIcon {
+                        height: 30px;
+                    }
+                }
+            }
             
-//             .footerImagePayment {
-    
-//             }
-//         }
-//     }
-    
-// }
-
+            .footerCopyrigth {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid grey;
+                
+                
+                .copyFooter {
+                    padding-top: 10px;
+                    text-align: center;
+                }
+                
+                .footerImagePayment {
+                    padding-top: 10px;
+                    img{
+                        width: 20vw;
+                    }
+                }
+            }
+        }
+    } 
+}

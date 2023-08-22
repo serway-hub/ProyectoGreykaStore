@@ -1,68 +1,33 @@
-#carrito_compras{
-    .tittle_cart{
-        
-        h1{
-            text-align: center;
-            margin-bottom: 19.9px;
-
-        }
-    }
-    .Cart_items{
-        display: flex;
-        justify-content: space-between;
-        .table_items{
-            thead{
-                tr{
-                    .table_itemb{
-                        padding: 10px;
-                        text-align: center;
-                    }
-                }
-            }
-            tbody{
-                tr{
-                    .table_itemb{
-                        text-align: center;
-                        padding: 10px;
-                        .fotos_cart{
-                            width: 100px;
-                            height: 100px;
-                        }
-                    }
-
-                }
-            }
-        }
-        .Detalle_orden{
-        }
-    }
-}
 @media only screen and (max-width: 480px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
         "main"
         "footer";
-        #carrito_compras{
-            .tittle_cart{
+        #carritoCompras{
+            .tittleCart{
                 
                 h1{
                     text-align: center;
-                    margin-bottom: 20px;
+                    margin-bottom: 19.9px;
         
                 }
             }
-            .Cart_items{
+            .cartItems{
                 display: flex;
-                align-items: center;
                 flex-direction: column;
-                justify-content: center;
-                .table_items{
+                justify-content: space-between;
+                text-align: center;
+                .tableItems{
+                    display: flex;
+                    justify-content: center;
                     thead{
+                        display: none;
                         tr{
-                            .table_itemb{
+                            display: flex;
+                            flex-direction: column;
+                            .tableItemb{
                                 padding: 10px;
                                 text-align: center;
                             }
@@ -70,49 +35,55 @@
                     }
                     tbody{
                         tr{
-                            .table_itemb{
+                            display: flex;
+                            flex-direction: column;
+                            .tableItemb{
                                 text-align: center;
                                 padding: 10px;
-                                .fotos_cart{
-                                    width: 100px;
-                                    height: 100px;
+                                .fotosCart{
+                                    width: 50vw;
+                                  
                                 }
                             }
         
                         }
                     }
                 }
-                .Detalle_orden{
+                .detalleOrden{
+                    margin: 16px;
                 }
             }
         }
     }
 }
-@media only screen and (min-width: 481px) and (max-width: 600px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+@media (min-width: 481px) and (max-width: 768px){
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
         "main"
         "footer";
-        #carrito_compras{
-            .tittle_cart{
+        #carritoCompras{
+            .tittleCart{
                 
                 h1{
                     text-align: center;
-                    margin-bottom: 20px;
+                    margin-bottom: 19.9px;
+        
                 }
             }
-            .Cart_items{
+            .cartItems{
                 display: flex;
-                align-items: center;
                 flex-direction: column;
-                justify-content: center;
-                .table_items{
+                justify-content: space-between;
+                text-align: center;
+                .tableItems{
+             
                     thead{
+                        
                         tr{
-                            .table_itemb{
+                          
+                            .tableItemb{
                                 padding: 10px;
                                 text-align: center;
                             }
@@ -120,49 +91,54 @@
                     }
                     tbody{
                         tr{
-                            .table_itemb{
+                          
+                            .tableItemb{
                                 text-align: center;
                                 padding: 10px;
-                                .fotos_cart{
-                                    width: 100px;
-                                    height: 100px;
+                                .fotosCart{
+                                    width: 20vw;
+                                  
                                 }
                             }
+        
                         }
                     }
                 }
-                .Detalle_orden{
-                    align-items: center;
+                .detalleOrden{
+                    margin: 16px;
                 }
             }
         }
     }
 }
-@media only screen and (min-width: 601px) and (max-width: 768px){
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
-    .home_central{
+@media (min-width: 769px) and (max-width: 1024px){
+    .homeCentral{
         display: grid;
         grid-template-areas:
         "header"
         "main"
         "footer";
-        #carrito_compras{
-            .tittle_cart{
+        #carritoCompras{
+            .tittleCart{
                 
                 h1{
                     text-align: center;
-                    margin-bottom: 20px;
+                    margin-bottom: 19.9px;
+        
                 }
             }
-            .Cart_items{
+            .cartItems{
                 display: flex;
-                align-items: center;
                 flex-direction: column;
-                justify-content: center;
-                .table_items{
+                justify-content: space-between;
+                text-align: center;
+                .tableItems{
+             
                     thead{
+                        
                         tr{
-                            .table_itemb{
+                          
+                            .tableItemb{
                                 padding: 10px;
                                 text-align: center;
                             }
@@ -170,19 +146,86 @@
                     }
                     tbody{
                         tr{
-                            .table_itemb{
+                          
+                            .tableItemb{
                                 text-align: center;
                                 padding: 10px;
-                                .fotos_cart{
-                                    width: 100px;
-                                    height: 100px;
+                                .fotosCart{
+                                    width: 20vw;
+                                  
                                 }
                             }
+        
                         }
                     }
                 }
-                .Detalle_orden{
-                    align-items: center;
+                .detalleOrden{
+                    display: flex;
+                    justify-content: center;
+                    margin: 16px;
+                    .detalleOrdenb{
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1025px){
+    .homeCentral{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        #carritoCompras{
+            .tittleCart{
+                
+                h1{
+                    text-align: center;
+                    margin-bottom: 19.9px;
+        
+                }
+            }
+            .cartItems{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                .tableItems{
+             
+                    thead{
+                        
+                        tr{
+                          
+                            .tableItemb{
+                                padding: 10px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                          
+                            .tableItemb{
+                                text-align: center;
+                                padding: 10px;
+                                .fotosCart{
+                                    width: 10vw;
+                                  
+                                }
+                            }
+        
+                        }
+                    }
+                }
+                .detalleOrden{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin: 16px;
+                    .detalleOrdenb{
+                        margin: auto;
+                    }
                 }
             }
         }

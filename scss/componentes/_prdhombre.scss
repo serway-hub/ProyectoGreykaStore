@@ -22,59 +22,49 @@
                 .gridProducts{
                     display: grid;
                     grid-template-columns: 2fr 2fr;
+                    gap: 10px;
                     .sectionOrder{
         
                     }
                     .sectionProducts{
-                        display: inline-flex;
-                        flex-direction: row;
+                        display:flex;
+                        flex-direction: column;
                         list-style: none;
                         padding: 0px;
-                        li{
-                            width: 100%; 
-                            margin: 7px;  
-                            border-radius: 4px;
-                            background: white;
-                            border: rgb(224 223 220) 2px solid;
-                            div{
+                        width: 100%;
+                        border-radius: 4px;
+                        background: white;
+                        border: rgb(224 223 220) 2px solid;
+                        height: 100%;
+                        
+                        .carrouselImage{
+                            width: 100%;
+                            .imagHome{
                                 width: 100%;
-                                
-                                .carrouselImage{
-                                    
-                                    
-                                    width: 100%;
-                                    .imagHome{
-                                        width: 100%;
-                                    }
-                                   
+                            }
+                        }
+                        .conteItem{
+                            
+                            .titleProduct{
+                                color: #7c667c;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.2rem;
+                                height: 40vh;
+                            
+                                p{
+                                    margin: 10px;
                                 }
-                                .conteItem{
-                                   
-                                    margin-bottom: 20px;
-                                    .titleProduct{
-                                        color: #7c667c;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: 5vw;
-                                        height: 20vw;
-                                        p{
-                                            margin: 10px;
-
-                                        }
-    
-        
-                                    }
-                                    .itemsPrice{
-                                        .subItemPrice{
-                                            color: #7c667c;
-                                            font-family: 'Nova Mono', sans-serif;
-                                            font-size: 5vw;
-                                            margin: 10px;
-                                        }
-                                    }
+                            }
+                            .itemPrice{
+                                .subItemPrice{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 1.2rem;
+                                    margin: 10px;
                                 }
                             }
                         }
-                        li:hover{
+                        .sectionProducts:hover{
                             transform: scale(1.02);
                         }
                     }
@@ -107,59 +97,49 @@
                 .gridProducts{
                     display: grid;
                     grid-template-columns: 2fr 2fr 2fr;
+                    gap: 10px;
                     .sectionOrder{
         
                     }
                     .sectionProducts{
-                        display: inline-flex;
-                        flex-direction: row;
+                        display:flex;
+                        flex-direction: column;
                         list-style: none;
                         padding: 0px;
-                        li{
-                            width: 100%; 
-                            margin: 7px;  
-                            border-radius: 4px;
-                            background: white;
-                            border: rgb(224 223 220) 2px solid;
-                            div{
+                        width: 100%;
+                        border-radius: 4px;
+                        background: white;
+                        border: rgb(224 223 220) 2px solid;
+                        height: 100%;
+                        
+                        .carrouselImage{
+                            width: 100%;
+                            .imagHome{
                                 width: 100%;
-                                
-                                .carrouselImage{
-                                    
-                                    
-                                    width: 100%;
-                                    .imagHome{
-                                        width: 100%;
-                                    }
-                                   
+                            }
+                        }
+                        .conteItem{
+                            
+                            .titleProduct{
+                                color: #7c667c;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.2rem;
+                                height: 30vh;
+                            
+                                p{
+                                    margin: 10px;
                                 }
-                                .conteItem{
-                                   
-                                    margin-bottom: 20px;
-                                    .titleProduct{
-                                        color: #7c667c;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: 3vw;
-                                        height: 10vw;
-                                        p{
-                                            margin: 10px;
-
-                                        }
-    
-        
-                                    }
-                                    .itemsPrice{
-                                        .subItemPrice{
-                                            color: #7c667c;
-                                            font-family: 'Nova Mono', sans-serif;
-                                            font-size: 4vw;
-                                            margin: 10px;
-                                        }
-                                    }
+                            }
+                            .itemPrice{
+                                .subItemPrice{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 1.2rem;
+                                    margin: 10px;
                                 }
                             }
                         }
-                        li:hover{
+                        .sectionProducts:hover{
                             transform: scale(1.02);
                         }
                     }
@@ -192,60 +172,49 @@
                 .gridProducts{
                     display: grid;
                     grid-template-columns: 2fr 2fr 2fr;
-                    gap: 50px;
+                    gap: 10px;
                     .sectionOrder{
         
                     }
                     .sectionProducts{
-                        display: inline-flex;
-                        flex-direction: row;
+                        display:flex;
+                        flex-direction: column;
                         list-style: none;
                         padding: 0px;
-                        li{
-                            width: 100%; 
-                            margin: 7px;  
-                            border-radius: 4px;
-                            background: white;
-                            border: rgb(224 223 220) 2px solid;
-                            div{
+                        width: 100%;
+                        border-radius: 4px;
+                        background: white;
+                        border: rgb(224 223 220) 2px solid;
+                        height: 100%;
+                        
+                        .carrouselImage{
+                            width: 100%;
+                            .imagHome{
                                 width: 100%;
-                                
-                                .carrouselImage{
-                                    
-                                    
-                                    width: 100%;
-                                    .imagHome{
-                                        width: 100%;
-                                    }
-                                   
+                            }
+                        }
+                        .conteItem{
+                            
+                            .titleProduct{
+                                color: #7c667c;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.2rem;
+                                height: 18vh;
+                            
+                                p{
+                                    margin: 10px;
                                 }
-                                .conteItem{
-                                   
-                                    margin-bottom: 20px;
-                                    .titleProduct{
-                                        color: #7c667c;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: 2vw;
-                                        height: 7vw;
-                                        p{
-                                            margin: 10px;
-
-                                        }
-    
-        
-                                    }
-                                    .itemsPrice{
-                                        .subItemPrice{
-                                            color: #7c667c;
-                                            font-family: 'Nova Mono', sans-serif;
-                                            font-size: 3vw;
-                                            margin: 10px;
-                                        }
-                                    }
+                            }
+                            .itemPrice{
+                                .subItemPrice{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 1.2rem;
+                                    margin: 10px;
                                 }
                             }
                         }
-                        li:hover{
+                        .sectionProducts:hover{
                             transform: scale(1.02);
                         }
                     }
@@ -278,61 +247,49 @@
                 .gridProducts{
                     display: grid;
                     grid-template-columns: 2fr 2fr 2fr;
-                    gap: 50px;
+                    gap: 10px;
                     .sectionOrder{
         
                     }
                     .sectionProducts{
-                        display: inline-flex;
-                        flex-direction: row;
+                        display:flex;
+                        flex-direction: column;
                         list-style: none;
                         padding: 0px;
-                    
-                        li{
-                            width: 100%; 
-                            margin: 7px;  
-                            border-radius: 4px;
-                            background: white;
-                            border: rgb(224 223 220) 2px solid;
-                            div{
+                        width: 100%;
+                        border-radius: 4px;
+                        background: white;
+                        border: rgb(224 223 220) 2px solid;
+                        height: 100%;
+                        
+                        .carrouselImage{
+                            width: 100%;
+                            .imagHome{
                                 width: 100%;
-                                
-                                .carrouselImage{
-                                    
-                                    
-                                    width: 100%;
-                                    .imagHome{
-                                        width: 100%;
-                                    }
-                                   
+                            }
+                        }
+                        .conteItem{
+                            
+                            .titleProduct{
+                                color: #7c667c;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.1rem;
+                                height: 30vh;
+                            
+                                p{
+                                    margin: 10px;
                                 }
-                                .conteItem{
-                                   
-                                    margin-bottom: 20px;
-                                    .titleProduct{
-                                        color: #7c667c;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: 2vw;
-                                        height: 7vw;
-                                        p{
-                                            margin: 10px;
-
-                                        }
-    
-        
-                                    }
-                                    .itemsPrice{
-                                        .subItemPrice{
-                                            color: #7c667c;
-                                            font-family: 'Nova Mono', sans-serif;
-                                            font-size: 2vw;
-                                            margin: 10px;
-                                        }
-                                    }
+                            }
+                            .itemPrice{
+                                .subItemPrice{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+                                    font-size: 2rem;
+                                    margin: 10px;
                                 }
                             }
                         }
-                        li:hover{
+                        .sectionProducts:hover{
                             transform: scale(1.02);
                         }
                     }

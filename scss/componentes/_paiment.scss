@@ -6,6 +6,7 @@
         "main"
         "footer";
         #principalSectionPagos{
+            width: 100%;
             padding: 10px;
             .payment{
                 padding-bottom: 9.9px;
@@ -15,7 +16,8 @@
                 }
             }
             .imagePay{
-                .imagePayP{
+                width: 100%;
+                .imagepayP{
                     width: 100%;
                     padding-bottom: 10px;
     
@@ -23,6 +25,7 @@
             }
             .descritionAboutPayment{
                 padding-bottom: 10px;
+                width: 100%;
             }
         }
     }

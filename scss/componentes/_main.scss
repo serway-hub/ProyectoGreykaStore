@@ -1,3 +1,4 @@
+/* este es contenido central de la pagina principal*/
 @media only screen and (max-width: 480px){
     .homeCentral{
         display: grid;
@@ -6,14 +7,14 @@
         "main"
         "footer"; 
         #principalSection{
-            padding: 5px;
+          
             width: 100%;
             .homePrincipal{
                 background-color: #ebebeb;
                 .tituloTienda{
                     display: none;
                 }
-                .subHomeprincipal{
+                .subHomePrincipal{
                     .carrouselPrincipal{
                         height: 150px;
                         
@@ -70,9 +71,9 @@
                             margin-top: 10px;
                             display: grid;
                             justify-content: normal;
-                            .BannerImage{
+                            .bannerImage{
                                 width: 100%;
-                                .ImageBanner{
+                                .imageBanner{
                                     width: 100%;
                                     height: 270px;
                                 }
@@ -267,7 +268,7 @@
                             }
                         }
                     }
-                    .productosParaniños{
+                    .productosParaninos{
                         padding: 0px;
                         width: 100%; 
                         margin-bottom: 20px;
@@ -466,14 +467,14 @@
         "main"
         "footer"; 
         #principalSection{
-            padding: 5px;
+          
             width: 100%;
             .homePrincipal{
                 background-color: #ebebeb;
                 .tituloTienda{
                     display: none;
                 }
-                .subHomeprincipal{
+                .subHomePrincipal{
                     .carrouselPrincipal{
                         height: 150px;
                         
@@ -532,9 +533,9 @@
                             grid-template-columns: 1fr 1fr 1fr;
                             gap: 10px;
                             justify-content: normal;
-                            .BannerImage{
+                            .bannerImage{
                                 width: 100%;
-                                .ImageBanner{
+                                .imageBanner{
                                     width: 100%;
                                     height: 270px;
                                 }
@@ -739,7 +740,7 @@
                             }
                         }
                     }
-                    .productosParaniños{
+                    .productosParaninos{
                         padding: 0px;
                         width: 100%; 
                         margin-bottom: 20px;
@@ -941,14 +942,13 @@
         "main"
         "footer"; 
         #principalSection{
-            padding: 5px;
             width: 100%;
             .homePrincipal{
                 background-color: #ebebeb;
                 .tituloTienda{
                     display: none;
                 }
-                .subHomeprincipal{
+                .subHomePrincipal{
                     .carrouselPrincipal{
                         height: 150px;
                         
@@ -1012,9 +1012,9 @@
                             grid-template-columns: 1fr 1fr 1fr;
                             gap: 10px;
                             justify-content: normal;
-                            .BannerImage{
+                            .bannerImage{
                                 width: 100%;
-                                .ImageBanner{
+                                .imageBanner{
                                     width: 100%;
                                     height: 270px;
                                 }
@@ -1219,7 +1219,7 @@
                             }
                         }
                     }
-                    .productosParaniños{
+                    .productosParaninos{
                         padding: 0px;
                         width: 100%; 
                         margin-bottom: 20px;
@@ -1331,12 +1331,14 @@
                                                     width: 100%;
                                                     .imageHome{
                                                         
-                                                        width: 100%;  
+                                                        width:32.7vw;
+                                                        height: 100%;
+                                                          
                                                     }
                                                 }
                                                 .conteItem{
                                                     padding: 10px;
-                                                    height: 100%;
+                                        
                                                     .titleProduct{
                                                         font-family: 'Inter', sans-serif;
                                                         padding-bottom: 10px;
@@ -1419,18 +1421,16 @@
         "header",
         "main",
         "footer"; 
-        #principalSection{
-            padding: 5px;
+        #principalSection{  
             width: 100%;
             .homePrincipal{
                 background-color: #ebebeb;
                 .tituloTienda{
                     display: none;
                 }
-                .subHomeprincipal{
+                .subHomePrincipal{
                     .carrouselPrincipal{
                         height: 350px;
-                        
                         #carouselExampleCaptions{
                             .carousel-inner{
                                 .carousel-item{
@@ -1494,9 +1494,9 @@
                             grid-template-columns: 1fr 1fr 1fr;
                             gap: 10px;
                             justify-content: normal;
-                            .BannerImage{
+                            .bannerImage{
                                 width: 100%;
-                                .ImageBanner{
+                                .imageBanner{
                                     width: 100%;
                                     height: 270px;
                                 }
@@ -1702,7 +1702,7 @@
                             }
                         }
                     }
-                    .productosParaniños{
+                    .productosParaninos{
                         padding: 0px;
                         width: 100%; 
                         margin-bottom: 20px;
@@ -1814,12 +1814,13 @@
                                                     width: 100%;
                                                     .imageHome{
                                                         
-                                                        width: 100%;  
+                                                        width: 24vw;
+                                                        height: 85.8vh;  
                                                     }
                                                 }
                                                 .conteItem{
                                                     padding: 10px;
-                                                    height: 100%;
+                                                    
                                                     .titleProduct{
                                                         font-family: 'Inter', sans-serif;
                                                         padding-bottom: 10px;

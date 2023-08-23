@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
 * {
   padding: 0px;
@@ -9,6 +8,7 @@
   font-family: Muli-titulos;
   src: url("tipografia/Muli-Semi-BoldItalic.ttf");
 }
+/* este es es footer*/
 @media (max-width: 480px) {
   .homeCentral {
     display: grid;
@@ -1045,7 +1045,7 @@
     padding-right: 10px;
     width: 100%;
   }
-  .homeCentral .hommeHeader .searchB .navSearch #searchPrincipal {
+  .homeCentral .hommeHeader .searchB .navSearch #searchPrincipalT {
     width: 100%;
     border-radius: 5px;
     border: 2px solid #ebeced;
@@ -1207,7 +1207,7 @@
     padding-right: 10px;
     width: 100%;
   }
-  .homeCentral .hommeHeader .searchB .navSearch #searchPrincipal {
+  .homeCentral .hommeHeader .searchB .navSearch #searchPrincipalT {
     width: 100%;
     border-radius: 5px;
     border: 2px solid #ebeced;
@@ -1387,7 +1387,7 @@
     background-clip: text;
     animation: color 3s linear infinite;
     background-size: 500%;
-    font-size: 5vw;
+    font-size: 3vw;
   }
   @keyframes color {
     from {
@@ -1517,9 +1517,6 @@
 }
 @media (min-width: 1025px) {
   .homeCentral {
-    width: 100%;
-  }
-  .homeCentral .hommeHeader {
     width: 100%;
   }
   .homeCentral .hommeHeader .shippingCost {
@@ -1671,13 +1668,13 @@
     display: none;
   }
 }
+/* este es contenido central de la pagina principal*/
 @media only screen and (max-width: 480px) {
   .homeCentral {
     display: grid;
     grid-template-areas: "header" "main" "footer";
   }
   .homeCentral #principalSection {
-    padding: 5px;
     width: 100%;
   }
   .homeCentral #principalSection .homePrincipal {
@@ -1686,17 +1683,17 @@
   .homeCentral #principalSection .homePrincipal .tituloTienda {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal {
     height: 150px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 150px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 150px;
     width: 97vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome {
     padding: 5px;
     margin-top: 10px;
     font-size: 10px;
@@ -1707,44 +1704,44 @@
     margin-left: 8px;
     margin-right: 8px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB {
     display: grid;
     grid-template-columns: 3fr 3fr;
     grid-template-rows: 3fr 3fr;
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
     justify-content: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
     padding: 0px;
     size: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
     height: 30px;
     width: 40px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
     padding: 0px;
     border: 0px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered {
     padding: 0px;
     margin-top: 10px;
     display: grid;
     justify-content: normal;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .ImageBanner {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .imageBanner {
     width: 100%;
     height: 270px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .parrBannerOffer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .parrBannerOffer {
     position: relative;
     bottom: 170px;
     font-family: "Mingzat", sans-serif;
@@ -1752,37 +1749,37 @@
     text-align: center;
     background-color: #e5e4e1;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend {
     padding-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend .ofertasSem .ofertaImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend .ofertasSem .ofertaImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1790,45 +1787,45 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 5vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 5vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia {
     display: grid;
     margin-bottom: 15px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDiaA img {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDescrp {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDescrp {
     padding: 0px;
     padding-top: 20px;
     padding-left: 20px;
@@ -1837,31 +1834,31 @@
     text-align: center;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1869,68 +1866,68 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 5vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 5vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday {
     margin-bottom: 15px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday .barnnerA picture img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday .barnnerA picture img {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1938,62 +1935,62 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 5vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 5vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -2001,44 +1998,44 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 5vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 5vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .tittleSecction {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -2046,22 +2043,22 @@
     margin: 0px;
     text-align: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
     width: 90vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
     width: 90vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
     width: 90vw;
   }
 }
@@ -2071,7 +2068,6 @@
     grid-template-areas: "header" "main" "footer";
   }
   .homeCentral #principalSection {
-    padding: 5px;
     width: 100%;
   }
   .homeCentral #principalSection .homePrincipal {
@@ -2080,17 +2076,17 @@
   .homeCentral #principalSection .homePrincipal .tituloTienda {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal {
     height: 150px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 150px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 150px;
     width: 97vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome {
     padding: 5px;
     margin-top: 10px;
     font-size: 10px;
@@ -2101,31 +2097,31 @@
     margin-left: 8px;
     margin-right: 8px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB {
     display: grid;
     grid-template-columns: 3fr 3fr;
     grid-template-rows: 3fr 3fr;
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
     justify-content: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
     padding: 0px;
     size: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
     height: 30px;
     width: 40px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
     padding: 0px;
     border: 0px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered {
     padding: 0px;
     margin-top: 10px;
     display: grid;
@@ -2133,14 +2129,14 @@
     gap: 10px;
     justify-content: normal;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .ImageBanner {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .imageBanner {
     width: 100%;
     height: 270px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .parrBannerOffer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .parrBannerOffer {
     position: relative;
     bottom: 170px;
     font-family: "Mingzat", sans-serif;
@@ -2149,37 +2145,37 @@
     background-color: #e5e4e1;
     font-size: 2vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend {
     padding-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend .ofertasSem .ofertaImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend .ofertasSem .ofertaImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2187,53 +2183,53 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia {
     display: grid;
     margin-bottom: 15px;
     grid-template-columns: 1fr 1fr;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDiaA {
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDiaA img {
     width: 100%;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDescrp {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDescrp {
     padding: 0px;
     padding-top: 20px;
     padding-left: 20px;
@@ -2242,31 +2238,31 @@
     text-align: center;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2274,71 +2270,71 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday {
     margin-bottom: 15px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday .barnnerA picture img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday .barnnerA picture img {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2346,65 +2342,65 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2412,47 +2408,47 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .tittleSecction {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -2460,22 +2456,22 @@
     margin: 0px;
     text-align: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
     width: 100%;
   }
 }
@@ -2485,7 +2481,6 @@
     grid-template-areas: "header" "main" "footer";
   }
   .homeCentral #principalSection {
-    padding: 5px;
     width: 100%;
   }
   .homeCentral #principalSection .homePrincipal {
@@ -2494,17 +2489,17 @@
   .homeCentral #principalSection .homePrincipal .tituloTienda {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal {
     height: 150px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 150px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 150px;
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome {
     padding: 5px;
     margin-top: 10px;
     font-size: 10px;
@@ -2515,34 +2510,34 @@
     margin-left: 8px;
     margin-right: 8px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
     justify-content: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
     padding: 0px;
     size: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
     height: 30px;
     width: 40px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
     padding: 0px;
     border: 0px;
     font-size: 1rem;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsBC {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsBC {
     font-size: 1rem;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered {
     padding: 0px;
     margin-top: 10px;
     display: grid;
@@ -2550,14 +2545,14 @@
     gap: 10px;
     justify-content: normal;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .ImageBanner {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .imageBanner {
     width: 100%;
     height: 270px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .parrBannerOffer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .parrBannerOffer {
     position: relative;
     bottom: 170px;
     font-family: "Mingzat", sans-serif;
@@ -2566,37 +2561,37 @@
     background-color: #e5e4e1;
     font-size: 2vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend {
     padding-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend .ofertasSem .ofertaImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend .ofertasSem .ofertaImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2604,53 +2599,53 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia {
     display: grid;
     margin-bottom: 15px;
     grid-template-columns: 1fr 1fr;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDiaA {
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDiaA img {
     width: 100%;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDescrp {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDescrp {
     padding: 0px;
     padding-top: 20px;
     padding-left: 20px;
@@ -2659,31 +2654,31 @@
     text-align: center;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2691,71 +2686,71 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday {
     margin-bottom: 15px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday .barnnerA picture img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday .barnnerA picture img {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2763,65 +2758,65 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2829,47 +2824,47 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
-    padding: 10px;
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+    width: 32.7vw;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+    padding: 10px;
+  }
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 40vh;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 4vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFour {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .tittleSecction {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -2877,22 +2872,22 @@
     margin: 0px;
     text-align: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
     width: 100%;
   }
 }
@@ -2902,7 +2897,6 @@
     grid-template-areas: "header", "main", "footer";
   }
   .homeCentral #principalSection {
-    padding: 5px;
     width: 100%;
   }
   .homeCentral #principalSection .homePrincipal {
@@ -2911,20 +2905,20 @@
   .homeCentral #principalSection .homePrincipal .tituloTienda {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal {
     height: 350px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 350px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .d-block {
     height: 350px;
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .carrouselPrincipal #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
     color: #808080;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome {
     padding: 5px;
     margin-top: 10px;
     font-size: 10px;
@@ -2935,33 +2929,33 @@
     margin-left: 8px;
     margin-right: 8px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons {
     justify-content: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA {
     padding: 0px;
     size: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsA .iconsPict {
     width: 5vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsB {
     padding: 0px;
     border: 0px;
     font-size: 1rem;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsBC {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .iconsHome .sectionIcons .sectionIconsB .sectionSubicons .boxIconsBC {
     font-size: 1rem;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered {
     padding: 0px;
     margin-top: 10px;
     display: grid;
@@ -2969,14 +2963,14 @@
     gap: 10px;
     justify-content: normal;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .ImageBanner {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .imageBanner {
     width: 100%;
     height: 270px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .bannerOffered .subBannerOffered .BannerImage .parrBannerOffer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .bannerOffered .subBannerOffered .bannerImage .parrBannerOffer {
     position: relative;
     bottom: 170px;
     font-family: "Mingzat", sans-serif;
@@ -2985,37 +2979,37 @@
     background-color: #e5e4e1;
     font-size: 1.3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend {
     padding-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .offeredWeekend .ofertasSem .ofertaImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .offeredWeekend .ofertasSem .ofertaImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -3023,50 +3017,50 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 15vh;
     font-size: 1.7vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 2vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaHombre .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia {
     display: grid;
     margin-bottom: 15px;
     grid-template-columns: 1fr 1fr;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDiaA {
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDiaA img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDiaA img {
     width: 100%;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasDia .ofertasDescrp {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasDia .ofertasDescrp {
     padding: 0px;
     padding-top: 20px;
     padding-left: 20px;
@@ -3076,31 +3070,31 @@
     font-family: "Mulish", sans-serif;
     font-size: 3vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -3108,68 +3102,68 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 15vh;
     font-size: 1.7vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 2vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaMujer .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday {
     margin-bottom: 15px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .barnnerBackfriday .barnnerA picture img {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .barnnerBackfriday .barnnerA picture img {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -3177,62 +3171,62 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
     height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 15vh;
     font-size: 1.7vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 2vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParaniños .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParaninos .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .tittleSecction {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .imageHomeSection {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .imageHomeSection {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre {
     width: 100%;
     font-family: "Nova Mono", monospace;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems {
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -3240,44 +3234,44 @@
     gap: 10px;
     justify-items: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos {
     width: 100%;
     background-color: #f9f9fa;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
-    width: 100%;
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .carrouselImage .imageHome {
+    width: 24vw;
+    height: 85.8vh;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem {
     padding: 10px;
-    height: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .titleProduct {
     font-family: "Inter", sans-serif;
     padding-bottom: 10px;
     height: 15vh;
     font-size: 1.7vw;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .boxHomeProductos .conteItem .itemsPrice .subItemPrice {
     font-weight: 500;
     font-size: 2vw;
     font-family: "Mulish", sans-serif;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodFive {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .productosParahogar .productosParaHombreB .sectionHombre .sectionCarrousel .carrouselProductosHombre .carrouselItems .prodSix {
     display: none;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .tittleSecction {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .tittleSecction {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -3285,22 +3279,22 @@
     margin: 0px;
     text-align: center;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta1 picture .imageOrder {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta2 picture .imageOrder {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 {
     width: 100%;
   }
-  .homeCentral #principalSection .homePrincipal .subHomeprincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
+  .homeCentral #principalSection .homePrincipal .subHomePrincipal .ofertasHogar .oferdImage .imagenOferta3 picture .imageOrder {
     width: 100%;
   }
 }
@@ -3315,6 +3309,9 @@
     font-family: "Mingzat", sans-serif;
     text-align: justify;
   }
+  .homeCentral #terminosCondiciones .tienda {
+    display: none;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .homeCentral {
@@ -3326,6 +3323,9 @@
     font-size: 3.5vw;
     font-family: "Mingzat", sans-serif;
     text-align: justify;
+  }
+  .homeCentral #terminosCondiciones .tienda {
+    display: none;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -3339,6 +3339,9 @@
     font-family: "Mingzat", sans-serif;
     text-align: justify;
   }
+  .homeCentral #terminosCondiciones .tienda {
+    display: none;
+  }
 }
 @media (min-width: 1025px) {
   .homeCentral {
@@ -3350,6 +3353,9 @@
     font-size: 1.5vw;
     font-family: "Mingzat", sans-serif;
     text-align: justify;
+  }
+  .homeCentral #terminosCondiciones .tienda {
+    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -3772,17 +3778,22 @@
     grid-template-areas: "header" "main" "footer";
   }
   .homeCentral #principalSectionPagos {
+    width: 100%;
     padding: 10px;
   }
   .homeCentral #principalSectionPagos .payment {
     padding-bottom: 9.9px;
   }
-  .homeCentral #principalSectionPagos .imagePay .imagePayP {
+  .homeCentral #principalSectionPagos .imagePay {
+    width: 100%;
+  }
+  .homeCentral #principalSectionPagos .imagePay .imagepayP {
     width: 100%;
     padding-bottom: 10px;
   }
   .homeCentral #principalSectionPagos .descritionAboutPayment {
     padding-bottom: 10px;
+    width: 100%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -3967,289 +3978,27 @@
     width: 30%;
   }
 }
-@media only screen and (max-width: 480px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 5vw;
-    height: 20vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 5vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 3vw;
-    height: 10vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 4vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 3vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 1025px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 2vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-#cuentaCostumer .dasboard_cliente {
+#cuentaCostumer .dasboardCliente {
   padding-top: 60px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 60px;
   display: flex;
 }
-#cuentaCostumer .dasboard_cliente .General_menu {
+#cuentaCostumer .dasboardCliente .generalMenu {
   font-family: "Mingzat", sans-serif;
   font-size: larger;
 }
-#cuentaCostumer .dasboard_cliente .General_menu .Panel_menu .Menu_central .Menu_micuenta {
+#cuentaCostumer .dasboardCliente .generalMenu .menuCentral .menuMiCuenta {
   display: grid;
 }
-#cuentaCostumer .dasboard_cliente .General_menu .Panel_menu .Menu_central .Menu_micuenta .Items_menucliente {
+#cuentaCostumer .dasboardCliente .generalMenu .menuCentral .menuMiCuenta .itemsMenuCliente {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
 }
-#cuentaCostumer .dasboard_cliente .panel_micuenta {
+#cuentaCostumer .dasboardCliente .panelMiCuenta {
   font-family: "Mingzat", sans-serif;
   size: 79.9px;
 }
@@ -4274,48 +4023,41 @@
   .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr;
+    gap: 10px;
   }
   .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
     width: 100%;
-    margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
+    height: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage .imagHome {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct {
     color: #7c667c;
     font-family: "Inter", sans-serif;
-    font-size: 5vw;
-    height: 20vw;
+    font-size: 1.2rem;
+    height: 40vh;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct p {
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 5vw;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.2rem;
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .sectionProducts:hover {
     transform: scale(1.02);
   }
 }
@@ -4339,48 +4081,41 @@
   .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
   }
   .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
     width: 100%;
-    margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
+    height: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage .imagHome {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct {
     color: #7c667c;
     font-family: "Inter", sans-serif;
-    font-size: 3vw;
-    height: 10vw;
+    font-size: 1.2rem;
+    height: 30vh;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct p {
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 4vw;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.2rem;
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .sectionProducts:hover {
     transform: scale(1.02);
   }
 }
@@ -4404,49 +4139,41 @@
   .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
+    gap: 10px;
   }
   .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
     width: 100%;
-    margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
+    height: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage .imagHome {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct {
     color: #7c667c;
     font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
+    font-size: 1.2rem;
+    height: 18vh;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct p {
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 3vw;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.2rem;
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .sectionProducts:hover {
     transform: scale(1.02);
   }
 }
@@ -4470,573 +4197,41 @@
   .homeCentral #principalSection .productosHogar .gridProducts {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
+    gap: 10px;
   }
   .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
     width: 100%;
-    margin: 7px;
     border-radius: 4px;
     background: white;
     border: rgb(224, 223, 220) 2px solid;
+    height: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .carrouselImage .imagHome {
     width: 100%;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct {
     color: #7c667c;
     font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
+    font-size: 2.1rem;
+    height: 30vh;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .titleProduct p {
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 2vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (max-width: 480px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .conteItem .itemPrice .subItemPrice {
     color: #7c667c;
     font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 5vw;
-    height: 20vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
+    font-size: 2rem;
     margin: 10px;
   }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 5vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 3vw;
-    height: 10vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 4vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 3vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 1025px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 2vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media only screen and (max-width: 480px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 5vw;
-    height: 20vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 5vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 3vw;
-    height: 10vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 4vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 3vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
-    transform: scale(1.02);
-  }
-}
-@media (min-width: 1025px) {
-  .homeCentral {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
-  }
-  .homeCentral #principalSection .productosHogar {
-    display: grid;
-    grid-template-rows: 2fr;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .navHogar .sectionAsideNav h1 {
-    color: #7c667c;
-    font-family: "Mulish", sans-serif;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 50px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts {
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li {
-    width: 100%;
-    margin: 7px;
-    border-radius: 4px;
-    background: white;
-    border: rgb(224, 223, 220) 2px solid;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .carrouselImage .imagHome {
-    width: 100%;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem {
-    margin-bottom: 20px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct {
-    color: #7c667c;
-    font-family: "Inter", sans-serif;
-    font-size: 2vw;
-    height: 7vw;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .titleProduct p {
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li div .conteItem .itemsPrice .subItemPrice {
-    color: #7c667c;
-    font-family: "Nova Mono", sans-serif;
-    font-size: 2vw;
-    margin: 10px;
-  }
-  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts li:hover {
+  .homeCentral #principalSection .productosHogar .gridProducts .sectionProducts .sectionProducts:hover {
     transform: scale(1.02);
   }
 }
